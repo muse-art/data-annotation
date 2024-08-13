@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synth Preset Keyword Selector</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            color: #2d3748;
+        }
+        .keyword-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 0.5rem;
+        }
+        .custom-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .keyword-checkbox:checked + span {
+            background-color: #4299e1;
+            color: white;
+        }
+        .selected-tags {
+            min-height: 2.5rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen p-8">
+    <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg custom-shadow">
+        <h1 class="text-3xl font-bold mb-8 text-center text-indigo-700">Synth Preset Keyword Selector</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div>
+                <label for="preset-name" class="block text-sm font-medium text-gray-700 mb-1">Preset Name:</label>
+                <input type="text" id="preset-name" class="w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-indigo-500 focus:border-indigo-500">
+            </div>
+            <div>
+                <label for="preset-id" class="block text-sm font-medium text-gray-700 mb-1">Preset ID:</label>
+                <input type="text" id="preset-id" class="w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-indigo-500 focus:border-indigo-500">
+            </div>
+        </div>
+
+        <div class="mb-8">
+            <label for="instrument" class="block text-sm font-medium text-gray-700 mb-1">Instrument:</label>
+            <select id="instrument" class="w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-indigo-500 focus:border-indigo-500">
+                <option value="">Select an instrument</option>
+                <option value="Wavetable">Wavetable</option>
+                <option value="Operator">Operator</option>
+                <option value="Analog">Analog</option>
+                <option value="Tension">Tension</option>
+                <option value="Electric">Electric</option>
+                <option value="Drift">Drift</option>
+                <option value="Meld">Meld</option>
+                <option value="Collision">Collision</option>
+            </select>
+        </div>
+
+        <div class="space-y-6">
+            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Character</h2>
+                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search character keywords...">
+                <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
+                <div id="character-keywords"></div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Genre/Style</h2>
+                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search genre/style keywords...">
+                <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
+                <div id="genre-keywords"></div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Mood</h2>
+                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search mood keywords...">
+                <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
+                <div id="mood-keywords"></div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Modulation</h2>
+                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search modulation keywords...">
+                <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
+                <div id="modulation-keywords"></div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Inspiration</h2>
+                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search inspiration keywords...">
+                <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
+                <div id="inspiration-keywords"></div>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center">
+            <button id="save-button" class="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition duration-150 ease-in-out">
+                Save Preset
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const keywords = {
+            character: {
+                Texture: ["Soft", "Harsh", "Smooth", "Rough", "Crisp", "Mellow", "Gritty", "Clean", "Fuzzy", "Sharp", "Rounded", "Silky", "Brittle", "Liquid", "Solid", "Airy", "Dense", "Glassy", "Metallic", "Wooden"],
+                Tone: ["Warm", "Cold", "Bright", "Dark", "Rich", "Thin", "Lush", "Sparse", "Full", "Hollow", "Resonant", "Muffled", "Shimmering", "Dull", "Brilliant", "Muted", "Vibrant", "Clear", "Muddy", "Transparent"],
+                Character: ["Organic", "Synthetic", "Analog", "Digital", "Ethereal", "Grungy", "Polished", "Raw", "Refined", "Coarse", "Sleek", "Raspy", "Buttery", "Crystalline", "Murky", "Pristine", "Grainy", "Lustrous", "Opaque", "Viscous"],
+                Intensity: ["Punchy", "Plucky", "Sizzling", "Thick", "Crunchy", "Woolly", "Velvety", "Icy", "Searing", "Piercing", "Gentle", "Aggressive", "Robust", "Delicate", "Gossamer", "Hefty", "Wispy", "Jagged", "Feathery", "Leathery"]
+            },
+            genre: {
+                Electronic: ["Ambient", "Techno", "House", "Trance", "Drum and Bass", "Dubstep", "IDM", "Breakbeat", "Electro", "Synthwave", "Vaporwave", "Chillwave", "Industrial", "Glitch", "Future Bass", "Hardstyle", "Psytrance", "Goa", "Minimal", "Electronica"],
+                Pop_Rock: ["Pop", "Rock", "Synthpop", "New Wave", "Post-punk", "Shoegaze", "Alternative", "Indie", "Electropop", "Art Pop", "Dream Pop", "Noise Pop", "Power Pop", "Psychedelic Pop", "Britpop", "Indie Rock", "Post-Rock", "Math Rock", "Noise Rock", "Art Rock"],
+                Hip_Hop: ["Hip-hop", "Trap", "Cloud Rap", "Grime", "Drill", "Abstract Hip-hop", "Boom Bap", "Conscious Hip-hop", "Gangsta Rap", "Southern Hip-hop", "East Coast Hip-hop", "West Coast Hip-hop", "Alternative Hip-hop", "Experimental Hip-hop", "Lofi Hip-hop", "Turntablism", "Horrorcore", "Phonk", "Crunk", "Mumble Rap"],
+                Other_Genres: ["Jazz", "Classical", "Funk", "Disco", "Reggae", "Dub", "World Music", "Folk", "Blues", "Country", "R&B", "Soul", "Gospel", "Experimental", "Avant-garde", "Fusion", "Crossover", "Ethnic", "Traditional", "Cinematic"]
+            },
+            mood: {
+                Positive: ["Uplifting", "Joyful", "Euphoric", "Energetic", "Playful", "Optimistic", "Triumphant", "Confident", "Empowering", "Liberating", "Blissful", "Carefree", "Exhilarated", "Passionate", "Ecstatic", "Hopeful", "Inspiring", "Cheerful", "Lively", "Radiant"],
+                Negative: ["Melancholic", "Dark", "Somber", "Gloomy", "Anxious", "Tense", "Angry", "Lonely", "Oppressive", "Mournful", "Depressing", "Frustrated", "Bitter", "Resentful", "Cynical", "Desperate", "Helpless", "Pessimistic", "Apathetic", "Numb"],
+                Neutral: ["Calm", "Serene", "Relaxed", "Mellow", "Contemplative", "Introspective", "Pensive", "Meditative", "Aloof", "Detached", "Indifferent", "Neutral", "Balanced", "Composed", "Reserved", "Stoic", "Steady", "Grounded", "Centered", "Unbiased"],
+                Complex: ["Mysterious", "Ethereal", "Nostalgic", "Bittersweet", "Wistful", "Yearning", "Surreal", "Dreamy", "Haunting", "Enchanting", "Ambivalent", "Conflicted", "Paradoxical", "Enigmatic", "Perplexing", "Intriguing", "Uncanny", "Elusive", "Ineffable", "Profound"]
+            },
+            modulation: {
+                Movement: ["Evolving", "Static", "Pulsating", "Sweeping", "Wobbling", "Fluttering", "Morphing", "Gliding", "Undulating", "Flowing", "Swelling", "Fading", "Warping", "Twisting", "Bending", "Fluctuating", "Oscillating", "Spiraling", "Zigzagging", "Bouncing"],
+                Rhythm: ["Rhythmic", "Arpeggiated", "Stuttering", "Jerky", "Smooth", "Cyclical", "Stepped", "Random", "Syncopated", "Polyrhythmic", "Groovy", "Swinging", "Steady", "Erratic", "Pulsing", "Staccato", "Legato", "Dotted", "Triplet", "Shuffled"],
+                Dynamics: ["Crescendo", "Decrescendo", "Swelling", "Pumping", "Ducking", "Expanding", "Contracting", "Breathing", "Throbbing", "Surging", "Fading", "Blooming", "Collapsing", "Erupting", "Imploding", "Rising", "Falling", "Swelling", "Receding", "Pulsating"],
+                Effects: ["Phasing", "Tremolo", "Vibrato", "Flanging", "Chorus", "Delay", "Reverb", "Distortion", "Bitcrushing", "Filtering", "Resonance", "Compression", "Expansion", "Saturation", "Modulation", "Pitch-shifting", "Time-stretching", "Granular", "Spectral", "Convolution"]
+            },
+            inspiration: {
+                Eras: ["80s synth pop", "90s rave", "70s disco", "60s psychedelia", "2000s video games", "Retro arcade", "Vintage analog synths", "Modern digital synths", "Retro-futurism", "Vaporwave aesthetics", "Future Funk", "Synthwave", "Outrun", "Y2K", "Cyberpunk", "Steampunk", "Art Deco", "Baroque", "Renaissance", "Ancient"],
+                Media: ["Sci-fi movies", "Horror films", "Fantasy literature", "Comic books", "Anime", "Cartoons", "Abstract art", "Impressionist paintings", "Surrealist art", "Pop art", "Pixel art", "Glitch art", "Cyberpunk literature", "Dystopian novels", "Utopian visions", "Avant-garde films", "Silent movies", "Film noir", "Documentaries", "Music videos"],
+                Nature: ["Nature sounds", "Ocean waves", "Forest ambience", "Thunderstorms", "Wind through trees", "Bird calls", "Insect chirps", "Flowing water", "Crackling fire", "Ice cracking", "Leaves rustling", "Rain on a tin roof", "Whale songs", "Wolf howls", "Lion roars", "Dolphin clicks", "Frog croaks", "Bee buzzing", "Snake hiss", "Elephant trumpets"],
+                Urban: ["Urban soundscapes", "Traffic noise", "Subway rumble", "Construction sites", "Busy cafes", "Street performers", "Police sirens", "Car horns", "Footsteps on pavement", "Bicycle bells", "Skateboards rolling", "Crowd chatter", "Street vendors", "Airport announcements", "Train station ambience", "Factory machinery", "Office sounds", "School playground", "Shopping mall ambience", "Sports stadium roar"]
+            }
+        };
+
+        function populateKeywords(categoryId, keywordList) {
+            const container = document.getElementById(categoryId);
+            Object.entries(keywordList).forEach(([subcategory, words]) => {
+                const subcategoryDiv = document.createElement('div');
+                subcategoryDiv.className = 'mb-4';
+                subcategoryDiv.innerHTML = `<h3 class="font-semibold text-gray-700 mb-2">${subcategory}</h3>`;
+                const grid = document.createElement('div');
+                grid.className = 'keyword-grid';
+                
+                words.forEach(keyword => {
+                    const div = document.createElement('div');
+                    div.innerHTML = `
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" class="hidden keyword-checkbox" value="${keyword}" data-category="${categoryId}">
+                            <span class="px-2 py-1 rounded-full text-sm bg-white border border-gray-300 cursor-pointer hover:bg-indigo-100 transition-colors duration-200">${keyword}</span>
+                        </label>
+                    `;
+                    grid.appendChild(div);
+                });
+                
+                subcategoryDiv.appendChild(grid);
+                container.appendChild(subcategoryDiv);
+            });
+        }
+
+        Object.keys(keywords).forEach(category => {
+            populateKeywords(`${category}-keywords`, keywords[category]);
+        });
+
+        // Add event listeners for search functionality
+        document.querySelectorAll('.keyword-search').forEach(searchInput => {
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const category = this.closest('div').querySelector('[id$="-keywords"]').id.split('-')[0];
+                const keywordElements = document.querySelectorAll(`#${category}-keywords .keyword-grid label`);
+                
+                keywordElements.forEach(elem => {
+                    const keyword = elem.textContent.trim().toLowerCase();
+                    if (keyword.includes(searchTerm)) {
+                        elem.style.display = '';
+                    } else {
+                        elem.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Add event listeners for keyword selection and tag creation
+        document.querySelectorAll('.keyword-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                const category = this.dataset.category.split('-')[0];
+                const tagContainer = this.closest('.bg-gray-50').querySelector('.selected-tags');
+                
+                if (this.checked) {
+                    const tag = document.createElement('span');
+                    tag.className = 'bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded';
+                    tag.textContent = this.value;
+                    tag.dataset.category = category;
+                    
+                    const removeButton = document.createElement('button');
+                    removeButton.className = 'ml-1 text-indigo-600 hover:text-indigo-900';
+                    removeButton.textContent = '×';
+                    removeButton.onclick = function() {
+                        checkbox.checked = false;
+                        tag.remove();
+                    };
+                    
+                    tag.appendChild(removeButton);
+                    tagContainer.appendChild(tag);
+                } else {
+                    const tag = tagContainer.querySelector(`[data-category="${category}"]:has(button)`);
+                    if (tag) tag.remove();
+                }
+            });
+        });
+
+        document.getElementById('save-button').addEventListener('click', function() {
+            const presetName = document.getElementById('preset-name').value;
+            const presetId = document.getElementById('preset-id').value;
+            const instrument = document.getElementById('instrument').value;
+            const selectedKeywords = {
+                character: [],
+                genre: [],
+                mood: [],
+                modulation: [],
+                inspiration: []
+            };
+
+            Object.keys(keywords).forEach(category => {
+                document.querySelectorAll(`#${category}-keywords input:checked`).forEach(checkbox => {
+                    selectedKeywords[category].push(checkbox.value);
+                });
+            });
+
+            const jsonData = JSON.stringify({
+                id: presetId,
+                name: presetName,
+                instrument: instrument,
+                keywords: selectedKeywords
+            }, null, 2);
+
+            const blob = new Blob([jsonData], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${presetId || presetName.replace(/\s+/g, '_')}.json`;
+            a.click();
+        });
+    </script>
+</body>
+</html>
+
+
+                
