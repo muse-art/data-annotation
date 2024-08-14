@@ -3,152 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synth Preset Keyword Selector</title>
+    <title>Muse Data Annotation Helper - Ableton Live Synths</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-        transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .keyword-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            gap: 0.5rem;
-        }
-        .custom-shadow {
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        }
-        .keyword-checkbox:checked + span {
-            background-color: #4299e1;
-            color: white;
-        }
-        .selected-tags {
-            min-height: 2.5rem;
-        }
-        .toggle-bg {
-        transition: background-color 0.2s ease-in-out;
-        position: relative;
-        }
-        .toggle-bg:after {
-            content: '';
-            position: absolute;
-            top: 2px;
-            left: 2px;
-            background-color: white;
-            border-radius: 9999px;
-            height: 1.25rem;
-            width: 1.25rem;
-            transition: transform 0.2s ease-in-out;
-        }
-        input:checked + .toggle-bg {
-            background-color: #4f46e5;
-        }
-        input:checked + .toggle-bg:after {
-            transform: translateX(100%);
-        }
+       body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #ffffff;
+    color: #333333;
+}
 
+.keyword-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+}
 
-        /* Dark mode styles */
-        .dark {
-            background-color: #1a1a1a;
-            color: #e0e0e0;
-        }
-        .dark .bg-white {
-            background-color: #2a2a2a;
-        }
-        .dark .bg-gray-50 {
-            background-color: #333333;
-        }
-        .dark .text-gray-700 {
-            color: #e0e0e0;
-        }
-        .dark .border-gray-300 {
-            border-color: #4a4a4a;
-        }
-        .dark .text-indigo-700 {
-            color: #a3a3a3;
-        }
-        .dark .bg-indigo-100 {
-            background-color: #4a4a4a;
-        }
-        .dark .text-indigo-800 {
-            color: #e0e0e0;
-        }
-        .dark .hover\:bg-indigo-100:hover {
-            background-color: #5a5a5a;
-        }
-        .dark input[type="text"],
-        .dark input[type="search"],
-        .dark select {
-            background-color: #3a3a3a;
-            color: #e0e0e0;
-            border-color: #4a4a4a;
-        }
-        .dark input[type="text"]:focus,
-        .dark input[type="search"]:focus,
-        .dark select:focus {
-            border-color: #6a6a6a;
-            outline: none;
-            box-shadow: 0 0 0 2px rgba(106, 106, 106, 0.3);
-        }
-        .dark .keyword-checkbox + span {
-            background-color: #3a3a3a;
-            border-color: #4a4a4a;
-            color: #e0e0e0;
-        }
-        .dark .keyword-checkbox:checked + span {
-            background-color: #5a5a5a;
-            color: #ffffff;
-        }
-        .dark #save-button {
-            background-color: #4a4a4a;
-            color: #e0e0e0;
-        }
-        .dark #save-button:hover {
-            background-color: #5a5a5a;
-        }
-        .dark .toggle-bg {
-            background-color: #4a4a4a;
-            border-color: #5a5a5a;
-        }
-        .dark input:checked + .toggle-bg {
-            background-color: #6a6a6a;
-            border-color: #7a7a7a;
-        }
-        .toggle-bg {
-        transition: background-color 0.2s ease-in-out;
-        position: relative;
-    }
-    .toggle-bg:after {
-        content: '';
-        position: absolute;
-        top: 2px;
-        left: 2px;
-        background-color: white;
-        border-radius: 9999px;
-        height: 1.25rem;
-        width: 1.25rem;
-        transition: transform 0.2s ease-in-out;
-    }
-    input:checked + .toggle-bg:after {
-        transform: translateX(100%);
-    }
-    .dark .toggle-bg:after {
-        background-color: #1a1a1a;
-    }
-    .keyword-search,
-    .new-keyword {
-        width: 100%;
-    }
-    .add-keyword {
-        font-size: 1.5rem;
-        line-height: 1;
-    }
-    .dark .add-keyword {
-        color: #a0aec0;
-    }
-    .dark .add-keyword:hover {
-        color: #e2e8f0;
-    }
+.custom-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.keyword-checkbox:checked + span {
+    background-color: #4299e1;
+    color: white;
+}
+
+.selected-tags {
+    min-height: 2.5rem;
+}
+
+.toggle-bg {
+    transition: background-color 0.2s ease-in-out;
+    position: relative;
+}
+
+.toggle-bg:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: white;
+    border-radius: 9999px;
+    height: 1.25rem;
+    width: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+input:checked + .toggle-bg {
+    background-color: #4f46e5;
+}
+
+input:checked + .toggle-bg:after {
+    transform: translateX(100%);
+}
+
+/* Light mode styles */
+body:not(.dark) .bg-white {
+    background-color: #ffffff;
+}
+
+body:not(.dark) .bg-gray-50 {
+    background-color: #f9fafb;
+}
+
+body:not(.dark) .text-gray-700 {
+    color: #374151;
+}
+
+body:not(.dark) .border-gray-300 {
+    border-color: #d1d5db;
+}
+
+body:not(.dark) .text-indigo-700 {
+    color: #4338ca;
+}
+
+body:not(.dark) .bg-indigo-100 {
+    background-color: #e0e7ff;
+}
+
+body:not(.dark) .text-indigo-800 {
+    color: #3730a3;
+}
+
+body:not(.dark) .hover\:bg-indigo-100:hover {
+    background-color: #e0e7ff;
+}
+
+body:not(.dark) input[type="text"],
+body:not(.dark) input[type="search"],
+body:not(.dark) select {
+    background-color: #ffffff;
+    color: #333333;
+    border-color: #d1d5db;
+}
+
+body:not(.dark) input[type="text"]:focus,
+body:not(.dark) input[type="search"]:focus,
+body:not(.dark) select:focus {
+    border-color: #4338ca;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(67, 56, 202, 0.3);
+}
+
+body:not(.dark) .keyword-checkbox + span {
+    background-color: #ffffff;
+    border-color: #d1d5db;
+    color: #333333;
+}
+
+body:not(.dark) .keyword-checkbox:checked + span {
+    background-color: #4338ca;
+    color: #ffffff;
+}
+
+body:not(.dark) #save-button {
+    background-color: #4338ca;
+    color: #ffffff;
+}
+
+body:not(.dark) #save-button:hover {
+    background-color: #3730a3;
+}
+
+body:not(.dark) .toggle-bg {
+    background-color: #d1d5db;
+    border-color: #9ca3af;
+}
+
+body:not(.dark) input:checked + .toggle-bg {
+    background-color: #4338ca;
+    border-color: #3730a3;
+}
+
+/* Dark mode styles */
+.dark {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark .bg-white {
+    background-color: #2a2a2a;
+}
+
+.dark .bg-gray-50 {
+    background-color: #333333;
+}
+
+.dark .text-gray-700 {
+    color: #e0e0e0;
+}
+
+.dark .border-gray-300 {
+    border-color: #4a4a4a;
+}
+
+.dark .text-indigo-700 {
+    color: #a3a3a3;
+}
+
+.dark .bg-indigo-100 {
+    background-color: #4a4a4a;
+}
+
+.dark .text-indigo-800 {
+    color: #e0e0e0;
+}
+
+.dark .hover\:bg-indigo-100:hover {
+    background-color: #5a5a5a;
+}
+
+.dark input[type="text"],
+.dark input[type="search"],
+.dark select {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+    border-color: #4a4a4a;
+}
+
+.dark input[type="text"]:focus,
+.dark input[type="search"]:focus,
+.dark select:focus {
+    border-color: #6a6a6a;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(106, 106, 106, 0.3);
+}
+
+.dark .keyword-checkbox + span {
+    background-color: #3a3a3a;
+    border-color: #4a4a4a;
+    color: #e0e0e0;
+}
+
+.dark .keyword-checkbox:checked + span {
+    background-color: #5a5a5a;
+    color: #ffffff;
+}
+
+.dark #save-button {
+    background-color: #4a4a4a;
+    color: #e0e0e0;
+}
+
+.dark #save-button:hover {
+    background-color: #5a5a5a;
+}
+
+.dark .toggle-bg {
+    background-color: #4a4a4a;
+    border-color: #5a5a5a;
+}
+
+.dark input:checked + .toggle-bg {
+    background-color: #6a6a6a;
+    border-color: #7a7a7a;
+}
+
+.dark .toggle-bg:after {
+    background-color: #1a1a1a;
+}
+
+.keyword-search,
+.new-keyword {
+    width: 100%;
+}
+
+.add-keyword {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.dark .add-keyword {
+    color: #a0aec0;
+}
+
+.dark .add-keyword:hover {
+    color: #e2e8f0;
+}
     
 
 
@@ -157,7 +248,7 @@
 <body class="min-h-screen p-8">
     <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg custom-shadow">
         <div class="flex justify-between items-center mb-6">
-            <h1 class="text-3xl font-bold text-indigo-700 dark:text-indigo-300">Synth Preset Keyword Selector</h1>
+            <h1 class="text-3xl font-bold text-indigo-700 dark:text-indigo-300">Muse Data Annotation Helper - Ableton Live Synths</h1>
             <div class="flex items-center">
                 <span class="text-sm font-medium text-gray-700 dark:text-gray-300 mr-3">Light</span>
                 <label for="dark-mode-toggle" class="inline-flex items-center cursor-pointer">
