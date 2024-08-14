@@ -7,8 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            background-color: #f0f4f8;
-            color: #2d3748;
+        transition: background-color 0.3s ease, color 0.3s ease;
         }
         .keyword-grid {
             display: grid;
@@ -25,12 +24,137 @@
         .selected-tags {
             min-height: 2.5rem;
         }
+        .toggle-bg {
+        transition: background-color 0.2s ease-in-out;
+        position: relative;
+        }
+        .toggle-bg:after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            background-color: white;
+            border-radius: 9999px;
+            height: 1.25rem;
+            width: 1.25rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        input:checked + .toggle-bg {
+            background-color: #4f46e5;
+        }
+        input:checked + .toggle-bg:after {
+            transform: translateX(100%);
+        }
+
+
+        /* Dark mode styles */
+        .dark {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+        .dark .bg-white {
+            background-color: #2a2a2a;
+        }
+        .dark .bg-gray-50 {
+            background-color: #333333;
+        }
+        .dark .text-gray-700 {
+            color: #e0e0e0;
+        }
+        .dark .border-gray-300 {
+            border-color: #4a4a4a;
+        }
+        .dark .text-indigo-700 {
+            color: #a3a3a3;
+        }
+        .dark .bg-indigo-100 {
+            background-color: #4a4a4a;
+        }
+        .dark .text-indigo-800 {
+            color: #e0e0e0;
+        }
+        .dark .hover\:bg-indigo-100:hover {
+            background-color: #5a5a5a;
+        }
+        .dark input[type="text"],
+        .dark input[type="search"],
+        .dark select {
+            background-color: #3a3a3a;
+            color: #e0e0e0;
+            border-color: #4a4a4a;
+        }
+        .dark input[type="text"]:focus,
+        .dark input[type="search"]:focus,
+        .dark select:focus {
+            border-color: #6a6a6a;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(106, 106, 106, 0.3);
+        }
+        .dark .keyword-checkbox + span {
+            background-color: #3a3a3a;
+            border-color: #4a4a4a;
+            color: #e0e0e0;
+        }
+        .dark .keyword-checkbox:checked + span {
+            background-color: #5a5a5a;
+            color: #ffffff;
+        }
+        .dark #save-button {
+            background-color: #4a4a4a;
+            color: #e0e0e0;
+        }
+        .dark #save-button:hover {
+            background-color: #5a5a5a;
+        }
+        .dark .toggle-bg {
+            background-color: #4a4a4a;
+            border-color: #5a5a5a;
+        }
+        .dark input:checked + .toggle-bg {
+            background-color: #6a6a6a;
+            border-color: #7a7a7a;
+        }
+        .toggle-bg {
+        transition: background-color 0.2s ease-in-out;
+        position: relative;
+    }
+    .toggle-bg:after {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        background-color: white;
+        border-radius: 9999px;
+        height: 1.25rem;
+        width: 1.25rem;
+        transition: transform 0.2s ease-in-out;
+    }
+    input:checked + .toggle-bg:after {
+        transform: translateX(100%);
+    }
+    .dark .toggle-bg:after {
+        background-color: #1a1a1a;
+    }
+
+
     </style>
 </head>
 <body class="min-h-screen p-8">
     <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg custom-shadow">
-        <h1 class="text-3xl font-bold mb-8 text-center text-indigo-700">Synth Preset Keyword Selector</h1>
-        
+        <div class="flex justify-between items-center mb-6">
+            <h1 class="text-3xl font-bold text-indigo-700 dark:text-indigo-300">Synth Preset Keyword Selector</h1>
+            <div class="flex items-center">
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-300 mr-3">Light</span>
+                <label for="dark-mode-toggle" class="inline-flex items-center cursor-pointer">
+                    <div class="relative">
+                        <input type="checkbox" id="dark-mode-toggle" class="sr-only">
+                        <div class="toggle-bg w-11 h-6 bg-gray-200 rounded-full border border-gray-200 dark:bg-gray-600 dark:border-gray-500"></div>
+                        <div class="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform duration-200 ease-in-out"></div>
+                    </div>
+                </label>
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-300 ml-3">Dark</span>
+            </div>
+        </div>        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div>
                 <label for="preset-name" class="block text-sm font-medium text-gray-700 mb-1">Preset Name:</label>
@@ -56,6 +180,19 @@
                 <option value="Collision">Collision</option>
             </select>
         </div>
+        <div class="mb-8 flex items-center">
+            <span class="text-sm font-medium text-gray-700 mr-3">Preset Type:</span>
+            <label for="is-rack" class="inline-flex items-center cursor-pointer">
+                <span class="mr-3">Standalone</span>
+                <div class="relative">
+                    <input type="checkbox" id="is-rack" class="sr-only">
+                    <div class="toggle-bg w-11 h-6 bg-gray-200 rounded-full border border-gray-200"></div>
+                    <div class="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform duration-200 ease-in-out"></div>
+                </div>
+                <span class="ml-3">Instrument Rack</span>
+            </label>
+        </div>        
+        
 
         <div class="space-y-6">
             <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
@@ -106,7 +243,7 @@
             <button id="save-button" class="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition duration-150 ease-in-out">
                 Save Preset Annotation
             </button>
-        </div>
+        </div>        
     </div>
 
     <script>
@@ -252,13 +389,16 @@
         document.getElementById('save-button').addEventListener('click', function() {
             const presetName = document.getElementById('preset-name').value;
             const presetId = document.getElementById('preset-id').value;
+            const isRack = document.getElementById('is-rack').checked;
             const instrument = document.getElementById('instrument').value;
             const selectedKeywords = {
                 character: [],
                 genre: [],
                 mood: [],
                 modulation: [],
-                inspiration: []
+                inspiration: [],
+                timbre: [],
+                aesthetics: []
             };
 
             Object.keys(keywords).forEach(category => {
@@ -271,6 +411,7 @@
                 id: presetId,
                 name: presetName,
                 instrument: instrument,
+                isRack: isRack,
                 keywords: selectedKeywords
             }, null, 2);
 
@@ -281,6 +422,23 @@
             a.download = `${presetId || presetName.replace(/\s+/g, '_')}.json`;
             a.click();
         });
+
+
+        // Dark mode toggle functionality
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('change', () => {
+            body.classList.toggle('dark');
+            localStorage.setItem('darkMode', body.classList.contains('dark'));
+        });
+
+        // Check for saved dark mode preference
+        if (localStorage.getItem('darkMode') === 'true') {
+            body.classList.add('dark');
+            darkModeToggle.checked = true;
+        }
+
     </script>
 </body>
 </html>
