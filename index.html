@@ -88,11 +88,23 @@
                 <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
                 <div id="inspiration-keywords"></div>
             </div>
+            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Timbre</h2>
+                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search timbre keywords...">
+                <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
+                <div id="timbre-keywords"></div>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Aesthetics</h2>
+                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search aesthetics keywords...">
+                <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
+                <div id="aesthetics-keywords"></div>
+            </div>
         </div>
 
         <div class="mt-8 text-center">
             <button id="save-button" class="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition duration-150 ease-in-out">
-                Save Preset
+                Save Preset Annotation
             </button>
         </div>
     </div>
@@ -100,16 +112,16 @@
     <script>
         const keywords = {
             character: {
-                Texture: ["Soft", "Harsh", "Smooth", "Rough", "Crisp", "Mellow", "Gritty", "Clean", "Fuzzy", "Sharp", "Rounded", "Silky", "Brittle", "Liquid", "Solid", "Airy", "Dense", "Glassy", "Metallic", "Wooden"],
-                Tone: ["Warm", "Cold", "Bright", "Dark", "Rich", "Thin", "Lush", "Sparse", "Full", "Hollow", "Resonant", "Muffled", "Shimmering", "Dull", "Brilliant", "Muted", "Vibrant", "Clear", "Muddy", "Transparent"],
-                Character: ["Organic", "Synthetic", "Analog", "Digital", "Ethereal", "Grungy", "Polished", "Raw", "Refined", "Coarse", "Sleek", "Raspy", "Buttery", "Crystalline", "Murky", "Pristine", "Grainy", "Lustrous", "Opaque", "Viscous"],
-                Intensity: ["Punchy", "Plucky", "Sizzling", "Thick", "Crunchy", "Woolly", "Velvety", "Icy", "Searing", "Piercing", "Gentle", "Aggressive", "Robust", "Delicate", "Gossamer", "Hefty", "Wispy", "Jagged", "Feathery", "Leathery"]
+                Texture: ["Soft", "Harsh", "Smooth", "Rough", "Crisp", "Mellow", "Gritty", "Clean", "Fuzzy", "Sharp", "Rounded", "Silky", "Brittle", "Liquid", "Solid", "Airy", "Dense", "Glassy", "Metallic", "Wooden", "Plasticky", "Rubbery", "Gelatinous", "Crystalline", "Viscous"],
+                Tone: ["Warm", "Cold", "Bright", "Dark", "Rich", "Thin", "Lush", "Sparse", "Full", "Hollow", "Resonant", "Muffled", "Shimmering", "Dull", "Brilliant", "Muted", "Vibrant", "Clear", "Muddy", "Transparent", "Opaque", "Saturated", "Pristine", "Gritty", "Velvety"],
+                Character: ["Organic", "Synthetic", "Analog", "Digital", "Ethereal", "Grungy", "Polished", "Raw", "Refined", "Coarse", "Sleek", "Raspy", "Buttery", "Crystalline", "Murky", "Pristine", "Grainy", "Lustrous", "Opaque", "Viscous", "Holographic", "Pixelated", "Quantized", "Aliased", "Overdriven"],
+                Intensity: ["Punchy", "Plucky", "Sizzling", "Thick", "Crunchy", "Woolly", "Velvety", "Icy", "Searing", "Piercing", "Gentle", "Aggressive", "Robust", "Delicate", "Gossamer", "Hefty", "Wispy", "Jagged", "Feathery", "Leathery", "Biting", "Crushing", "Scorching", "Glacial", "Abrasive"]
             },
             genre: {
-                Electronic: ["Ambient", "Techno", "House", "Trance", "Drum and Bass", "Dubstep", "IDM", "Breakbeat", "Electro", "Synthwave", "Vaporwave", "Chillwave", "Industrial", "Glitch", "Future Bass", "Hardstyle", "Psytrance", "Goa", "Minimal", "Electronica"],
-                Pop_Rock: ["Pop", "Rock", "Synthpop", "New Wave", "Post-punk", "Shoegaze", "Alternative", "Indie", "Electropop", "Art Pop", "Dream Pop", "Noise Pop", "Power Pop", "Psychedelic Pop", "Britpop", "Indie Rock", "Post-Rock", "Math Rock", "Noise Rock", "Art Rock"],
-                Hip_Hop: ["Hip-hop", "Trap", "Cloud Rap", "Grime", "Drill", "Abstract Hip-hop", "Boom Bap", "Conscious Hip-hop", "Gangsta Rap", "Southern Hip-hop", "East Coast Hip-hop", "West Coast Hip-hop", "Alternative Hip-hop", "Experimental Hip-hop", "Lofi Hip-hop", "Turntablism", "Horrorcore", "Phonk", "Crunk", "Mumble Rap"],
-                Other_Genres: ["Jazz", "Classical", "Funk", "Disco", "Reggae", "Dub", "World Music", "Folk", "Blues", "Country", "R&B", "Soul", "Gospel", "Experimental", "Avant-garde", "Fusion", "Crossover", "Ethnic", "Traditional", "Cinematic"]
+                Electronic: ["Ambient", "Techno", "House", "Trance", "Drum and Bass", "Dubstep", "IDM", "Breakbeat", "Electro", "Synthwave", "Vaporwave", "Chillwave", "Industrial", "Glitch", "Future Bass", "Hardstyle", "Psytrance", "Goa", "Minimal", "Electronica", "Neurofunk", "Breakcore", "Jungle", "Footwork", "Gabber"],
+                Pop_Rock: ["Pop", "Rock", "Synthpop", "New Wave", "Post-punk", "Shoegaze", "Alternative", "Indie", "Electropop", "Art Pop", "Dream Pop", "Noise Pop", "Power Pop", "Psychedelic Pop", "Britpop", "Indie Rock", "Post-Rock", "Math Rock", "Noise Rock", "Art Rock", "Progressive Rock", "Krautrock", "Glam Rock", "Space Rock", "Grunge"],
+                Hip_Hop: ["Hip-hop", "Trap", "Cloud Rap", "Grime", "Drill", "Abstract Hip-hop", "Boom Bap", "Conscious Hip-hop", "Gangsta Rap", "Southern Hip-hop", "East Coast Hip-hop", "West Coast Hip-hop", "Alternative Hip-hop", "Experimental Hip-hop", "Lofi Hip-hop", "Turntablism", "Horrorcore", "Phonk", "Crunk", "Mumble Rap", "Chopped and Screwed", "G-Funk", "Trip Hop", "Instrumental Hip-hop", "UK Garage"],
+                Other_Genres: ["Jazz", "Classical", "Funk", "Disco", "Reggae", "Dub", "World Music", "Folk", "Blues", "Country", "R&B", "Soul", "Gospel", "Experimental", "Avant-garde", "Fusion", "Crossover", "Ethnic", "Traditional", "Cinematic", "Neoclassical", "Free Jazz", "Microtonal", "Gamelan", "Musique Concrète"]
             },
             mood: {
                 Positive: ["Uplifting", "Joyful", "Euphoric", "Energetic", "Playful", "Optimistic", "Triumphant", "Confident", "Empowering", "Liberating", "Blissful", "Carefree", "Exhilarated", "Passionate", "Ecstatic", "Hopeful", "Inspiring", "Cheerful", "Lively", "Radiant"],
@@ -118,16 +130,46 @@
                 Complex: ["Mysterious", "Ethereal", "Nostalgic", "Bittersweet", "Wistful", "Yearning", "Surreal", "Dreamy", "Haunting", "Enchanting", "Ambivalent", "Conflicted", "Paradoxical", "Enigmatic", "Perplexing", "Intriguing", "Uncanny", "Elusive", "Ineffable", "Profound"]
             },
             modulation: {
-                Movement: ["Evolving", "Static", "Pulsating", "Sweeping", "Wobbling", "Fluttering", "Morphing", "Gliding", "Undulating", "Flowing", "Swelling", "Fading", "Warping", "Twisting", "Bending", "Fluctuating", "Oscillating", "Spiraling", "Zigzagging", "Bouncing"],
-                Rhythm: ["Rhythmic", "Arpeggiated", "Stuttering", "Jerky", "Smooth", "Cyclical", "Stepped", "Random", "Syncopated", "Polyrhythmic", "Groovy", "Swinging", "Steady", "Erratic", "Pulsing", "Staccato", "Legato", "Dotted", "Triplet", "Shuffled"],
-                Dynamics: ["Crescendo", "Decrescendo", "Swelling", "Pumping", "Ducking", "Expanding", "Contracting", "Breathing", "Throbbing", "Surging", "Fading", "Blooming", "Collapsing", "Erupting", "Imploding", "Rising", "Falling", "Swelling", "Receding", "Pulsating"],
-                Effects: ["Phasing", "Tremolo", "Vibrato", "Flanging", "Chorus", "Delay", "Reverb", "Distortion", "Bitcrushing", "Filtering", "Resonance", "Compression", "Expansion", "Saturation", "Modulation", "Pitch-shifting", "Time-stretching", "Granular", "Spectral", "Convolution"]
+                Movement: ["Evolving", "Static", "Pulsating", "Sweeping", "Wobbling", "Fluttering", "Morphing", "Gliding", "Undulating", "Flowing", "Swelling", "Fading", "Warping", "Twisting", "Bending", "Fluctuating", "Oscillating", "Spiraling", "Zigzagging", "Bouncing", "Cascading", "Plummeting", "Soaring", "Gyrating", "Writhing"],
+                Rhythm: ["Rhythmic", "Arpeggiated", "Stuttering", "Jerky", "Smooth", "Cyclical", "Stepped", "Random", "Syncopated", "Polyrhythmic", "Groovy", "Swinging", "Steady", "Erratic", "Pulsing", "Staccato", "Legato", "Dotted", "Triplet", "Shuffled", "Euclidean", "Isorhythmic", "Metric modulation", "Hemiola", "Rubato"],
+                Dynamics: ["Crescendo", "Decrescendo", "Swelling", "Pumping", "Ducking", "Expanding", "Contracting", "Breathing", "Throbbing", "Surging", "Fading", "Blooming", "Collapsing", "Erupting", "Imploding", "Rising", "Falling", "Swelling", "Receding", "Pulsating", "Sidechain", "Multiband", "Parallel", "Limiting", "Expansion"],
+                Effects: ["Phasing", "Tremolo", "Vibrato", "Flanging", "Chorus", "Delay", "Reverb", "Distortion", "Bitcrushing", "Filtering", "Resonance", "Compression", "Expansion", "Saturation", "Modulation", "Pitch-shifting", "Time-stretching", "Granular", "Spectral", "Convolution", "Comb filtering", "Waveshaping", "Formant shifting", "Frequency shifting", "Ring modulation"]
             },
             inspiration: {
-                Eras: ["80s synth pop", "90s rave", "70s disco", "60s psychedelia", "2000s video games", "Retro arcade", "Vintage analog synths", "Modern digital synths", "Retro-futurism", "Vaporwave aesthetics", "Future Funk", "Synthwave", "Outrun", "Y2K", "Cyberpunk", "Steampunk", "Art Deco", "Baroque", "Renaissance", "Ancient"],
-                Media: ["Sci-fi movies", "Horror films", "Fantasy literature", "Comic books", "Anime", "Cartoons", "Abstract art", "Impressionist paintings", "Surrealist art", "Pop art", "Pixel art", "Glitch art", "Cyberpunk literature", "Dystopian novels", "Utopian visions", "Avant-garde films", "Silent movies", "Film noir", "Documentaries", "Music videos"],
-                Nature: ["Nature sounds", "Ocean waves", "Forest ambience", "Thunderstorms", "Wind through trees", "Bird calls", "Insect chirps", "Flowing water", "Crackling fire", "Ice cracking", "Leaves rustling", "Rain on a tin roof", "Whale songs", "Wolf howls", "Lion roars", "Dolphin clicks", "Frog croaks", "Bee buzzing", "Snake hiss", "Elephant trumpets"],
-                Urban: ["Urban soundscapes", "Traffic noise", "Subway rumble", "Construction sites", "Busy cafes", "Street performers", "Police sirens", "Car horns", "Footsteps on pavement", "Bicycle bells", "Skateboards rolling", "Crowd chatter", "Street vendors", "Airport announcements", "Train station ambience", "Factory machinery", "Office sounds", "School playground", "Shopping mall ambience", "Sports stadium roar"]
+                Eras: ["80s synth pop", "90s rave", "70s disco", "60s psychedelia", "2000s video games", "Retro arcade", "Vintage analog synths", "Modern digital synths", "Retro-futurism", "Vaporwave aesthetics", "Future Funk", "Synthwave", "Outrun", "Y2K", "Cyberpunk", "Steampunk", "Art Deco", "Baroque", "Renaissance", "Ancient", "Afrofuturism", "Space Age", "Digital Age", "Information Era", "Post-Internet"],
+                Media: ["Sci-fi movies", "Horror films", "Fantasy literature", "Comic books", "Anime", "Cartoons", "Abstract art", "Impressionist paintings", "Surrealist art", "Pop art", "Pixel art", "Glitch art", "Cyberpunk literature", "Dystopian novels", "Utopian visions", "Avant-garde films", "Silent movies", "Film noir", "Documentaries", "Music videos", "Virtual reality", "Augmented reality", "Interactive installations", "Generative art", "AI art"],
+                Nature: ["Nature sounds", "Ocean waves", "Forest ambience", "Thunderstorms", "Wind through trees", "Bird calls", "Insect chirps", "Flowing water", "Crackling fire", "Ice cracking", "Leaves rustling", "Rain on a tin roof", "Whale songs", "Wolf howls", "Lion roars", "Dolphin clicks", "Frog croaks", "Bee buzzing", "Snake hiss", "Elephant trumpets", "Geothermal activity", "Avalanche", "Glacier calving", "Sand dunes shifting", "Coral reef"],
+                Urban: ["Urban soundscapes", "Traffic noise", "Subway rumble", "Construction sites", "Busy cafes", "Street performers", "Police sirens", "Car horns", "Footsteps on pavement", "Bicycle bells", "Skateboards rolling", "Crowd chatter", "Street vendors", "Airport announcements", "Train station ambience", "Factory machinery", "Office sounds", "School playground", "Shopping mall ambience", "Sports stadium roar", "Data center hum", "Wind turbines", "Solar panel farms", "Cryptocurrency mining rigs", "Smart city infrastructure"]
+            },
+            timbre: {
+                Harmonic_Content: ["Fundamental", "Overtone-rich", "Harmonic", "Inharmonic", "Spectral", "Formant", "Resonant", "Filtered", "Buzzy", "Pure", "Complex", "Simple", "Partials", "Harmonics", "Subharmonics", "Formant-shifted", "Additive", "Subtractive", "FM", "Wavetable", "Aliasing", "Foldover", "Comb filtered", "Karplus-Strong", "Physical modeling"],
+                Envelope: ["Attack", "Decay", "Sustain", "Release", "Plucky", "Slow attack", "Fast attack", "Long release", "Short release", "Percussive", "Pad-like", "Swelling", "Fading", "Gated", "Sustained", "Transient", "Envelope follower", "ADSR", "Multistage", "Looping", "Retriggering", "One-shot", "Decay-only", "Inverse", "Stepped"],
+                Spectrum: ["Low-pass", "High-pass", "Band-pass", "Notch", "Comb", "Formant", "Vowel", "Vocal", "Nasal", "Sibilant", "Plosive", "Breathy", "Whispered", "Spoken", "Sung", "Screamed", "Growled", "Pitched", "Unpitched", "Noisy", "Tonal", "Atonal", "Microtonal", "Spectral freeze", "Vocoded"]
+            },
+            /*technique: {
+                Playing_Style: ["Legato", "Staccato", "Portamento", "Glissando", "Arpeggio", "Chord", "Monophonic", "Polyphonic", "Unison", "Layered", "Split", "Velocity sensitive", "Aftertouch", "Pitch bend", "Modulation wheel", "Expression pedal", "Keyswitching", "Round-robin", "Crossfade", "Multisampled", "MPE", "Polyphonic aftertouch", "Force sensing", "Gesture control", "Breath control"],
+                Sound_Design: ["Layering", "Stacking", "Morphing", "Crossfading", "Sampling", "Resampling", "Granular", "Wavetable", "Additive", "Subtractive", "FM synthesis", "AM synthesis", "Physical modeling", "Karplus-Strong", "Waveshaping", "Vector synthesis", "Resynthesis", "Vocoding", "Convolution", "Spectral processing", "Concatenative synthesis", "Corpus-based synthesis", "Phase distortion", "Scanned synthesis", "Cellular automata"],
+                Processing: ["Compression", "EQ", "Saturation", "Limiting", "Multiband processing", "Transient shaping", "De-essing", "Noise reduction", "Stereo widening", "M/S processing", "Parallel processing", "Upsampling", "Downsampling", "Bit reduction", "Sample rate reduction", "Formant shifting", "Pitch correction", "Time alignment", "Phase alignment", "Harmonic enhancement"],
+                Modulation_Sources: ["LFO", "Envelope", "Step sequencer", "Random", "Sample and hold", "Noise", "Audio rate", "MIDI CC", "Macro control", "Modulation matrix", "Envelope follower", "Peak follower", "RMS follower", "Pitch tracker", "Triggered random", "Probability", "XY pad", "Motion recording", "MPE", "Gesture mapping"]
+            },
+            spatial: {
+                Stereo_Field: ["Wide", "Narrow", "Mono", "Stereo", "Mid-side", "Haas effect", "Pseudo-stereo", "Binaural", "Stereo imaging", "Panning", "Auto-pan", "Stereo widening", "Stereo narrowing", "Stereo balance", "Stereo spread", "Stereo enhancement", "Mono compatibility", "Phase correlation", "Stereo field manipulation", "Stereo separation"],
+                Depth: ["Front", "Back", "Near", "Far", "Intimate", "Distant", "Layered", "Flat", "3D", "Holographic", "Immersive", "Surrounding", "Enveloping", "Spacious", "Claustrophobic", "Cavernous", "Intimate", "Room-filling", "Atmospheric", "Ethereal"],
+                Room_Simulation: ["Dry", "Wet", "Room", "Hall", "Chamber", "Cathedral", "Arena", "Stadium", "Plate", "Spring", "Gated reverb", "Nonlinear reverb", "Convolution reverb", "Algorithmic reverb", "Shimmer reverb", "Reverse reverb", "Early reflections", "Late reflections", "Diffusion", "Decay"]
+            },
+            technical: {
+                Signal_Path: ["Serial", "Parallel", "Feedback loop", "Feed-forward", "Sidechaining", "Multiband", "Linear", "Nonlinear", "Adaptive", "Recursive", "Iterative", "Cascaded", "Branching", "Merging", "Splitting", "Routing", "Bussing", "Aux send", "Insert", "Master"],
+                DSP_Concepts: ["Fourier transform", "Wavelet transform", "Convolution", "Impulse response", "Transfer function", "State space", "Biquad filter", "Allpass filter", "Comb filter", "Hilbert transform", "Autocorrelation", "Cross-correlation", "Windowing", "Oversampling", "Undersampling", "Nyquist theorem", "Aliasing", "Quantization", "Dithering", "Noise-shaping"],
+                Synthesis_Methods: ["Subtractive", "Additive", "FM (Frequency Modulation)", "PM (Phase Modulation)", "AM (Amplitude Modulation)", "RM (Ring Modulation)", "Wavetable", "Vector", "Granular", "Physical Modeling", "Karplus-Strong", "Waveguide", "Modal", "Spectral", "Formant", "Linear Arithmetic", "Sample-based", "Concatenative", "Scanned", "Phase Distortion"],
+                Control_Systems: ["MIDI", "OSC (Open Sound Control)", "CV/Gate", "MPE (MIDI Polyphonic Expression)", "Automation", "Modulation matrix", "Macro controls", "Learn mode", "NRPN (Non-Registered Parameter Number)", "SysEx (System Exclusive)", "TRS (Tip Ring Sleeve)", "USB", "Bluetooth MIDI", "Network MIDI", "MIDI Timecode", "MIDI Clock", "MIDI Machine Control", "ReWire", "VST", "AU (Audio Unit)"]
+            },
+            performance: {
+                Playability: ["Responsive", "Expressive", "Dynamic", "Intuitive", "Tactile", "Velocity-sensitive", "Pressure-sensitive", "Gesture-controlled", "Multi-touch", "MPE-compatible", "Aftertouch", "Breath-controlled", "Ribbon-controlled", "Pad-based", "Key-based", "Knob-per-function", "Menu diving", "Preset morphing", "Performance-oriented", "Studio-oriented"],
+                Live_Techniques: ["Loop-based", "On-the-fly editing", "Real-time processing", "Beat-synced", "Tempo-synced", "Phrase-based", "One-shot triggers", "Generative", "Algorithmic", "Probabilistic", "Chaotic", "Reactive", "Interactive", "Collaborative", "Network-synced", "Cloud-based", "AI-assisted", "Gesture-mapping", "Motion-tracking", "Sensor-driven"]
+            },*/
+            aesthetics: {
+                Sonic_Qualities: ["Lo-fi", "Hi-fi", "Retro", "Futuristic", "Organic", "Synthetic", "Hybrid", "Clean", "Dirty", "Polished", "Raw", "Smooth", "Rough", "Warm", "Cold", "Analog", "Digital", "Glitchy", "Pristine", "Distorted"],
+                Cultural_References: ["Vintage", "Modern", "Classic", "Avant-garde", "Minimalist", "Maximalist", "Fusion", "Crossover", "Underground", "Mainstream", "Experimental", "Commercial", "Authentic", "Reimagined", "Nostalgic", "Innovative", "Traditional", "Disruptive", "Timeless", "Trendy"]
             }
         };
 
