@@ -387,12 +387,21 @@ body:not(.dark) input:checked + .toggle-bg {
             </div>
 
 
-            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
-                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Inspiration</h2>
-                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search inspiration keywords...">
+            <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700 dark:text-indigo-300">Inspiration</h2>
+                <div class="flex space-x-2 mb-3">
+                    <div class="flex-grow relative">
+                        <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2" placeholder="Search inspiration keywords...">
+                    </div>
+                    <div class="flex-grow relative">
+                        <input type="text" class="new-keyword w-full border border-gray-300 rounded-md shadow-sm p-2" placeholder="Add new keyword">
+                        <button class="add-keyword absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600">+</button>
+                    </div>
+                </div>
                 <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
                 <div id="inspiration-keywords"></div>
             </div>
+
 
         </div>
 
@@ -523,21 +532,29 @@ document.querySelectorAll('.keyword-checkbox').forEach(checkbox => {
 
         // Add event listeners for search functionality
         document.querySelectorAll('.keyword-search').forEach(searchInput => {
-            searchInput.addEventListener('input', function() {
-                const searchTerm = this.value.toLowerCase();
-                const category = this.closest('div').querySelector('[id$="-keywords"]').id.split('-')[0];
-                const keywordElements = document.querySelectorAll(`#${category}-keywords .keyword-grid label`);
-                
-                keywordElements.forEach(elem => {
-                    const keyword = elem.textContent.trim().toLowerCase();
-                    if (keyword.includes(searchTerm)) {
-                        elem.style.display = '';
-                    } else {
-                        elem.style.display = 'none';
-                    }
-                });
-            });
+    searchInput.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+
+        const categoryContainer = this.closest('.bg-gray-50, .dark\\:bg-gray-800');
+        const categoryId = categoryContainer.querySelector('[id$="-keywords"]').id;
+        const category = categoryId.split('-')[0];
+        const keywordElements = categoryContainer.querySelectorAll('.keyword-grid label');
+
+        keywordElements.forEach(elem => {
+            const keywordSpan = elem.querySelector('span');
+            if (keywordSpan) {
+                const keyword = keywordSpan.textContent.trim().toLowerCase();
+                if (keyword.includes(searchTerm)) {
+                    elem.style.display = '';
+                    console.log('Showing:', keyword);
+                } else {
+                    elem.style.display = 'none';
+                    console.log('Hiding:', keyword);
+                }
+            }
         });
+    });
+});
 
 
         document.getElementById('save-button').addEventListener('click', function() {
