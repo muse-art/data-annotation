@@ -135,6 +135,21 @@
     .dark .toggle-bg:after {
         background-color: #1a1a1a;
     }
+    .keyword-search,
+    .new-keyword {
+        width: 100%;
+    }
+    .add-keyword {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    .dark .add-keyword {
+        color: #a0aec0;
+    }
+    .dark .add-keyword:hover {
+        color: #e2e8f0;
+    }
+    
 
 
     </style>
@@ -195,13 +210,21 @@
         
 
         <div class="space-y-6">
-            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
-                <h2 class="text-lg font-semibold mb-3 text-indigo-700">Character</h2>
-                <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search character keywords...">
+            <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg custom-shadow">
+                <h2 class="text-lg font-semibold mb-3 text-indigo-700 dark:text-indigo-300">Character</h2>
+                <div class="flex space-x-2 mb-3">
+                    <div class="flex-grow relative">
+                        <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2" placeholder="Search character keywords...">
+                    </div>
+                    <div class="flex-grow relative">
+                        <input type="text" class="new-keyword w-full border border-gray-300 rounded-md shadow-sm p-2" placeholder="Add new keyword">
+                        <button class="add-keyword absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600">+</button>
+                    </div>
+                </div>
                 <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
                 <div id="character-keywords"></div>
             </div>
-            <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
+                    <div class="bg-gray-50 p-4 rounded-lg custom-shadow">
                 <h2 class="text-lg font-semibold mb-3 text-indigo-700">Genre/Style</h2>
                 <input type="text" class="keyword-search w-full border border-gray-300 rounded-md shadow-sm p-2 mb-3" placeholder="Search genre/style keywords...">
                 <div class="selected-tags flex flex-wrap gap-2 mb-3"></div>
@@ -310,34 +333,78 @@
             }
         };
 
-        function populateKeywords(categoryId, keywordList) {
-            const container = document.getElementById(categoryId);
-            Object.entries(keywordList).forEach(([subcategory, words]) => {
-                const subcategoryDiv = document.createElement('div');
-                subcategoryDiv.className = 'mb-4';
-                subcategoryDiv.innerHTML = `<h3 class="font-semibold text-gray-700 mb-2">${subcategory}</h3>`;
-                const grid = document.createElement('div');
-                grid.className = 'keyword-grid';
-                
-                words.forEach(keyword => {
-                    const div = document.createElement('div');
-                    div.innerHTML = `
-                        <label class="inline-flex items-center">
-                            <input type="checkbox" class="hidden keyword-checkbox" value="${keyword}" data-category="${categoryId}">
-                            <span class="px-2 py-1 rounded-full text-sm bg-white border border-gray-300 cursor-pointer hover:bg-indigo-100 transition-colors duration-200">${keyword}</span>
-                        </label>
-                    `;
-                    grid.appendChild(div);
-                });
-                
-                subcategoryDiv.appendChild(grid);
-                container.appendChild(subcategoryDiv);
-            });
-        }
+        function handleKeywordSelection(event) {
+    const checkbox = event.target;
+    const category = checkbox.dataset.category.split('-')[0];
+    const tagContainer = checkbox.closest('.bg-gray-50, .dark\\:bg-gray-800').querySelector('.selected-tags');
+    const existingTag = tagContainer.querySelector(`[data-category="${category}"][data-keyword="${checkbox.value}"]`);
 
-        Object.keys(keywords).forEach(category => {
-            populateKeywords(`${category}-keywords`, keywords[category]);
+    if (checkbox.checked) {
+        if (!existingTag) {
+            const tag = document.createElement('span');
+            tag.className = 'bg-indigo-100 text-indigo-800 dark:bg-indigo-700 dark:text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 rounded';
+            tag.textContent = checkbox.value;
+            tag.dataset.category = category;
+            tag.dataset.keyword = checkbox.value;
+            
+            const removeButton = document.createElement('button');
+            removeButton.className = 'ml-1 text-indigo-600 dark:text-indigo-300 hover:text-indigo-900 dark:hover:text-indigo-100';
+            removeButton.textContent = '×';
+            removeButton.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                checkbox.checked = false;
+                tag.remove();
+            };
+            
+            tag.appendChild(removeButton);
+            tagContainer.appendChild(tag);
+        }
+    } else {
+        if (existingTag) {
+            existingTag.remove();
+        }
+    }
+}
+
+// Remove the duplicate event listener
+document.querySelectorAll('.keyword-checkbox').forEach(checkbox => {
+    checkbox.addEventListener('change', handleKeywordSelection);
+});
+function populateKeywords(categoryId, keywordList) {
+    const container = document.getElementById(categoryId);
+    Object.entries(keywordList).forEach(([subcategory, words]) => {
+        const subcategoryDiv = document.createElement('div');
+        subcategoryDiv.className = 'mb-4';
+        subcategoryDiv.innerHTML = `<h3 class="font-semibold text-gray-700 dark:text-gray-300 mb-2">${subcategory}</h3>`;
+        const grid = document.createElement('div');
+        grid.className = 'keyword-grid';
+        
+        words.forEach(keyword => {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <label class="inline-flex items-center">
+                    <input type="checkbox" class="hidden keyword-checkbox" value="${keyword}" data-category="${categoryId}">
+                    <span class="px-2 py-1 rounded-full text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 cursor-pointer hover:bg-indigo-100 dark:hover:bg-gray-600 transition-colors duration-200">${keyword}</span>
+                </label>
+            `;
+            grid.appendChild(div);
         });
+        
+        subcategoryDiv.appendChild(grid);
+        container.appendChild(subcategoryDiv);
+    });
+}
+
+// Populate keywords
+Object.keys(keywords).forEach(category => {
+    populateKeywords(`${category}-keywords`, keywords[category]);
+});
+
+// Add event listeners for keyword selection and tag creation
+document.querySelectorAll('.keyword-checkbox').forEach(checkbox => {
+    checkbox.addEventListener('change', handleKeywordSelection);
+});
 
         // Add event listeners for search functionality
         document.querySelectorAll('.keyword-search').forEach(searchInput => {
@@ -357,34 +424,6 @@
             });
         });
 
-        // Add event listeners for keyword selection and tag creation
-        document.querySelectorAll('.keyword-checkbox').forEach(checkbox => {
-            checkbox.addEventListener('change', function() {
-                const category = this.dataset.category.split('-')[0];
-                const tagContainer = this.closest('.bg-gray-50').querySelector('.selected-tags');
-                
-                if (this.checked) {
-                    const tag = document.createElement('span');
-                    tag.className = 'bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded';
-                    tag.textContent = this.value;
-                    tag.dataset.category = category;
-                    
-                    const removeButton = document.createElement('button');
-                    removeButton.className = 'ml-1 text-indigo-600 hover:text-indigo-900';
-                    removeButton.textContent = '×';
-                    removeButton.onclick = function() {
-                        checkbox.checked = false;
-                        tag.remove();
-                    };
-                    
-                    tag.appendChild(removeButton);
-                    tagContainer.appendChild(tag);
-                } else {
-                    const tag = tagContainer.querySelector(`[data-category="${category}"]:has(button)`);
-                    if (tag) tag.remove();
-                }
-            });
-        });
 
         document.getElementById('save-button').addEventListener('click', function() {
             const presetName = document.getElementById('preset-name').value;
@@ -423,6 +462,38 @@
             a.click();
         });
 
+        // Function to create a new keyword element
+function createKeywordElement(keyword, category) {
+    const div = document.createElement('div');
+    div.innerHTML = `
+        <label class="inline-flex items-center">
+            <input type="checkbox" class="hidden keyword-checkbox" value="${keyword}" data-category="${category}">
+            <span class="px-2 py-1 rounded-full text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 cursor-pointer hover:bg-indigo-100 dark:hover:bg-gray-600 transition-colors duration-200">${keyword}</span>
+        </label>
+    `;
+    return div.firstElementChild;
+}
+
+// Add event listeners for adding new keywords
+document.querySelectorAll('.add-keyword').forEach(button => {
+    button.addEventListener('click', function() {
+        const categoryContainer = this.closest('.bg-gray-50, .dark\\:bg-gray-800');
+        const newKeywordInput = categoryContainer.querySelector('.new-keyword');
+        const keyword = newKeywordInput.value.trim();
+        if (keyword) {
+            const category = categoryContainer.querySelector('[id$="-keywords"]').id;
+            const keywordGrid = categoryContainer.querySelector('.keyword-grid');
+            const newKeywordElement = createKeywordElement(keyword, category);
+            keywordGrid.appendChild(newKeywordElement);
+            newKeywordInput.value = '';
+            
+            // Add event listener to the new checkbox
+            const checkbox = newKeywordElement.querySelector('input[type="checkbox"]');
+            checkbox.addEventListener('change', handleKeywordSelection);
+        }
+    });
+});
+
 
         // Dark mode toggle functionality
         const darkModeToggle = document.getElementById('dark-mode-toggle');
@@ -443,5 +514,3 @@
 </body>
 </html>
 
-
-                
