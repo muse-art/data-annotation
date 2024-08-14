@@ -416,9 +416,9 @@ body:not(.dark) input:checked + .toggle-bg {
         const keywords = {
             character: {
                 Texture: ["Soft", "Harsh", "Smooth", "Rough", "Crisp", "Mellow", "Gritty", "Clean", "Fuzzy", "Sharp", "Rounded", "Silky", "Brittle", "Liquid", "Solid", "Airy", "Dense", "Glassy", "Metallic", "Wooden", "Plasticky", "Rubbery", "Gelatinous", "Crystalline", "Viscous", "Dry", "Wet", "Grainy", "Textured", "Slick", "Rough-edged"],
-                Tone: ["Warm", "Cold", "Bright", "Dark", "Rich", "Thin", "Lush", "Sparse", "Full", "Hollow", "Resonant", "Muffled", "Shimmering", "Dull", "Brilliant", "Muted", "Vibrant", "Clear", "Muddy", "Transparent", "Opaque", "Saturated", "Pristine", "Velvety"],
+                Tone: ["Warm", "Cold", "Bright", "Dark", "Rich", "Thick", "Thin", "Lush", "Sparse", "Full", "Hollow", "Resonant", "Muffled", "Shimmering", "Dull", "Brilliant", "Muted", "Vibrant", "Clear", "Muddy", "Transparent", "Opaque", "Saturated", "Pristine", "Velvety"],
                 Character: ["Organic", "Synthetic", "Analog", "Digital", "Ethereal", "Grungy", "Polished", "Raw", "Refined", "Coarse", "Sleek", "Raspy", "Buttery", "Crystalline", "Murky", "Lustrous", "Opaque", "Viscous", "Holographic", "Pixelated", "Quantized", "Aliased", "Overdriven"],
-                Intensity: ["Punchy", "Plucky", "Sizzling", "Thick", "Crunchy", "Woolly", "Velvety", "Icy", "Searing", "Piercing", "Gentle", "Aggressive", "Robust", "Delicate", "Gossamer", "Hefty", "Wispy", "Jagged", "Feathery", "Leathery", "Biting", "Crushing", "Scorching", "Glacial", "Abrasive"],            
+                Intensity: ["Punchy", "Plucky", "Sizzling", "Crunchy", "Woolly", "Shallow", "Deep", "Velvety", "Icy", "Searing", "Piercing", "Gentle", "Aggressive", "Robust", "Delicate", "Gossamer", "Hefty", "Wispy", "Jagged", "Feathery", "Leathery", "Biting", "Crushing", "Scorching", "Glacial", "Abrasive"],            
             },
             mood: {
                 Positive: ["Uplifting", "Joyful", "Euphoric", "Energetic", "Playful", "Optimistic", "Triumphant", "Confident", "Empowering", "Blissful", "Carefree", "Ecstatic", "Hopeful", "Inspiring", "Cheerful", "Lively", "Radiant"],
@@ -590,7 +590,7 @@ document.querySelectorAll('.keyword-checkbox').forEach(checkbox => {
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `${presetId || presetName.replace(/\s+/g, '_')}.json`;
+            a.download = `${presetName}.json`;
             a.click();
         });
 
