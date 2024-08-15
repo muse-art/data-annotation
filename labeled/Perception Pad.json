@@ -1,0 +1,79 @@
+{
+  "id": "wtr118",
+  "name": "Perception Pad",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Smooth",
+      "Crisp",
+      "Mellow",
+      "Clean",
+      "Liquid",
+      "Glassy",
+      "Wet",
+      "Cold",
+      "Bright",
+      "Lush",
+      "Shimmering",
+      "Vibrant",
+      "Clear",
+      "Synthetic",
+      "Wide",
+      "Icy"
+    ],
+    "mood": [
+      "Blissful",
+      "Radiant",
+      "Melancholic",
+      "Calm",
+      "Serene",
+      "Relaxed",
+      "Contemplative",
+      "Introspective",
+      "Ethereal",
+      "Dreamy"
+    ],
+    "instrument": [
+      "Roland Juno-106"
+    ],
+    "genre": [
+      "Ambient",
+      "Techno",
+      "Drum and Bass",
+      "New Age",
+      "Jungle",
+      "Art Pop",
+      "Instrumental Hip-hop",
+      "Cinematic"
+    ],
+    "modulation": [
+      "Stable",
+      "Fluctuating",
+      "Delay",
+      "Reverb"
+    ],
+    "timbre": [
+      "Saw wave",
+      "Sine wave",
+      "Pure",
+      "Harmonics",
+      "FM",
+      "Slow attack",
+      "Long release",
+      "Pad-like",
+      "Low-pass"
+    ],
+    "inspiration": [
+      "2000s video games",
+      "Vintage analog synths",
+      "Space Age",
+      "Information Era",
+      "Sci-fi movies",
+      "Movie Soundtrack",
+      "Utopian visions",
+      "Airport announcements"
+    ]
+  }
+}

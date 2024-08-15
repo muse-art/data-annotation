@@ -1,0 +1,73 @@
+{
+  "id": "wt148",
+  "name": "Noize of Art Flute",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Mellow",
+      "Brittle",
+      "Airy",
+      "Dry",
+      "Textured",
+      "Thin",
+      "Hollow",
+      "Organic",
+      "Noisy",
+      "Small",
+      "Delicate",
+      "Wispy",
+      "Feathery"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Carefree",
+      "Cheerful",
+      "Helpless",
+      "Calm",
+      "Serene",
+      "Mellow",
+      "Mysterious",
+      "Nostalgic",
+      "Yearning",
+      "Dreamy",
+      "Enchanting"
+    ],
+    "instrument": [
+      "Flute",
+      "Woodwinds"
+    ],
+    "genre": [
+      "Ambient",
+      "Minimal",
+      "New Age",
+      "Shoegaze",
+      "Indie",
+      "Electropop",
+      "Art Pop",
+      "Abstract Hip-hop",
+      "World Music"
+    ],
+    "modulation": [
+      "Stable",
+      "Morphing"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Formant",
+      "Harmonics",
+      "FM",
+      "Physical modeling",
+      "Vocal",
+      "Breathy"
+    ],
+    "inspiration": [
+      "Ancient",
+      "Zelda Ocarina of Time",
+      "Nature sounds",
+      "Forest ambience",
+      "Wind through trees"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "wtr066",
+  "name": "FM Cassini Pad",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Smooth",
+      "Crisp",
+      "Clean",
+      "Silky",
+      "Glassy",
+      "Slick",
+      "Cold",
+      "Rich",
+      "Thin",
+      "Full",
+      "Synthetic",
+      "Analog",
+      "Polished",
+      "Controlled",
+      "Gentle"
+    ],
+    "mood": [
+      "Melancholic",
+      "Somber",
+      "Gloomy",
+      "Mournful",
+      "Serene",
+      "Relaxed",
+      "Mysterious",
+      "Wistful",
+      "Dreamy",
+      "Haunting"
+    ],
+    "instrument": [],
+    "genre": [
+      "Ambient",
+      "Drum and Bass",
+      "Synthwave",
+      "New Age",
+      "Electronica",
+      "Jungle",
+      "World Music"
+    ],
+    "modulation": [
+      "Stable",
+      "Pulsating",
+      "Breathing",
+      "Delay",
+      "Reverb",
+      "Compression"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Filtered",
+      "Pure",
+      "Harmonics",
+      "FM",
+      "Detuned",
+      "Slow attack",
+      "Pad-like",
+      "Low-pass"
+    ],
+    "inspiration": []
+  }
+}

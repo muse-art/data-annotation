@@ -1,0 +1,60 @@
+{
+  "id": "wt016",
+  "name": "Van Der Graaf",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Fuzzy",
+      "Dense",
+      "Textured",
+      "Cold",
+      "Dark",
+      "Resonant",
+      "Opaque",
+      "Organic",
+      "Synthetic",
+      "Noisy",
+      "Raw",
+      "Murky",
+      "Wide"
+    ],
+    "mood": [
+      "Anxious",
+      "Tense",
+      "Angry",
+      "Depressing",
+      "Bitter",
+      "Resentful",
+      "Aloof",
+      "Mysterious",
+      "Conflicted",
+      "Perplexing"
+    ],
+    "instrument": [],
+    "genre": [
+      "Drone",
+      "Synthwave",
+      "Avant-garde"
+    ],
+    "modulation": [
+      "Unstable",
+      "Evolving",
+      "Fluttering",
+      "Swelling",
+      "Fluctuating",
+      "Pulsing",
+      "Crescendo"
+    ],
+    "timbre": [
+      "Resonant",
+      "Filtered",
+      "Complex",
+      "Low-pass"
+    ],
+    "inspiration": [
+      "Space Age",
+      "suspensful moments"
+    ]
+  }
+}

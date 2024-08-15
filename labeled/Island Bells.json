@@ -1,0 +1,52 @@
+{
+  "id": "wtr079",
+  "name": "Island Bells",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Crisp",
+      "Glassy",
+      "Metallic",
+      "Tropical",
+      "Bright",
+      "Resonant",
+      "Vibrant",
+      "Synthetic",
+      "Small"
+    ],
+    "mood": [
+      "Joyful",
+      "Energetic",
+      "Playful",
+      "Cheerful",
+      "Relaxed"
+    ],
+    "instrument": [
+      "Marimba",
+      "Bells"
+    ],
+    "genre": [
+      "Vaporwave",
+      "Pop",
+      "Synthpop"
+    ],
+    "modulation": [
+      "Stable",
+      "Fluctuating",
+      "Delay",
+      "Reverb"
+    ],
+    "timbre": [
+      "Sine wave",
+      "FM",
+      "Fast attack",
+      "Long decay",
+      "Tonal"
+    ],
+    "inspiration": [
+      "Tropical Island",
+      "Coral reef"
+    ]
+  }
+}

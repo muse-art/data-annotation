@@ -1,0 +1,63 @@
+{
+  "id": "wt242",
+  "name": "Bastille Basher",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Rough",
+      "Gritty",
+      "Rubbery",
+      "Textured",
+      "Warm",
+      "Rich",
+      "Digital",
+      "Aggressive",
+      "Biting"
+    ],
+    "mood": [
+      "Energetic",
+      "Playful",
+      "Lively",
+      "Oppressive",
+      "Intriguing"
+    ],
+    "instrument": [],
+    "genre": [
+      "Techno",
+      "Drum and Bass",
+      "Dubstep",
+      "IDM",
+      "Glitch",
+      "Future Bass",
+      "Experimental"
+    ],
+    "modulation": [
+      "Unstable",
+      "Pulsating",
+      "Fluttering",
+      "Twisting",
+      "Fluctuating",
+      "Bouncing",
+      "Rhythmic",
+      "Stuttering",
+      "Jerky",
+      "Pulsing",
+      "Pumping",
+      "Throbbing",
+      "Filtering"
+    ],
+    "timbre": [
+      "Harmonic",
+      "Buzzy"
+    ],
+    "inspiration": [
+      "Modern digital synths",
+      "Outrun",
+      "Y2K",
+      "Cyberpunk",
+      "Sci-fi movies",
+      "Factory machinery"
+    ]
+  }
+}

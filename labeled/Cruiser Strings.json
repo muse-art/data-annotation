@@ -1,0 +1,75 @@
+{
+  "id": "wtr052",
+  "name": "Cruiser Strings",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Crisp",
+      "Clean",
+      "Sharp",
+      "Silky",
+      "Liquid",
+      "Glassy",
+      "Crystalline",
+      "Wet",
+      "Wide",
+      "Cold",
+      "Bright",
+      "Resonant",
+      "Shimmering",
+      "Brilliant",
+      "Synthetic",
+      "Analog",
+      "Icy",
+      "Delicate",
+      "Wispy"
+    ],
+    "mood": [
+      "Inspiring",
+      "Emotional",
+      "Melancholic",
+      "Somber",
+      "Mournful",
+      "Depressing",
+      "Composed",
+      "Stoic",
+      "Mysterious",
+      "Ethereal",
+      "Bittersweet",
+      "Yearning",
+      "Dreamy",
+      "Haunting"
+    ],
+    "instrument": [
+      "Synth Strings"
+    ],
+    "genre": [
+      "Ambient",
+      "Pop",
+      "Art Pop",
+      "Abstract Hip-hop",
+      "Cinematic"
+    ],
+    "modulation": [
+      "Swelling",
+      "Crescendo",
+      "Expanding",
+      "Rising",
+      "Delay",
+      "Reverb"
+    ],
+    "timbre": [
+      "Saw wave",
+      "Pulse wave",
+      "Physical modeling",
+      "Slow attack",
+      "Long release"
+    ],
+    "inspiration": [
+      "Vintage analog synths",
+      "Movie Soundtrack"
+    ]
+  }
+}

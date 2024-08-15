@@ -1,0 +1,67 @@
+{
+  "id": "wt009",
+  "name": "Prehistoric VHS",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Harsh",
+      "Rough",
+      "Gritty",
+      "Fuzzy",
+      "Textured",
+      "Bright",
+      "Rich",
+      "Muffled",
+      "Wide",
+      "Abrasive"
+    ],
+    "mood": [
+      "Epic",
+      "Passionate",
+      "Dark",
+      "Anxious",
+      "Tense",
+      "Lonely",
+      "Depressing",
+      "Bitter",
+      "Desperate",
+      "Detached",
+      "Indifferent",
+      "Mysterious",
+      "Ethereal",
+      "Surreal",
+      "Haunting"
+    ],
+    "instrument": [],
+    "genre": [
+      "Ambient",
+      "Drone",
+      "Cinematic"
+    ],
+    "modulation": [
+      "Unstable",
+      "Evolving",
+      "Fluttering",
+      "Undulating",
+      "Swelling",
+      "Fluctuating",
+      "Writhing",
+      "Jerky",
+      "Erratic",
+      "Expanding"
+    ],
+    "timbre": [
+      "Complex",
+      "Detuned",
+      "Chaotic",
+      "Pad-like",
+      "Atonal"
+    ],
+    "inspiration": [
+      "VHS",
+      "Avant-garde films"
+    ]
+  }
+}

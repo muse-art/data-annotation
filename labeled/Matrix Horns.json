@@ -1,0 +1,60 @@
+{
+  "id": "wt067",
+  "name": "Matrix Horns",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Gritty",
+      "Fuzzy",
+      "Solid",
+      "Textured",
+      "Warm",
+      "Rich",
+      "Lush",
+      "Full",
+      "Saturated",
+      "Analog",
+      "Punchy",
+      "Hefty"
+    ],
+    "mood": [
+      "Euphoric",
+      "Triumphant",
+      "Confident",
+      "Dark"
+    ],
+    "instrument": [
+      "Horns"
+    ],
+    "genre": [
+      "House",
+      "Synthwave",
+      "Electronica",
+      "Synthpop",
+      "Art Pop",
+      "Psychedelic Pop",
+      "Progressive Rock",
+      "Instrumental Hip-hop",
+      "R&B"
+    ],
+    "modulation": [
+      "Static"
+    ],
+    "timbre": [
+      "Saw wave",
+      "Triangle wave",
+      "Complex",
+      "Harmonics",
+      "Fast attack",
+      "Short release",
+      "Long decay",
+      "Fading",
+      "Low-pass"
+    ],
+    "inspiration": [
+      "60s psychedelia",
+      "Vintage analog synths"
+    ]
+  }
+}

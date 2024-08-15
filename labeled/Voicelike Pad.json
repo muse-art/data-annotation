@@ -1,0 +1,64 @@
+{
+  "id": "wtr157",
+  "name": "Voicelike Pad",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Smooth",
+      "Mellow",
+      "Clean",
+      "Airy",
+      "Wet",
+      "Lush",
+      "Hollow",
+      "Synthetic",
+      "Wide",
+      "Huge",
+      "Gentle",
+      "Delicate"
+    ],
+    "mood": [
+      "Joyful",
+      "Melancholic",
+      "Mournful",
+      "Contemplative",
+      "Mysterious",
+      "Paradoxical"
+    ],
+    "instrument": [],
+    "genre": [
+      "Ambient",
+      "Vaporwave",
+      "Electronica",
+      "Jungle",
+      "Indie"
+    ],
+    "modulation": [
+      "Stable",
+      "Static",
+      "Swelling",
+      "Crescendo",
+      "Delay",
+      "Reverb"
+    ],
+    "timbre": [
+      "Harmonic",
+      "Formant",
+      "Resonant",
+      "Pure",
+      "Slow attack",
+      "Long release",
+      "Pad-like",
+      "Low-pass",
+      "Vowel",
+      "Vocal"
+    ],
+    "inspiration": [
+      "2000s video games",
+      "Vaporwave aesthetics",
+      "VHS"
+    ]
+  }
+}

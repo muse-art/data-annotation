@@ -1,0 +1,78 @@
+{
+  "id": "wtr034_mod",
+  "name": "Anthem Pad",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Smooth",
+      "Fuzzy",
+      "Dense",
+      "Viscous",
+      "Textured",
+      "Warm",
+      "Dark",
+      "Rich",
+      "Thick",
+      "Lush",
+      "Full",
+      "Saturated",
+      "Velvety",
+      "Analog",
+      "Digital",
+      "Bold",
+      "Noisy",
+      "Raw",
+      "Raspy",
+      "Huge",
+      "Massive"
+    ],
+    "mood": [
+      "Uplifting",
+      "Epic",
+      "Joyful",
+      "Euphoric",
+      "Triumphant",
+      "Confident",
+      "Empowering",
+      "Inspiring",
+      "Melancholic",
+      "Nostalgic",
+      "Enchanting",
+      "Profound"
+    ],
+    "instrument": [
+      "Supersaw"
+    ],
+    "genre": [
+      "House",
+      "Trance",
+      "Drum and Bass",
+      "Electro",
+      "Synthwave",
+      "Glitch",
+      "Future Bass",
+      "Electronica",
+      "Synthpop",
+      "Art Pop"
+    ],
+    "modulation": [
+      "Stable",
+      "Fluctuating",
+      "Steady",
+      "Reverb",
+      "Compression"
+    ],
+    "timbre": [
+      "Saw wave",
+      "Overtone-rich",
+      "Harmonic",
+      "Simple",
+      "Detuned",
+      "Unison"
+    ],
+    "inspiration": [
+      "2010s EDM"
+    ]
+  }
+}

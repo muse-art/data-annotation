@@ -1,0 +1,65 @@
+{
+  "id": "wtr009",
+  "name": "Basic Bells",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Crisp",
+      "Airy",
+      "Glassy",
+      "Metallic",
+      "Crystalline",
+      "Bright",
+      "Thin",
+      "Organic",
+      "Polished",
+      "Wispy"
+    ],
+    "mood": [
+      "Lively",
+      "Somber",
+      "Calm",
+      "Serene",
+      "Relaxed",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "instrument": [
+      "Bells"
+    ],
+    "genre": [
+      "Ambient",
+      "Techno",
+      "House",
+      "Minimal",
+      "New Age",
+      "Pop",
+      "Cinematic"
+    ],
+    "modulation": [
+      "Stable",
+      "Static",
+      "Delay",
+      "Reverb"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Pure",
+      "Harmonics",
+      "Fast attack",
+      "Long release",
+      "Percussive",
+      "Low-pass",
+      "Tonal"
+    ],
+    "inspiration": [
+      "Mountain town",
+      "Nature sounds",
+      "Bird calls",
+      "Train station ambience",
+      "School playground"
+    ]
+  }
+}

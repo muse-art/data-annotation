@@ -1,0 +1,54 @@
+{
+  "id": "wt126",
+  "name": "A Soft Chord",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Mellow",
+      "Rounded",
+      "Glassy",
+      "Warm",
+      "Dark",
+      "Velvety",
+      "Polished",
+      "Velvety"
+    ],
+    "mood": [
+      "Playful",
+      "Carefree",
+      "Somber",
+      "Relaxed",
+      "Mellow",
+      "Elusive"
+    ],
+    "instrument": [],
+    "genre": [
+      "Ambient",
+      "Chillwave",
+      "Pop",
+      "Dream Pop",
+      "Hip-hop",
+      "Abstract Hip-hop",
+      "Lofi Hip-hop",
+      "Jazz",
+      "R&B"
+    ],
+    "modulation": [
+      "Static",
+      "Fluttering"
+    ],
+    "timbre": [
+      "Fundamental",
+      "Pure",
+      "Simple",
+      "Fast attack",
+      "Fading",
+      "Transient",
+      "Low-pass",
+      "Tonal"
+    ],
+    "inspiration": []
+  }
+}

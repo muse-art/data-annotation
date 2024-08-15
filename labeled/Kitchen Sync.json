@@ -1,0 +1,71 @@
+{
+  "id": "wt007",
+  "name": "Kitchen Sync",
+  "instrument": "",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Smooth",
+      "Sharp",
+      "Silky",
+      "Liquid",
+      "Glassy",
+      "Crystalline",
+      "Wet",
+      "Bright",
+      "Thin",
+      "Brilliant",
+      "Organic",
+      "Digital",
+      "Gentle"
+    ],
+    "mood": [
+      "Joyful",
+      "Euphoric",
+      "Energetic",
+      "Playful",
+      "Carefree",
+      "Lively",
+      "Peaceful",
+      "Lonely",
+      "Calm",
+      "Serene",
+      "Meditative",
+      "Enigmatic",
+      "Intriguing",
+      "Elusive"
+    ],
+    "instrument": [],
+    "genre": [
+      "Ambient",
+      "Downtempo",
+      "New Age",
+      "Electronica",
+      "Art Pop",
+      "Art Rock",
+      "World Music"
+    ],
+    "modulation": [
+      "Unstable",
+      "Evolving",
+      "Sweeping",
+      "Morphing",
+      "Flowing",
+      "Bouncing",
+      "Rhythmic",
+      "Swelling"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Triangle wave",
+      "Resonant",
+      "Harmonics",
+      "Low-pass"
+    ],
+    "inspiration": [
+      "Rei Harakami",
+      "Ear candy"
+    ]
+  }
+}

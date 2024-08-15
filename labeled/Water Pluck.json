@@ -1,0 +1,68 @@
+{
+  "id": "wtr158",
+  "name": "Water Pluck",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Crisp",
+      "Clean",
+      "Sharp",
+      "Liquid",
+      "Glassy",
+      "Crystalline",
+      "Wet",
+      "Bright",
+      "Resonant",
+      "Shimmering",
+      "Pristine",
+      "Organic",
+      "Watery",
+      "Plucky",
+      "Icy",
+      "Piercing"
+    ],
+    "mood": [
+      "Playful",
+      "Lonely",
+      "Calm",
+      "Serene",
+      "Pensive",
+      "Mysterious",
+      "Ethereal",
+      "Enchanting",
+      "Intriguing",
+      "Elusive"
+    ],
+    "instrument": [
+      "Pluck"
+    ],
+    "genre": [
+      "Downtempo",
+      "Techno",
+      "House",
+      "Trance",
+      "New Age",
+      "Synthpop",
+      "New Wave",
+      "World Music"
+    ],
+    "modulation": [
+      "Stable",
+      "Fading",
+      "Decrescendo",
+      "Delay",
+      "Reverb"
+    ],
+    "timbre": [
+      "Square wave",
+      "Harmonic",
+      "Complex",
+      "FM"
+    ],
+    "inspiration": [
+      "water temple",
+      "video game water level"
+    ]
+  }
+}

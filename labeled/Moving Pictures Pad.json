@@ -1,0 +1,68 @@
+{
+  "id": "wtr105",
+  "name": "Moving Pictures Pad",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Fuzzy",
+      "Wet",
+      "Textured",
+      "Warm",
+      "Dark",
+      "Lush",
+      "Full",
+      "Analog",
+      "Noisy",
+      "Huge",
+      "Deep"
+    ],
+    "mood": [
+      "Epic",
+      "Hopeful",
+      "Inspiring",
+      "Melancholic",
+      "Somber",
+      "Gloomy",
+      "Depressing",
+      "Calm",
+      "Mysterious",
+      "Nostalgic",
+      "Bittersweet"
+    ],
+    "instrument": [],
+    "genre": [
+      "Synthwave",
+      "Vaporwave",
+      "Chillwave",
+      "Space Rock",
+      "World Music",
+      "Cinematic"
+    ],
+    "modulation": [
+      "Stable",
+      "Sweeping",
+      "Fluctuating",
+      "Crescendo",
+      "Chorus",
+      "Delay",
+      "Reverb",
+      "Filtering",
+      "Compression"
+    ],
+    "timbre": [
+      "Saw wave",
+      "Harmonic",
+      "Filtered",
+      "FM",
+      "Slow attack",
+      "Long release",
+      "Pad-like"
+    ],
+    "inspiration": [
+      "Vintage analog synths",
+      "Vintage pad",
+      "Movie Soundtrack"
+    ]
+  }
+}

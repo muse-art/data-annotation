@@ -1,0 +1,52 @@
+{
+  "id": "wt065",
+  "name": "Brutal Quad Saw",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Harsh",
+      "Gritty",
+      "Fuzzy",
+      "Dense",
+      "Textured",
+      "Bright",
+      "Rich",
+      "Full",
+      "Vibrant",
+      "Analog",
+      "Grungy",
+      "Raw",
+      "Raspy",
+      "Thick",
+      "Abrasive"
+    ],
+    "mood": [
+      "Energetic",
+      "Empowering",
+      "Angry"
+    ],
+    "instrument": [],
+    "genre": [
+      "House",
+      "Electro",
+      "Synthwave",
+      "Electronica",
+      "Electropop",
+      "Power Pop",
+      "Indie Rock"
+    ],
+    "modulation": [
+      "Static",
+      "Fluctuating",
+      "Steady"
+    ],
+    "timbre": [
+      "Harmonic",
+      "Fast attack"
+    ],
+    "inspiration": [
+      "80s synth pop"
+    ]
+  }
+}

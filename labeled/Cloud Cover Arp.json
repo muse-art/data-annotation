@@ -1,0 +1,64 @@
+{
+  "id": "wtr041",
+  "name": "Cloud Cover Arp",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Clean",
+      "Fuzzy",
+      "Airy",
+      "Glassy",
+      "Metallic",
+      "Wet",
+      "Warm",
+      "Bright",
+      "Rich",
+      "Refined",
+      "Punchy",
+      "Plucky",
+      "Jagged"
+    ],
+    "mood": [
+      "Uplifting",
+      "Joyful",
+      "Euphoric",
+      "Carefree",
+      "Anxious"
+    ],
+    "instrument": [],
+    "genre": [
+      "Electro",
+      "Synthwave",
+      "Electronica",
+      "Indie",
+      "Psychedelic Pop",
+      "Indie Rock"
+    ],
+    "modulation": [
+      "Fluttering",
+      "Zigzagging",
+      "Arpeggiated",
+      "Stuttering",
+      "Groovy",
+      "Erratic",
+      "Chorus",
+      "Delay",
+      "Reverb",
+      "Filtering"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Complex",
+      "Harmonics",
+      "FM",
+      "Fast attack",
+      "High-pass"
+    ],
+    "inspiration": [
+      "80s synth pop",
+      "70s psychedelic electronica"
+    ]
+  }
+}

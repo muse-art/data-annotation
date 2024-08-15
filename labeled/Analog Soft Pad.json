@@ -1,0 +1,87 @@
+{
+  "id": "wt212",
+  "name": "Analog Soft Pad",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Smooth",
+      "Crisp",
+      "Mellow",
+      "Clean",
+      "Silky",
+      "Liquid",
+      "Cold",
+      "Dark",
+      "Full",
+      "Clear",
+      "Synthetic",
+      "Analog",
+      "Wide",
+      "Icy",
+      "Gentle",
+      "Delicate"
+    ],
+    "mood": [
+      "Emotional",
+      "Triumphant",
+      "Melancholic",
+      "Somber",
+      "Mournful",
+      "Depressing",
+      "Helpless",
+      "Calm",
+      "Serene",
+      "Relaxed",
+      "Balanced",
+      "Composed",
+      "Reserved",
+      "Steady",
+      "Mysterious",
+      "Ethereal",
+      "Nostalgic",
+      "Wistful",
+      "Yearning",
+      "Dreamy"
+    ],
+    "instrument": [],
+    "genre": [
+      "Ambient",
+      "Downtempo",
+      "Synthwave",
+      "Chillwave",
+      "New Age",
+      "Electronica",
+      "Jungle",
+      "Pop",
+      "Synthpop",
+      "Indie",
+      "Art Pop",
+      "Dream Pop",
+      "Indie Rock",
+      "Progressive Rock",
+      "Cinematic"
+    ],
+    "modulation": [
+      "Stable",
+      "Static",
+      "Flowing",
+      "Crescendo"
+    ],
+    "timbre": [
+      "Saw wave",
+      "Square wave",
+      "Filtered",
+      "Pure",
+      "Detuned",
+      "Slow attack",
+      "Long release",
+      "Pad-like",
+      "Low-pass"
+    ],
+    "inspiration": [
+      "Movie Soundtrack"
+    ]
+  }
+}

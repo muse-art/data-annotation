@@ -1,0 +1,70 @@
+{
+  "id": "wt135",
+  "name": "Dulcimore Keys",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Mellow",
+      "Clean",
+      "Silky",
+      "Liquid",
+      "Airy",
+      "Wet",
+      "Bright",
+      "Resonant",
+      "Shimmering",
+      "Transparent",
+      "Ethereal",
+      "Crystalline",
+      "Velvety",
+      "Icy",
+      "Delicate",
+      "Wispy"
+    ],
+    "mood": [
+      "Joyful",
+      "Melancholic",
+      "Anxious",
+      "Lonely",
+      "Calm",
+      "Pensive",
+      "Dreamy",
+      "Enchanting",
+      "Elusive"
+    ],
+    "instrument": [
+      "Electric Piano"
+    ],
+    "genre": [
+      "Ambient",
+      "House",
+      "Trance",
+      "Synthpop",
+      "Indie",
+      "Art Pop",
+      "R&B"
+    ],
+    "modulation": [
+      "Unstable",
+      "Morphing",
+      "Swelling",
+      "Oscillating"
+    ],
+    "timbre": [
+      "Harmonic",
+      "Complex",
+      "Detuned",
+      "Fast attack",
+      "Long release",
+      "Pad-like"
+    ],
+    "inspiration": [
+      "80s synth pop",
+      "movie soundtrack",
+      "VHS",
+      "Icy Breeze"
+    ]
+  }
+}

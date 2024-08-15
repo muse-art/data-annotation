@@ -1,0 +1,69 @@
+{
+  "id": "wt157",
+  "name": "Position Glass",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Crisp",
+      "Clean",
+      "Brittle",
+      "Glassy",
+      "Crystalline",
+      "Cold",
+      "Thin",
+      "Hollow",
+      "Shimmering",
+      "Clear",
+      "Transparent",
+      "Synthetic",
+      "Holographic",
+      "Small",
+      "Icy"
+    ],
+    "mood": [
+      "Hopeful",
+      "Melancholic",
+      "Gloomy",
+      "Lonely",
+      "Depressing",
+      "Resentful",
+      "Desperate",
+      "Helpless",
+      "Pensive",
+      "Detached",
+      "Mysterious",
+      "Haunting"
+    ],
+    "instrument": [
+      "Electric Piano"
+    ],
+    "genre": [
+      "Techno",
+      "Drum and Bass",
+      "Jungle",
+      "Art Rock",
+      "Trap",
+      "Lofi Hip-hop"
+    ],
+    "modulation": [
+      "Stable",
+      "Static",
+      "Fading",
+      "Decrescendo",
+      "Phasing"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Triangle wave",
+      "Harmonic",
+      "Resonant",
+      "FM",
+      "Fast attack",
+      "Long release",
+      "Long decay",
+      "Low-pass"
+    ],
+    "inspiration": []
+  }
+}

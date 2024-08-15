@@ -1,0 +1,79 @@
+{
+  "id": "wt227",
+  "name": "Remember November",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Smooth",
+      "Crisp",
+      "Sharp",
+      "Liquid",
+      "Cold",
+      "Bright",
+      "Lush",
+      "Shimmering",
+      "Transparent",
+      "Synthetic",
+      "Analog",
+      "Wide",
+      "Delicate",
+      "Wispy"
+    ],
+    "mood": [
+      "Blissful",
+      "Hopeful",
+      "Radiant",
+      "Melancholic",
+      "Somber",
+      "Gloomy",
+      "Lonely",
+      "Serene",
+      "Contemplative",
+      "Mysterious",
+      "Ethereal",
+      "Nostalgic",
+      "Dreamy",
+      "Haunting"
+    ],
+    "instrument": [
+      "Roland Juno-106"
+    ],
+    "genre": [
+      "Ambient",
+      "Downtempo",
+      "Techno",
+      "House",
+      "Synthwave",
+      "Chillwave",
+      "Synthpop"
+    ],
+    "modulation": [
+      "Unstable",
+      "Evolving",
+      "Pulsating",
+      "Sweeping",
+      "Fluttering",
+      "Undulating",
+      "Swelling",
+      "Fluctuating",
+      "Oscillating",
+      "Bouncing",
+      "Rhythmic",
+      "Steady",
+      "Crescendo",
+      "Pumping"
+    ],
+    "timbre": [
+      "Saw wave",
+      "Harmonic",
+      "Slow attack",
+      "Pad-like"
+    ],
+    "inspiration": [
+      "Vintage analog synths",
+      "Sci-fi movies"
+    ]
+  }
+}

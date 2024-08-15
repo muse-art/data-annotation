@@ -1,0 +1,65 @@
+{
+  "id": "wtr007",
+  "name": "Basic Analog Chime",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Airy",
+      "Glassy",
+      "Metallic",
+      "Crystalline",
+      "Wet",
+      "Cold",
+      "Bright",
+      "Thin",
+      "Hollow",
+      "Resonant",
+      "Pristine",
+      "Analog",
+      "Polished",
+      "Icy",
+      "Piercing",
+      "Wispy"
+    ],
+    "mood": [
+      "Uplifting",
+      "Joyful",
+      "Radiant",
+      "Melancholic",
+      "Somber",
+      "Lonely",
+      "Serene",
+      "Contemplative",
+      "Mysterious",
+      "Dreamy"
+    ],
+    "instrument": [
+      "Chime"
+    ],
+    "genre": [
+      "Ambient",
+      "Techno",
+      "House",
+      "Trance",
+      "Synthwave",
+      "Dream Pop"
+    ],
+    "modulation": [
+      "Stable",
+      "Unstable",
+      "Fluctuating",
+      "Delay",
+      "Reverb"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Triangle wave",
+      "FM",
+      "Fast attack",
+      "Low-pass",
+      "Tonal"
+    ],
+    "inspiration": []
+  }
+}

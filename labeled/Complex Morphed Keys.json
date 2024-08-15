@@ -1,0 +1,87 @@
+{
+  "id": "wtr045",
+  "name": "Complex Morphed Keys",
+  "instrument": "Wavetable",
+  "isRack": true,
+  "keywords": {
+    "character": [
+      "Mellow",
+      "Fuzzy",
+      "Rounded",
+      "Airy",
+      "Glassy",
+      "Rich",
+      "Hollow",
+      "Muffled",
+      "Opaque",
+      "Saturated",
+      "Analog",
+      "Ethereal",
+      "Raspy",
+      "Opaque",
+      "Holographic",
+      "Wispy"
+    ],
+    "mood": [
+      "Playful",
+      "Blissful",
+      "Melancholic",
+      "Contemplative",
+      "Introspective",
+      "Detached",
+      "Mysterious",
+      "Ethereal",
+      "Dreamy",
+      "Enchanting",
+      "Enigmatic",
+      "Perplexing",
+      "Intriguing",
+      "Elusive"
+    ],
+    "instrument": [
+      "Roland System-8"
+    ],
+    "genre": [
+      "Ambient",
+      "Drone",
+      "IDM",
+      "Vaporwave",
+      "Glitch",
+      "Minimal",
+      "Shoegaze"
+    ],
+    "modulation": [
+      "Unstable",
+      "Pulsating",
+      "Wobbling",
+      "Fluttering",
+      "Morphing",
+      "Undulating",
+      "Flowing",
+      "Soaring",
+      "Gyrating",
+      "Swelling",
+      "Delay",
+      "Reverb",
+      "Distortion",
+      "Compression",
+      "Saturation"
+    ],
+    "timbre": [
+      "Square wave",
+      "Filtered",
+      "Low-pass",
+      "Band-pass"
+    ],
+    "inspiration": [
+      "Vintage analog synths",
+      "Vaporwave aesthetics",
+      "Synthwave",
+      "Digital Age",
+      "VHS",
+      "Pop art",
+      "Dolphin clicks",
+      "Coral reef"
+    ]
+  }
+}

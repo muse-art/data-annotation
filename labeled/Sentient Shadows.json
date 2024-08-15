@@ -1,0 +1,102 @@
+{
+  "id": "wt159",
+  "name": "Sentient Shadows",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Smooth",
+      "Crisp",
+      "Mellow",
+      "Clean",
+      "Silky",
+      "Liquid",
+      "Crystalline",
+      "Warm",
+      "Bright",
+      "Rich",
+      "Thin",
+      "Brilliant",
+      "Pristine",
+      "Velvety",
+      "Analog",
+      "Ethereal",
+      "Watery",
+      "Refined",
+      "Sleek",
+      "Controlled",
+      "Pure"
+    ],
+    "mood": [
+      "Joyful",
+      "Euphoric",
+      "Playful",
+      "Blissful",
+      "Melancholic",
+      "Somber",
+      "Lonely",
+      "Depressing",
+      "Calm",
+      "Serene",
+      "Contemplative",
+      "Introspective",
+      "Balanced",
+      "Composed",
+      "Stoic",
+      "Steady",
+      "Mysterious",
+      "Ethereal",
+      "Nostalgic",
+      "Wistful",
+      "Yearning",
+      "Dreamy",
+      "Enchanting",
+      "Enigmatic",
+      "Intriguing",
+      "Elusive",
+      "Profound"
+    ],
+    "instrument": [
+      "Electric Piano"
+    ],
+    "genre": [
+      "Ambient",
+      "Techno",
+      "House",
+      "Synthwave",
+      "Electronica",
+      "Downtempo",
+      "Synthpop",
+      "Indie",
+      "Electropop",
+      "Art Pop",
+      "Art Rock",
+      "Trap",
+      "Cloud Rap",
+      "Lofi Hip-hop",
+      "Instrumental Hip-hop",
+      "Jazz",
+      "R&B",
+      "Soul",
+      "Gospel"
+    ],
+    "modulation": [
+      "Stable",
+      "Static",
+      "Cascading",
+      "Fading"
+    ],
+    "timbre": [
+      "Sine wave",
+      "Harmonics",
+      "Long release",
+      "Long decay",
+      "Fading",
+      "Tonal"
+    ],
+    "inspiration": [
+      "Film noir"
+    ]
+  }
+}
