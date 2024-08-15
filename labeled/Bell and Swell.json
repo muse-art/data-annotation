@@ -1,57 +1,63 @@
 {
-  "id": "wtr027",
-  "name": "Bell and Swell",
-  "instrument": "Wavetable",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Crisp",
-      "Mellow",
-      "Clean",
-      "Glassy",
-      "Metallic",
-      "Crystalline",
-      "Cold",
-      "Thin",
-      "Polished",
-      "Sleek",
-      "Lustrous"
-    ],
-    "mood": [
-      "Blissful",
-      "Cheerful",
-      "Lonely",
-      "Calm",
-      "Serene"
-    ],
-    "instrument": [
-      "Marimba",
-      "Bells"
-    ],
-    "genre": [
-      "Ambient",
-      "Drum and Bass",
-      "New Age",
-      "Electronica",
-      "Indie"
-    ],
-    "modulation": [
-      "Sweeping",
-      "Morphing",
-      "Swelling",
-      "Warping",
-      "Pulse-width modulation"
-    ],
-    "timbre": [
-      "Harmonic",
-      "Resonant",
-      "Partials"
-    ],
-    "inspiration": [
-      "Wind through trees",
-      "School playground",
-      "Shopping mall ambience"
+    "id": "wtr027",
+    "name": "Bell and Swell",
+    "instrument": "Wavetable",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Digital",
+            "Clean",
+            "Glassy",
+            "Mellow",
+            "Crisp",
+            "Sleek",
+            "Thin",
+            "Lustrous",
+            "Cold",
+            "Metallic",
+            "Polished",
+            "Crystalline"
+        ],
+        "mood": [
+            "Blissful",
+            "Cheerful",
+            "Lonely",
+            "Calm",
+            "Serene"
+        ],
+        "instrument": [
+            "Marimba",
+            "Bells"
+        ],
+        "genre": [
+            "Ambient",
+            "Drum and Bass",
+            "New Age",
+            "Electronica",
+            "Indie"
+        ],
+        "modulation": [
+            "Sweeping",
+            "Morphing",
+            "Swelling",
+            "Warping",
+            "Pulse-width modulation"
+        ],
+        "timbre": [
+            "Harmonic",
+            "Resonant",
+            "Partials"
+        ],
+        "inspiration": [
+            "Wind through trees",
+            "School playground",
+            "Shopping mall ambience"
+        ]
+    },
+    "sounds": [
+        "Synth Mallets",
+        "Bell Chromatic",
+        "Mallets"
     ]
-  }
 }

@@ -1,63 +1,69 @@
 {
-  "id": "wtr067",
-  "name": "FM Piano Classic",
-  "instrument": "Wavetable",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Smooth",
-      "Crisp",
-      "Mellow",
-      "Clean",
-      "Silky",
-      "Warm",
-      "Rich",
-      "Velvety",
-      "Synthetic",
-      "Digital",
-      "Polished",
-      "Sleek",
-      "Gentle",
-      "Delicate"
-    ],
-    "mood": [
-      "Playful",
-      "Cheerful",
-      "Melancholic",
-      "Calm",
-      "Composed"
-    ],
-    "instrument": [
-      "Electric Piano"
-    ],
-    "genre": [
-      "Pop",
-      "Rock",
-      "Instrumental Hip-hop",
-      "Jazz",
-      "R&B",
-      "Soul"
-    ],
-    "modulation": [
-      "Stable",
-      "Static",
-      "Delay",
-      "Reverb"
-    ],
-    "timbre": [
-      "Sine wave",
-      "Pure",
-      "Harmonics",
-      "FM",
-      "Physical modeling",
-      "Piano-like",
-      "Fast attack",
-      "Low-pass",
-      "Tonal"
-    ],
-    "inspiration": [
-      "Real electric keyboard"
+    "id": "wtr067",
+    "name": "FM Piano Classic",
+    "instrument": "Wavetable",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Silky",
+            "Clean",
+            "Crisp",
+            "Sleek",
+            "Basic",
+            "Smooth",
+            "Velvety",
+            "Polished",
+            "Delicate",
+            "Synthetic",
+            "Soft",
+            "Digital",
+            "Mellow",
+            "Rich",
+            "Gentle",
+            "Warm"
+        ],
+        "mood": [
+            "Playful",
+            "Cheerful",
+            "Melancholic",
+            "Calm",
+            "Composed"
+        ],
+        "instrument": [
+            "Electric Piano"
+        ],
+        "genre": [
+            "Pop",
+            "Rock",
+            "Instrumental Hip-hop",
+            "Jazz",
+            "R&B",
+            "Soul"
+        ],
+        "modulation": [
+            "Stable",
+            "Static",
+            "Delay",
+            "Reverb"
+        ],
+        "timbre": [
+            "Sine wave",
+            "Pure",
+            "Harmonics",
+            "FM",
+            "Physical modeling",
+            "Piano-like",
+            "Fast attack",
+            "Low-pass",
+            "Tonal"
+        ],
+        "inspiration": [
+            "Real electric keyboard"
+        ]
+    },
+    "sounds": [
+        "Piano & Keys",
+        "Synth Keys",
+        "Electric Piano"
     ]
-  }
 }

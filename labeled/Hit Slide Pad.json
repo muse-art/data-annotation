@@ -1,69 +1,72 @@
 {
-  "id": "wtr075",
-  "name": "Hit Slide Pad",
-  "instrument": "Wavetable",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Fuzzy",
-      "Airy",
-      "Textured",
-      "Bright",
-      "Resonant",
-      "Muffled",
-      "Synthetic",
-      "Analog"
-    ],
-    "mood": [
-      "Somber",
-      "Contemplative",
-      "Mysterious",
-      "Ethereal",
-      "Surreal",
-      "Dreamy",
-      "Enchanting",
-      "Elusive"
-    ],
-    "instrument": [
-      "Minimoog"
-    ],
-    "genre": [
-      "Synthwave",
-      "Synthpop",
-      "Art Pop",
-      "Dream Pop",
-      "Psychedelic Pop",
-      "Progressive Rock"
-    ],
-    "modulation": [
-      "Sweeping",
-      "Fluttering",
-      "Swelling",
-      "Gyrating",
-      "Pulsing",
-      "Throbbing",
-      "Phasing",
-      "Flanging",
-      "Chorus",
-      "Delay",
-      "Reverb",
-      "Saturation"
-    ],
-    "timbre": [
-      "Saw wave",
-      "Sine wave",
-      "Harmonic",
-      "Formant",
-      "Resonant",
-      "Low-pass",
-      "Vowel",
-      "Sibilant",
-      "Tonal"
-    ],
-    "inspiration": [
-      "Space Age",
-      "Sci-fi movies"
+    "id": "wtr075",
+    "name": "Hit Slide Pad",
+    "instrument": "Wavetable",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Analog",
+            "Airy",
+            "Fuzzy",
+            "Resonant",
+            "Muffled",
+            "Textured",
+            "Bright",
+            "Synthetic"
+        ],
+        "mood": [
+            "Somber",
+            "Contemplative",
+            "Mysterious",
+            "Ethereal",
+            "Surreal",
+            "Dreamy",
+            "Enchanting",
+            "Elusive"
+        ],
+        "instrument": [
+            "Minimoog"
+        ],
+        "genre": [
+            "Synthwave",
+            "Synthpop",
+            "Art Pop",
+            "Dream Pop",
+            "Psychedelic Pop",
+            "Progressive Rock"
+        ],
+        "modulation": [
+            "Sweeping",
+            "Fluttering",
+            "Swelling",
+            "Gyrating",
+            "Pulsing",
+            "Throbbing",
+            "Phasing",
+            "Flanging",
+            "Chorus",
+            "Delay",
+            "Reverb",
+            "Saturation"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Sine wave",
+            "Harmonic",
+            "Formant",
+            "Resonant",
+            "Low-pass",
+            "Vowel",
+            "Sibilant",
+            "Tonal"
+        ],
+        "inspiration": [
+            "Space Age",
+            "Sci-fi movies"
+        ]
+    },
+    "sounds": [
+        "Pad"
     ]
-  }
 }

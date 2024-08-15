@@ -1,59 +1,63 @@
 {
-  "id": "wt017",
-  "name": "Venus Doppler",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Fuzzy",
-      "Brittle",
-      "Airy",
-      "Dry",
-      "Grainy",
-      "Textured",
-      "Spacey",
-      "Cold",
-      "Thin",
-      "Sparse",
-      "Noisy",
-      "Murky",
-      "Wide"
-    ],
-    "mood": [
-      "Calm",
-      "Detached",
-      "Indifferent",
-      "Mysterious",
-      "Ethereal",
-      "Dreamy",
-      "Haunting"
-    ],
-    "instrument": [],
-    "genre": [
-      "Ambient",
-      "Drone",
-      "Shoegaze",
-      "Post-Rock",
-      "Space Rock"
-    ],
-    "modulation": [
-      "Unstable",
-      "Evolving",
-      "Fluttering",
-      "Undulating",
-      "Fluctuating",
-      "Waveshaping"
-    ],
-    "timbre": [
-      "Resonant",
-      "Complex",
-      "Slow attack",
-      "Long release",
-      "Pad-like",
-      "Low-pass",
-      "Breathy"
-    ],
-    "inspiration": []
-  }
+    "id": "wt017",
+    "name": "Venus Doppler",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Murky",
+            "Sparse",
+            "Airy",
+            "Evolving",
+            "Fuzzy",
+            "Dry",
+            "Spacey",
+            "Thin",
+            "Wide",
+            "Cold",
+            "Textured",
+            "Noisy",
+            "Brittle",
+            "Grainy"
+        ],
+        "mood": [
+            "Calm",
+            "Detached",
+            "Indifferent",
+            "Mysterious",
+            "Ethereal",
+            "Dreamy",
+            "Haunting"
+        ],
+        "instrument": [],
+        "genre": [
+            "Ambient",
+            "Drone",
+            "Shoegaze",
+            "Post-Rock",
+            "Space Rock"
+        ],
+        "modulation": [
+            "Unstable",
+            "Evolving",
+            "Fluttering",
+            "Undulating",
+            "Fluctuating",
+            "Waveshaping"
+        ],
+        "timbre": [
+            "Resonant",
+            "Complex",
+            "Slow attack",
+            "Long release",
+            "Pad-like",
+            "Low-pass",
+            "Breathy"
+        ],
+        "inspiration": []
+    },
+    "sounds": [
+        "Pad"
+    ]
 }

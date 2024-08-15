@@ -1,52 +1,57 @@
 {
-  "id": "wt094",
-  "name": "Arpeggiate Me",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Crisp",
-      "Mellow",
-      "Clean",
-      "Glassy",
-      "Bright",
-      "Shimmering",
-      "Clear",
-      "Plucky",
-      "Delicate",
-      "Wispy"
-    ],
-    "mood": [
-      "Blissful",
-      "Hopeful",
-      "Radiant",
-      "Lonely",
-      "Calm",
-      "Serene",
-      "Bittersweet",
-      "Wistful"
-    ],
-    "instrument": [
-      "Electric Guitar",
-      "Electric Piano"
-    ],
-    "genre": [
-      "Electronica",
-      "Pop",
-      "Synthpop",
-      "New Wave",
-      "Dream Pop"
-    ],
-    "modulation": [
-      "Static",
-      "Fading",
-      "Arpeggiated"
-    ],
-    "timbre": [
-      "Harmonic",
-      "Fast attack",
-      "Tonal"
-    ],
-    "inspiration": []
-  }
+    "id": "wt094",
+    "name": "Arpeggiate Me",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Clean",
+            "Glassy",
+            "Mellow",
+            "Plucky",
+            "Crisp",
+            "Basic",
+            "Shimmering",
+            "Bright",
+            "Delicate",
+            "Clear",
+            "Wispy"
+        ],
+        "mood": [
+            "Blissful",
+            "Hopeful",
+            "Radiant",
+            "Lonely",
+            "Calm",
+            "Serene",
+            "Bittersweet",
+            "Wistful"
+        ],
+        "instrument": [
+            "Electric Guitar",
+            "Electric Piano"
+        ],
+        "genre": [
+            "Electronica",
+            "Pop",
+            "Synthpop",
+            "New Wave",
+            "Dream Pop"
+        ],
+        "modulation": [
+            "Static",
+            "Fading",
+            "Arpeggiated"
+        ],
+        "timbre": [
+            "Harmonic",
+            "Fast attack",
+            "Tonal"
+        ],
+        "inspiration": []
+    },
+    "sounds": [
+        "Guitar & Plucked",
+        "Synth Plucked"
+    ]
 }

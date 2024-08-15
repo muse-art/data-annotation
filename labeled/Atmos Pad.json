@@ -1,64 +1,68 @@
 {
-  "id": "wt216",
-  "name": "Atmos Pad",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Smooth",
-      "Mellow",
-      "Clean",
-      "Rounded",
-      "Silky",
-      "Liquid",
-      "Cold",
-      "Dark",
-      "Rich",
-      "Lush",
-      "Clear",
-      "Ethereal"
-    ],
-    "mood": [
-      "Blissful",
-      "Melancholic",
-      "Somber",
-      "Calm",
-      "Serene",
-      "Relaxed",
-      "Mellow",
-      "Contemplative",
-      "Introspective",
-      "Meditative",
-      "Grounded",
-      "Centered",
-      "Mysterious",
-      "Ethereal",
-      "Wistful",
-      "Dreamy",
-      "Enchanting"
-    ],
-    "instrument": [],
-    "genre": [
-      "Ambient",
-      "New Wave",
-      "Dream Pop",
-      "Cinematic"
-    ],
-    "modulation": [
-      "Flowing",
-      "Fluctuating",
-      "Steady",
-      "Crescendo"
-    ],
-    "timbre": [
-      "Simple",
-      "Slow attack",
-      "Long release",
-      "Pad-like"
-    ],
-    "inspiration": [
-      "Wind through trees"
+    "id": "wt216",
+    "name": "Atmos Pad",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Silky",
+            "Clean",
+            "Rounded",
+            "Mellow",
+            "Liquid",
+            "Analog",
+            "Rich",
+            "Lush",
+            "Ethereal",
+            "Dark",
+            "Cold",
+            "Smooth",
+            "Clear"
+        ],
+        "mood": [
+            "Blissful",
+            "Melancholic",
+            "Somber",
+            "Calm",
+            "Serene",
+            "Relaxed",
+            "Mellow",
+            "Contemplative",
+            "Introspective",
+            "Meditative",
+            "Grounded",
+            "Centered",
+            "Mysterious",
+            "Ethereal",
+            "Wistful",
+            "Dreamy",
+            "Enchanting"
+        ],
+        "instrument": [],
+        "genre": [
+            "Ambient",
+            "New Wave",
+            "Dream Pop",
+            "Cinematic"
+        ],
+        "modulation": [
+            "Flowing",
+            "Fluctuating",
+            "Steady",
+            "Crescendo"
+        ],
+        "timbre": [
+            "Simple",
+            "Slow attack",
+            "Long release",
+            "Pad-like"
+        ],
+        "inspiration": [
+            "Wind through trees"
+        ]
+    },
+    "sounds": [
+        "Pad"
     ]
-  }
 }

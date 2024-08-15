@@ -1,84 +1,88 @@
 {
-  "id": "wtr149",
-  "name": "Synthetic Strings",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Smooth",
-      "Crisp",
-      "Clean",
-      "Crystalline",
-      "Warm",
-      "Bright",
-      "Lush",
-      "Vibrant",
-      "Synthetic",
-      "Holographic",
-      "Wide",
-      "Huge"
-    ],
-    "mood": [
-      "Uplifting",
-      "Passionate",
-      "Emotional",
-      "Euphoric",
-      "Mournful",
-      "Depressing",
-      "Serene",
-      "Contemplative",
-      "Composed",
-      "Stoic",
-      "Ethereal",
-      "Nostalgic",
-      "Wistful",
-      "Paradoxical"
-    ],
-    "instrument": [
-      "Strings"
-    ],
-    "genre": [
-      "Techno",
-      "Trance",
-      "Synthwave",
-      "New Age",
-      "Pop",
-      "Synthpop",
-      "Electropop",
-      "Art Pop",
-      "Psychedelic Pop",
-      "Art Rock",
-      "Progressive Rock",
-      "Hip-hop",
-      "East Coast Hip-hop",
-      "Cinematic"
-    ],
-    "modulation": [
-      "Stable",
-      "Swelling",
-      "Crescendo",
-      "Chorus",
-      "Delay"
-    ],
-    "timbre": [
-      "Saw wave",
-      "Harmonic",
-      "Pure",
-      "Simple",
-      "Physical modeling",
-      "Detuned",
-      "Slow attack",
-      "Long release",
-      "Pad-like",
-      "Low-pass"
-    ],
-    "inspiration": [
-      "80s synth pop",
-      "Vintage analog synths",
-      "Digital Age",
-      "Movie Soundtrack",
-      "VHS"
+    "id": "wtr149",
+    "name": "Synthetic Strings",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Vibrant",
+            "Clean",
+            "Crisp",
+            "Holographic",
+            "Huge",
+            "Lush",
+            "Wide",
+            "Smooth",
+            "Bright",
+            "Crystalline",
+            "Synthetic",
+            "Warm"
+        ],
+        "mood": [
+            "Uplifting",
+            "Passionate",
+            "Emotional",
+            "Euphoric",
+            "Mournful",
+            "Depressing",
+            "Serene",
+            "Contemplative",
+            "Composed",
+            "Stoic",
+            "Ethereal",
+            "Nostalgic",
+            "Wistful",
+            "Paradoxical"
+        ],
+        "instrument": [
+            "Strings"
+        ],
+        "genre": [
+            "Techno",
+            "Trance",
+            "Synthwave",
+            "New Age",
+            "Pop",
+            "Synthpop",
+            "Electropop",
+            "Art Pop",
+            "Psychedelic Pop",
+            "Art Rock",
+            "Progressive Rock",
+            "Hip-hop",
+            "East Coast Hip-hop",
+            "Cinematic"
+        ],
+        "modulation": [
+            "Stable",
+            "Swelling",
+            "Crescendo",
+            "Chorus",
+            "Delay"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Harmonic",
+            "Pure",
+            "Simple",
+            "Physical modeling",
+            "Detuned",
+            "Slow attack",
+            "Long release",
+            "Pad-like",
+            "Low-pass"
+        ],
+        "inspiration": [
+            "80s synth pop",
+            "Vintage analog synths",
+            "Digital Age",
+            "Movie Soundtrack",
+            "VHS"
+        ]
+    },
+    "sounds": [
+        "Strings",
+        "Synth Strings"
     ]
-  }
 }

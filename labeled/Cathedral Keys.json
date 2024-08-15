@@ -1,83 +1,87 @@
 {
-  "id": "wtr031",
-  "name": "Cathedral Keys",
-  "instrument": "Wavetable",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Fuzzy",
-      "Sharp",
-      "Rounded",
-      "Dense",
-      "Wet",
-      "Textured",
-      "Warm",
-      "Dark",
-      "Rich",
-      "Thick",
-      "Lush",
-      "Full",
-      "Velvety",
-      "Analog",
-      "Noisy",
-      "Deep",
-      "Hefty",
-      "Biting",
-      "Huge"
-    ],
-    "mood": [
-      "Epic",
-      "Uplifting",
-      "Energetic",
-      "Confident",
-      "Empowering",
-      "Anxious",
-      "Tense",
-      "Oppressive",
-      "Mournful",
-      "Mysterious",
-      "Nostalgic",
-      "Bittersweet",
-      "Enchanting"
-    ],
-    "instrument": [
-      "Roland JX-10",
-      "Moog Model D"
-    ],
-    "genre": [
-      "Trance",
-      "Synthwave",
-      "Glitch",
-      "Pop",
-      "Synthpop",
-      "Electropop",
-      "Psychedelic Pop",
-      "Progressive Rock"
-    ],
-    "modulation": [
-      "Unstable",
-      "Morphing",
-      "Fluctuating",
-      "Auto filter",
-      "Swelling",
-      "Chorus",
-      "Delay",
-      "Reverb",
-      "Compression"
-    ],
-    "timbre": [
-      "Buzzy",
-      "Complex",
-      "Harmonics",
-      "FM",
-      "Detuned",
-      "Fast attack",
-      "Long decay"
-    ],
-    "inspiration": [
-      "Vintage analog synths",
-      "Movie Soundtrack",
-      "VHS"
+    "id": "wtr031",
+    "name": "Cathedral Keys",
+    "instrument": "Wavetable",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Lush",
+            "Dark",
+            "Velvety",
+            "Textured",
+            "Biting",
+            "Rounded",
+            "Full",
+            "Analog",
+            "Wet",
+            "Huge",
+            "Fuzzy",
+            "Rich",
+            "Thick",
+            "Dense",
+            "Hefty",
+            "Noisy",
+            "Sharp",
+            "Warm",
+            "Deep"
+        ],
+        "mood": [
+            "Epic",
+            "Uplifting",
+            "Energetic",
+            "Confident",
+            "Empowering",
+            "Anxious",
+            "Tense",
+            "Oppressive",
+            "Mournful",
+            "Mysterious",
+            "Nostalgic",
+            "Bittersweet",
+            "Enchanting"
+        ],
+        "instrument": [
+            "Roland JX-10",
+            "Moog Model D"
+        ],
+        "genre": [
+            "Trance",
+            "Synthwave",
+            "Glitch",
+            "Pop",
+            "Synthpop",
+            "Electropop",
+            "Psychedelic Pop",
+            "Progressive Rock"
+        ],
+        "modulation": [
+            "Unstable",
+            "Morphing",
+            "Fluctuating",
+            "Auto filter",
+            "Swelling",
+            "Chorus",
+            "Delay",
+            "Reverb",
+            "Compression"
+        ],
+        "timbre": [
+            "Buzzy",
+            "Complex",
+            "Harmonics",
+            "FM",
+            "Detuned",
+            "Fast attack",
+            "Long decay"
+        ],
+        "inspiration": [
+            "Vintage analog synths",
+            "Movie Soundtrack",
+            "VHS"
+        ]
+    },
+    "sounds": [
+        "Piano & Keys",
+        "Synth Keys"
     ]
-  }
 }

@@ -1,83 +1,87 @@
 {
-  "id": "wtr054",
-  "name": "Dark Sky Keys",
-  "instrument": "Wavetable",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Smooth",
-      "Fuzzy",
-      "Rounded",
-      "Silky",
-      "Textured",
-      "Warm",
-      "Dark",
-      "Rich",
-      "Lush",
-      "Full",
-      "Dull",
-      "Saturated",
-      "Velvety",
-      "Analog",
-      "Polished",
-      "Buttery",
-      "Controlled"
-    ],
-    "mood": [
-      "Euphoric",
-      "Blissful",
-      "Carefree",
-      "Hopeful",
-      "Cheerful",
-      "Melancholic",
-      "Somber",
-      "Calm",
-      "Balanced",
-      "Stoic",
-      "Steady",
-      "Grounded",
-      "Nostalgic",
-      "Dreamy",
-      "Enchanting",
-      "Profound"
-    ],
-    "instrument": [],
-    "genre": [
-      "Ambient",
-      "Techno",
-      "House",
-      "Trance",
-      "Synthwave",
-      "Chillwave",
-      "Minimal",
-      "Electronica",
-      "Jungle",
-      "Pop",
-      "Rock",
-      "Hip-hop",
-      "R&B"
-    ],
-    "modulation": [
-      "Stable",
-      "Fluctuating",
-      "Breathing",
-      "Delay",
-      "Reverb"
-    ],
-    "timbre": [
-      "Saw wave",
-      "Sine wave",
-      "Harmonic",
-      "Filtered",
-      "Simple",
-      "Low-pass"
-    ],
-    "inspiration": [
-      "2000s video games",
-      "Vintage analog synths",
-      "Retro-futurism",
-      "Movie Soundtrack"
+    "id": "wtr054",
+    "name": "Dark Sky Keys",
+    "instrument": "Wavetable",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Silky",
+            "Lush",
+            "Dark",
+            "Smooth",
+            "Textured",
+            "Velvety",
+            "Polished",
+            "Warm",
+            "Soft",
+            "Rounded",
+            "Full",
+            "Analog",
+            "Buttery",
+            "Fuzzy",
+            "Rich",
+            "Saturated",
+            "Controlled",
+            "Dull"
+        ],
+        "mood": [
+            "Euphoric",
+            "Blissful",
+            "Carefree",
+            "Hopeful",
+            "Cheerful",
+            "Melancholic",
+            "Somber",
+            "Calm",
+            "Balanced",
+            "Stoic",
+            "Steady",
+            "Grounded",
+            "Nostalgic",
+            "Dreamy",
+            "Enchanting",
+            "Profound"
+        ],
+        "instrument": [],
+        "genre": [
+            "Ambient",
+            "Techno",
+            "House",
+            "Trance",
+            "Synthwave",
+            "Chillwave",
+            "Minimal",
+            "Electronica",
+            "Jungle",
+            "Pop",
+            "Rock",
+            "Hip-hop",
+            "R&B"
+        ],
+        "modulation": [
+            "Stable",
+            "Fluctuating",
+            "Breathing",
+            "Delay",
+            "Reverb"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Sine wave",
+            "Harmonic",
+            "Filtered",
+            "Simple",
+            "Low-pass"
+        ],
+        "inspiration": [
+            "2000s video games",
+            "Vintage analog synths",
+            "Retro-futurism",
+            "Movie Soundtrack"
+        ]
+    },
+    "sounds": [
+        "Piano & Keys",
+        "Synth Keys"
     ]
-  }
 }

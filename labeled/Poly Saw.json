@@ -1,68 +1,72 @@
 {
-  "id": "wt070",
-  "name": "Poly Saw",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Crisp",
-      "Clean",
-      "Fuzzy",
-      "Sharp",
-      "Liquid",
-      "Warm",
-      "Bright",
-      "Rich",
-      "Lush",
-      "Vibrant",
-      "Saturated",
-      "Synthetic",
-      "Analog",
-      "Digital",
-      "Raw",
-      "Lustrous",
-      "Wide",
-      "Big",
-      "Aggressive"
-    ],
-    "mood": [
-      "Joyful",
-      "Energetic",
-      "Playful",
-      "Optimistic",
-      "Confident",
-      "Empowering",
-      "Anxious",
-      "Angry",
-      "Resentful"
-    ],
-    "instrument": [],
-    "genre": [
-      "Electro",
-      "Synthwave",
-      "Electronica",
-      "Rock",
-      "Synthpop",
-      "Indie",
-      "Electropop"
-    ],
-    "modulation": [
-      "Plummeting",
-      "Falling",
-      "Pulse-width modulation"
-    ],
-    "timbre": [
-      "Saw wave",
-      "Harmonic",
-      "Buzzy",
-      "Simple",
-      "Fast attack",
-      "Fading"
-    ],
-    "inspiration": [
-      "Retro arcade",
-      "Vintage analog synths",
-      "VHS"
+    "id": "wt070",
+    "name": "Poly Saw",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Vibrant",
+            "Aggressive",
+            "Clean",
+            "Raw",
+            "Crisp",
+            "Basic",
+            "Lush",
+            "Wide",
+            "Synthetic",
+            "Digital",
+            "Liquid",
+            "Analog",
+            "Fuzzy",
+            "Rich",
+            "Saturated",
+            "Lustrous",
+            "Bright",
+            "Big",
+            "Sharp",
+            "Warm"
+        ],
+        "mood": [
+            "Joyful",
+            "Energetic",
+            "Playful",
+            "Optimistic",
+            "Confident",
+            "Empowering",
+            "Anxious",
+            "Angry",
+            "Resentful"
+        ],
+        "instrument": [],
+        "genre": [
+            "Electro",
+            "Synthwave",
+            "Electronica",
+            "Rock",
+            "Synthpop",
+            "Indie",
+            "Electropop"
+        ],
+        "modulation": [
+            "Plummeting",
+            "Falling",
+            "Pulse-width modulation"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Harmonic",
+            "Buzzy",
+            "Simple",
+            "Fast attack",
+            "Fading"
+        ],
+        "inspiration": [
+            "Retro arcade",
+            "Vintage analog synths",
+            "VHS"
+        ]
+    },
+    "sounds": [
+        "Lead"
     ]
-  }
 }

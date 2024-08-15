@@ -1,69 +1,74 @@
 {
-  "id": "wt145",
-  "name": "Lush Roads",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Soft",
-      "Smooth",
-      "Crisp",
-      "Mellow",
-      "Clean",
-      "Rounded",
-      "Silky",
-      "Liquid",
-      "Warm",
-      "Lush",
-      "Vibrant",
-      "Velvety",
-      "Analog",
-      "Controlled"
-    ],
-    "mood": [
-      "Playful",
-      "Blissful",
-      "Cheerful",
-      "Lively",
-      "Melancholic",
-      "Somber",
-      "Calm",
-      "Balanced",
-      "Composed",
-      "Nostalgic"
-    ],
-    "instrument": [
-      "Electric Piano",
-      "Rhodes"
-    ],
-    "genre": [
-      "Art Pop",
-      "Hip-hop",
-      "Trap",
-      "Abstract Hip-hop",
-      "Conscious Hip-hop",
-      "Lofi Hip-hop",
-      "Instrumental Hip-hop",
-      "Jazz",
-      "Funk",
-      "Blues",
-      "R&B",
-      "Fusion",
-      "Free Jazz"
-    ],
-    "modulation": [
-      "Stable",
-      "Static"
-    ],
-    "timbre": [
-      "Sine wave",
-      "Harmonic",
-      "Physical modeling",
-      "Piano-like",
-      "Tonal"
-    ],
-    "inspiration": [
-      "rhodes electric piano"
+    "id": "wt145",
+    "name": "Lush Roads",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Silky",
+            "Clean",
+            "Rounded",
+            "Mellow",
+            "Liquid",
+            "Vibrant",
+            "Analog",
+            "Crisp",
+            "Basic",
+            "Lush",
+            "Smooth",
+            "Velvety",
+            "Controlled",
+            "Warm"
+        ],
+        "mood": [
+            "Playful",
+            "Blissful",
+            "Cheerful",
+            "Lively",
+            "Melancholic",
+            "Somber",
+            "Calm",
+            "Balanced",
+            "Composed",
+            "Nostalgic"
+        ],
+        "instrument": [
+            "Electric Piano",
+            "Rhodes"
+        ],
+        "genre": [
+            "Art Pop",
+            "Hip-hop",
+            "Trap",
+            "Abstract Hip-hop",
+            "Conscious Hip-hop",
+            "Lofi Hip-hop",
+            "Instrumental Hip-hop",
+            "Jazz",
+            "Funk",
+            "Blues",
+            "R&B",
+            "Fusion",
+            "Free Jazz"
+        ],
+        "modulation": [
+            "Stable",
+            "Static"
+        ],
+        "timbre": [
+            "Sine wave",
+            "Harmonic",
+            "Physical modeling",
+            "Piano-like",
+            "Tonal"
+        ],
+        "inspiration": [
+            "rhodes electric piano"
+        ]
+    },
+    "sounds": [
+        "Piano & Keys",
+        "Synth Keys"
     ]
-  }
 }

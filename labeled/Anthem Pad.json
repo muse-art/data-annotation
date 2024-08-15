@@ -2,6 +2,7 @@
   "id": "wtr034_mod",
   "name": "Anthem Pad",
   "instrument": "Wavetable",
+  "sounds": "Pad",
   "isRack": true,
   "keywords": {
     "character": [

@@ -1,56 +1,61 @@
 {
-  "id": "wt149",
-  "name": "Oklahoma Corral",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Smooth",
-      "Fuzzy",
-      "Textured",
-      "Wide",
-      "Warm",
-      "Rich",
-      "Lush",
-      "Muddy",
-      "Analog",
-      "Noisy",
-      "Murky"
-    ],
-    "mood": [
-      "Energetic",
-      "Triumphant",
-      "Confident",
-      "Resentful",
-      "Balanced",
-      "Stoic",
-      "Steady",
-      "Grounded",
-      "Nostalgic"
-    ],
-    "instrument": [],
-    "genre": [
-      "Electro",
-      "Synthwave",
-      "Synthpop",
-      "Indie",
-      "Electropop",
-      "Trip Hop",
-      "Cinematic"
-    ],
-    "modulation": [
-      "Stable",
-      "Fluctuating",
-      "Phase distortion"
-    ],
-    "timbre": [
-      "Saw wave",
-      "Pulse wave",
-      "Fast attack",
-      "Long release"
-    ],
-    "inspiration": [
-      "Vintage analog synths"
+    "id": "wt149",
+    "name": "Oklahoma Corral",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Murky",
+            "Analog",
+            "Fuzzy",
+            "Rich",
+            "Wide",
+            "Lush",
+            "Muddy",
+            "Textured",
+            "Smooth",
+            "Noisy",
+            "Bright",
+            "Warm"
+        ],
+        "mood": [
+            "Energetic",
+            "Triumphant",
+            "Confident",
+            "Resentful",
+            "Balanced",
+            "Stoic",
+            "Steady",
+            "Grounded",
+            "Nostalgic"
+        ],
+        "instrument": [],
+        "genre": [
+            "Electro",
+            "Synthwave",
+            "Synthpop",
+            "Indie",
+            "Electropop",
+            "Trip Hop",
+            "Cinematic"
+        ],
+        "modulation": [
+            "Stable",
+            "Fluctuating",
+            "Phase distortion"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Pulse wave",
+            "Fast attack",
+            "Long release"
+        ],
+        "inspiration": [
+            "Vintage analog synths"
+        ]
+    },
+    "sounds": [
+        "Piano & Keys",
+        "Synth Keys"
     ]
-  }
 }

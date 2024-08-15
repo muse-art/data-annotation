@@ -1,74 +1,78 @@
 {
-  "id": "wt102",
-  "name": "Ambient Element",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Smooth",
-      "Crisp",
-      "Brittle",
-      "Airy",
-      "Dry",
-      "Textured",
-      "Dark",
-      "Lush",
-      "Hollow",
-      "Resonant",
-      "Synthetic",
-      "Noisy",
-      "Wide",
-      "Controlled",
-      "Plucky"
-    ],
-    "mood": [
-      "Passionate",
-      "Playful",
-      "Carefree",
-      "Melancholic",
-      "Lonely",
-      "Calm",
-      "Serene",
-      "Contemplative",
-      "Composed",
-      "Ethereal",
-      "Dreamy",
-      "Enchanting"
-    ],
-    "instrument": [
-      "Mallet"
-    ],
-    "genre": [
-      "Ambient",
-      "Downtempo",
-      "Techno",
-      "House",
-      "Trance",
-      "Vaporwave",
-      "Chillwave",
-      "Electronica",
-      "Synthpop",
-      "Art Pop",
-      "Dream Pop",
-      "Art Rock",
-      "Hip-hop",
-      "World Music"
-    ],
-    "modulation": [
-      "Stable",
-      "Fading",
-      "Fluctuating"
-    ],
-    "timbre": [
-      "Complex",
-      "Fast attack",
-      "Pluck-like",
-      "Low-pass"
-    ],
-    "inspiration": [
-      "Retro-futurism",
-      "Vaporwave aesthetics",
-      "Digital Age"
+    "id": "wt102",
+    "name": "Ambient Element",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Hollow",
+            "Airy",
+            "Plucky",
+            "Crisp",
+            "Dry",
+            "Resonant",
+            "Lush",
+            "Wide",
+            "Dark",
+            "Smooth",
+            "Textured",
+            "Noisy",
+            "Controlled",
+            "Synthetic",
+            "Brittle"
+        ],
+        "mood": [
+            "Passionate",
+            "Playful",
+            "Carefree",
+            "Melancholic",
+            "Lonely",
+            "Calm",
+            "Serene",
+            "Contemplative",
+            "Composed",
+            "Ethereal",
+            "Dreamy",
+            "Enchanting"
+        ],
+        "instrument": [
+            "Mallet"
+        ],
+        "genre": [
+            "Ambient",
+            "Downtempo",
+            "Techno",
+            "House",
+            "Trance",
+            "Vaporwave",
+            "Chillwave",
+            "Electronica",
+            "Synthpop",
+            "Art Pop",
+            "Dream Pop",
+            "Art Rock",
+            "Hip-hop",
+            "World Music"
+        ],
+        "modulation": [
+            "Stable",
+            "Fading",
+            "Fluctuating"
+        ],
+        "timbre": [
+            "Complex",
+            "Fast attack",
+            "Pluck-like",
+            "Low-pass"
+        ],
+        "inspiration": [
+            "Retro-futurism",
+            "Vaporwave aesthetics",
+            "Digital Age"
+        ]
+    },
+    "sounds": [
+        "Synth Mallets",
+        "Mallets"
     ]
-  }
 }

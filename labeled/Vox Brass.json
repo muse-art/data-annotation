@@ -1,54 +1,61 @@
 {
-  "id": "wt071",
-  "name": "Vox Brass",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Mellow",
-      "Airy",
-      "Glassy",
-      "Cold",
-      "Bright",
-      "Thin",
-      "Resonant",
-      "Synthetic",
-      "Delicate"
-    ],
-    "mood": [
-      "Playful",
-      "Mysterious"
-    ],
-    "instrument": [],
-    "genre": [
-      "Techno",
-      "House",
-      "Synthwave",
-      "Psychedelic Pop",
-      "Funk",
-      "Disco"
-    ],
-    "modulation": [
-      "Sweeping",
-      "Morphing",
-      "Fading"
-    ],
-    "timbre": [
-      "Saw wave",
-      "Pulse wave",
-      "Fast attack",
-      "Short release",
-      "Low-pass",
-      "Formant",
-      "Vowel",
-      "Vocal",
-      "Nasal"
-    ],
-    "inspiration": [
-      "80s synth pop",
-      "70s disco",
-      "Digital Age",
-      "Dystopian novels"
+    "id": "wt071",
+    "name": "Vox Brass",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Glassy",
+            "Airy",
+            "Mellow",
+            "Thin",
+            "Resonant",
+            "Cold",
+            "Bright",
+            "Delicate",
+            "Synthetic"
+        ],
+        "mood": [
+            "Playful",
+            "Mysterious"
+        ],
+        "instrument": [],
+        "genre": [
+            "Techno",
+            "House",
+            "Synthwave",
+            "Psychedelic Pop",
+            "Funk",
+            "Disco"
+        ],
+        "modulation": [
+            "Sweeping",
+            "Morphing",
+            "Fading"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Pulse wave",
+            "Fast attack",
+            "Short release",
+            "Low-pass",
+            "Formant",
+            "Vowel",
+            "Vocal",
+            "Nasal"
+        ],
+        "inspiration": [
+            "80s synth pop",
+            "70s disco",
+            "Digital Age",
+            "Dystopian novels"
+        ]
+    },
+    "sounds": [
+        "Synth Brass",
+        "Synth Voice",
+        "Brass",
+        "Voice"
     ]
-  }
 }

@@ -1,44 +1,48 @@
 {
-  "id": "wt066",
-  "name": "Flyte Time Brass",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Crisp",
-      "Fuzzy",
-      "Glassy",
-      "Warm",
-      "Bright",
-      "Lush",
-      "Punchy",
-      "Muddy",
-      "Noisy",
-      "Aggressive"
-    ],
-    "mood": [
-      "Joyful",
-      "Desperate",
-      "Triumphant",
-      "Powerful",
-      "Bold"
-    ],
-    "instrument": [],
-    "genre": [
-      "House",
-      "Electro",
-      "Synthwave",
-      "Pop",
-      "Synthpop",
-      "Electropop",
-      "East Coast Hip-hop"
-    ],
-    "modulation": [
-      "Fading",
-      "Gyrating",
-      "Decrescendo"
-    ],
-    "timbre": [],
-    "inspiration": []
-  }
+    "id": "wt066",
+    "name": "Flyte Time Brass",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Aggressive",
+            "Glassy",
+            "Analog",
+            "Crisp",
+            "Fuzzy",
+            "Lush",
+            "Punchy",
+            "Muddy",
+            "Bright",
+            "Noisy",
+            "Warm"
+        ],
+        "mood": [
+            "Joyful",
+            "Desperate",
+            "Triumphant",
+            "Powerful",
+            "Bold"
+        ],
+        "instrument": [],
+        "genre": [
+            "House",
+            "Electro",
+            "Synthwave",
+            "Pop",
+            "Synthpop",
+            "Electropop",
+            "East Coast Hip-hop"
+        ],
+        "modulation": [
+            "Fading",
+            "Gyrating",
+            "Decrescendo"
+        ],
+        "timbre": [],
+        "inspiration": []
+    },
+    "sounds": [
+        "Lead"
+    ]
 }

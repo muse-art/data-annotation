@@ -1,80 +1,87 @@
 {
-  "id": "opr038",
-  "name": "Mindfulness",
-  "instrument": "Operator",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Crisp",
-      "Silky",
-      "Airy",
-      "Crystalline",
-      "Textured",
-      "Cold",
-      "Bright",
-      "Shimmering",
-      "Ethereal",
-      "Watery",
-      "Polished",
-      "Refined",
-      "Deep",
-      "Wispy"
-    ],
-    "mood": [
-      "Blissful",
-      "Lonely",
-      "Calm",
-      "Contemplative",
-      "Meditative",
-      "Mysterious",
-      "Ethereal",
-      "Nostalgic",
-      "Dreamy",
-      "Enigmatic",
-      "Intriguing",
-      "Elusive"
-    ],
-    "instrument": [],
-    "genre": [
-      "Ambient",
-      "Trance",
-      "Drum and Bass",
-      "New Age",
-      "Spa music",
-      "World Music",
-      "Cinematic"
-    ],
-    "modulation": [
-      "Unstable",
-      "Evolving",
-      "Sweeping",
-      "Morphing",
-      "Flowing",
-      "Swelling",
-      "Oscillating",
-      "Soaring",
-      "Auto pan",
-      "Steady",
-      "Crescendo",
-      "Expanding",
-      "Chorus",
-      "Reverb"
-    ],
-    "timbre": [
-      "Sine wave",
-      "Harmonic",
-      "Complex",
-      "Additive",
-      "Slow attack",
-      "Long release",
-      "Pad-like"
-    ],
-    "inspiration": [
-      "Zen",
-      "Meditation",
-      "Movie Soundtrack",
-      "Ocean waves",
-      "Wind through trees"
+    "id": "opr038",
+    "name": "Mindfulness",
+    "instrument": "Operator",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Silky",
+            "Refined",
+            "Crisp",
+            "Ethereal",
+            "Watery",
+            "Shimmering",
+            "Textured",
+            "Polished",
+            "Crystalline",
+            "Wispy",
+            "Digital",
+            "Airy",
+            "Evolving",
+            "Cold",
+            "Bright",
+            "Deep"
+        ],
+        "mood": [
+            "Blissful",
+            "Lonely",
+            "Calm",
+            "Contemplative",
+            "Meditative",
+            "Mysterious",
+            "Ethereal",
+            "Nostalgic",
+            "Dreamy",
+            "Enigmatic",
+            "Intriguing",
+            "Elusive"
+        ],
+        "instrument": [],
+        "genre": [
+            "Ambient",
+            "Trance",
+            "Drum and Bass",
+            "New Age",
+            "Spa music",
+            "World Music",
+            "Cinematic"
+        ],
+        "modulation": [
+            "Unstable",
+            "Evolving",
+            "Sweeping",
+            "Morphing",
+            "Flowing",
+            "Swelling",
+            "Oscillating",
+            "Soaring",
+            "Auto pan",
+            "Steady",
+            "Crescendo",
+            "Expanding",
+            "Chorus",
+            "Reverb"
+        ],
+        "timbre": [
+            "Sine wave",
+            "Harmonic",
+            "Complex",
+            "Additive",
+            "Slow attack",
+            "Long release",
+            "Pad-like"
+        ],
+        "inspiration": [
+            "Zen",
+            "Meditation",
+            "Movie Soundtrack",
+            "Ocean waves",
+            "Wind through trees"
+        ]
+    },
+    "sounds": [
+        "Ambience & FX",
+        "Atmosphere",
+        "Pad"
     ]
-  }
 }

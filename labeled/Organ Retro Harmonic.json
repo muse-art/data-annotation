@@ -1,0 +1,61 @@
+{
+    "id": "wt123",
+    "name": "Organ Retro Harmonic",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Dark",
+            "Bright",
+            "Wet",
+            "Woolly",
+            "Rich",
+            "Warm"
+        ],
+        "mood": [
+            "Hopeful",
+            "Inspiring",
+            "Cheerful",
+            "Melancholic",
+            "Somber",
+            "Gloomy",
+            "Mournful",
+            "Mysterious",
+            "Nostalgic",
+            "Haunting"
+        ],
+        "instrument": [
+            "Organ"
+        ],
+        "genre": [
+            "Post-punk",
+            "Art Pop",
+            "Classical",
+            "World Music",
+            "Gospel",
+            "Avant-garde"
+        ],
+        "modulation": [
+            "Unstable",
+            "Pulsating",
+            "Oscillating"
+        ],
+        "timbre": [
+            "Sine wave",
+            "Harmonic",
+            "Resonant",
+            "Partials",
+            "Harmonics",
+            "Fast attack",
+            "Low-pass"
+        ],
+        "inspiration": [
+            "Horror films"
+        ]
+    },
+    "sounds": [
+        "Organ",
+        "Piano & Keys",
+        "Synth Keys"
+    ]
+}

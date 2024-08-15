@@ -1,65 +1,70 @@
 {
-  "id": "wt138",
-  "name": "Glowing Filaments",
-  "instrument": "Wavetable",
-  "isRack": false,
-  "keywords": {
-    "character": [
-      "Crisp",
-      "Sharp",
-      "Brittle",
-      "Metallic",
-      "Crystalline",
-      "Bright",
-      "Resonant",
-      "Shimmering",
-      "Vibrant",
-      "Saturated",
-      "Synthetic",
-      "Icy",
-      "Wispy"
-    ],
-    "mood": [
-      "Euphoric",
-      "Playful",
-      "Radiant",
-      "Melancholic",
-      "Desperate",
-      "Surreal"
-    ],
-    "instrument": [],
-    "genre": [
-      "House",
-      "Synthwave",
-      "Vaporwave",
-      "Electronica",
-      "Synthpop",
-      "Electropop",
-      "Psychedelic Pop"
-    ],
-    "modulation": [
-      "Unstable",
-      "Pulsating",
-      "Oscillating",
-      "Throbbing"
-    ],
-    "timbre": [
-      "Saw wave",
-      "Square wave",
-      "Harmonic",
-      "Resonant",
-      "Simple",
-      "FM",
-      "Fast attack",
-      "Long release",
-      "Low-pass"
-    ],
-    "inspiration": [
-      "80s synth pop",
-      "Retro arcade",
-      "Vintage analog synths",
-      "Modern digital synths",
-      "Retro-futurism"
+    "id": "wt138",
+    "name": "Glowing Filaments",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Vibrant",
+            "Chord",
+            "Crisp",
+            "Resonant",
+            "Shimmering",
+            "Saturated",
+            "Metallic",
+            "Bright",
+            "Crystalline",
+            "Synthetic",
+            "Sharp",
+            "Wispy",
+            "Brittle",
+            "Icy"
+        ],
+        "mood": [
+            "Euphoric",
+            "Playful",
+            "Radiant",
+            "Melancholic",
+            "Desperate",
+            "Surreal"
+        ],
+        "instrument": [],
+        "genre": [
+            "House",
+            "Synthwave",
+            "Vaporwave",
+            "Electronica",
+            "Synthpop",
+            "Electropop",
+            "Psychedelic Pop"
+        ],
+        "modulation": [
+            "Unstable",
+            "Pulsating",
+            "Oscillating",
+            "Throbbing"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Square wave",
+            "Harmonic",
+            "Resonant",
+            "Simple",
+            "FM",
+            "Fast attack",
+            "Long release",
+            "Low-pass"
+        ],
+        "inspiration": [
+            "80s synth pop",
+            "Retro arcade",
+            "Vintage analog synths",
+            "Modern digital synths",
+            "Retro-futurism"
+        ]
+    },
+    "sounds": [
+        "Piano & Keys",
+        "Synth Keys"
     ]
-  }
 }

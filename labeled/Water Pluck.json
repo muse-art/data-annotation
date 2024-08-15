@@ -1,68 +1,72 @@
 {
-  "id": "wtr158",
-  "name": "Water Pluck",
-  "instrument": "Wavetable",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Crisp",
-      "Clean",
-      "Sharp",
-      "Liquid",
-      "Glassy",
-      "Crystalline",
-      "Wet",
-      "Bright",
-      "Resonant",
-      "Shimmering",
-      "Pristine",
-      "Organic",
-      "Watery",
-      "Plucky",
-      "Icy",
-      "Piercing"
-    ],
-    "mood": [
-      "Playful",
-      "Lonely",
-      "Calm",
-      "Serene",
-      "Pensive",
-      "Mysterious",
-      "Ethereal",
-      "Enchanting",
-      "Intriguing",
-      "Elusive"
-    ],
-    "instrument": [
-      "Pluck"
-    ],
-    "genre": [
-      "Downtempo",
-      "Techno",
-      "House",
-      "Trance",
-      "New Age",
-      "Synthpop",
-      "New Wave",
-      "World Music"
-    ],
-    "modulation": [
-      "Stable",
-      "Fading",
-      "Decrescendo",
-      "Delay",
-      "Reverb"
-    ],
-    "timbre": [
-      "Square wave",
-      "Harmonic",
-      "Complex",
-      "FM"
-    ],
-    "inspiration": [
-      "water temple",
-      "video game water level"
+    "id": "wtr158",
+    "name": "Water Pluck",
+    "instrument": "Wavetable",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Clean",
+            "Plucky",
+            "Crisp",
+            "Resonant",
+            "Watery",
+            "Shimmering",
+            "Pristine",
+            "Crystalline",
+            "Glassy",
+            "Liquid",
+            "Wet",
+            "Icy",
+            "Bright",
+            "Organic",
+            "Sharp",
+            "Piercing"
+        ],
+        "mood": [
+            "Playful",
+            "Lonely",
+            "Calm",
+            "Serene",
+            "Pensive",
+            "Mysterious",
+            "Ethereal",
+            "Enchanting",
+            "Intriguing",
+            "Elusive"
+        ],
+        "instrument": [
+            "Pluck"
+        ],
+        "genre": [
+            "Downtempo",
+            "Techno",
+            "House",
+            "Trance",
+            "New Age",
+            "Synthpop",
+            "New Wave",
+            "World Music"
+        ],
+        "modulation": [
+            "Stable",
+            "Fading",
+            "Decrescendo",
+            "Delay",
+            "Reverb"
+        ],
+        "timbre": [
+            "Square wave",
+            "Harmonic",
+            "Complex",
+            "FM"
+        ],
+        "inspiration": [
+            "water temple",
+            "video game water level"
+        ]
+    },
+    "sounds": [
+        "Guitar & Plucked",
+        "Synth Plucked"
     ]
-  }
 }

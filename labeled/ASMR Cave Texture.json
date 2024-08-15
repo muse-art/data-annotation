@@ -1,62 +1,68 @@
 {
-  "id": "wtr001",
-  "name": "ASMR Cave Texture",
-  "instrument": "Wavetable",
-  "isRack": true,
-  "keywords": {
-    "character": [
-      "Mellow",
-      "Wet",
-      "Grainy",
-      "Textured",
-      "Cold",
-      "Dark",
-      "Lush",
-      "Muddy",
-      "Organic",
-      "Digital",
-      "Crystalline",
-      "Opaque",
-      "Icy"
-    ],
-    "mood": [
-      "Radiant",
-      "Melancholic",
-      "Dark",
-      "Somber",
-      "Anxious",
-      "Lonely",
-      "Introspective",
-      "Mysterious",
-      "Ethereal",
-      "Surreal",
-      "Dreamy",
-      "Haunting"
-    ],
-    "instrument": [],
-    "genre": [
-      "Ambient",
-      "New Age",
-      "Experimental Electronic"
-    ],
-    "modulation": [
-      "Evolving",
-      "Undulating",
-      "Swelling",
-      "Rising",
-      "Reverb",
-      "Saturation",
-      "Granular"
-    ],
-    "timbre": [
-      "Complex",
-      "Pad-like"
-    ],
-    "inspiration": [
-      "Cave",
-      "Atmospheric",
-      "Noise",
-      "Nature sounds"
+    "id": "wtr001",
+    "name": "ASMR Cave Texture",
+    "instrument": "Wavetable",
+    "isRack": true,
+    "keywords": {
+        "character": [
+            "Digital",
+            "Mellow",
+            "Wet",
+            "Evolving",
+            "Opaque",
+            "Inharmonic",
+            "Lush",
+            "Dark",
+            "Cold",
+            "Textured",
+            "Muddy",
+            "Organic",
+            "Crystalline",
+            "Grainy",
+            "Icy"
+        ],
+        "mood": [
+            "Radiant",
+            "Melancholic",
+            "Dark",
+            "Somber",
+            "Anxious",
+            "Lonely",
+            "Introspective",
+            "Mysterious",
+            "Ethereal",
+            "Surreal",
+            "Dreamy",
+            "Haunting"
+        ],
+        "instrument": [],
+        "genre": [
+            "Ambient",
+            "New Age",
+            "Experimental Electronic"
+        ],
+        "modulation": [
+            "Evolving",
+            "Undulating",
+            "Swelling",
+            "Rising",
+            "Reverb",
+            "Saturation",
+            "Granular"
+        ],
+        "timbre": [
+            "Complex",
+            "Pad-like"
+        ],
+        "inspiration": [
+            "Cave",
+            "Atmospheric",
+            "Noise",
+            "Nature sounds"
+        ]
+    },
+    "sounds": [
+        "Ambience & FX",
+        "Atmosphere"
     ]
-  }
 }

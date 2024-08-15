@@ -1,0 +1,51 @@
+{
+    "id": "wt068",
+    "name": "Poly 60 Saw",
+    "instrument": "Wavetable",
+    "isRack": false,
+    "keywords": {
+        "character": [
+            "Soft",
+            "Rounded",
+            "Glassy",
+            "Analog",
+            "Opaque",
+            "Searing",
+            "Rich",
+            "Lush",
+            "Basic",
+            "Biting",
+            "Warm"
+        ],
+        "mood": [
+            "Energetic",
+            "Tense"
+        ],
+        "instrument": [],
+        "genre": [
+            "Electro",
+            "Synthwave",
+            "Electronica",
+            "Psychedelic Pop",
+            "Progressive Rock"
+        ],
+        "modulation": [
+            "Sweeping",
+            "Fluctuating",
+            "Unstable"
+        ],
+        "timbre": [
+            "Saw wave",
+            "Harmonic",
+            "Harmonics",
+            "Fast attack",
+            "Short release",
+            "Sustained",
+            "Atonal"
+        ],
+        "inspiration": []
+    },
+    "sounds": [
+        "Lead"
+    ]
+}
