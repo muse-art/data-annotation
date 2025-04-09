@@ -1,0 +1,3581 @@
+[
+    {
+        "id": "opr038",
+        "name": "Mindfulness",
+        "instrument": "Operator",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Refined",
+                "Crisp",
+                "Ethereal",
+                "Watery",
+                "Shimmering",
+                "Textured",
+                "Polished",
+                "Crystalline",
+                "Wispy",
+                "Digital",
+                "Airy",
+                "Evolving",
+                "Cold",
+                "Bright",
+                "Deep"
+            ],
+            "mood": [
+                "Blissful",
+                "Lonely",
+                "Calm",
+                "Contemplative",
+                "Meditative",
+                "Mysterious",
+                "Ethereal",
+                "Nostalgic",
+                "Dreamy",
+                "Enigmatic",
+                "Intriguing",
+                "Elusive"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Trance",
+                "Drum and Bass",
+                "New Age",
+                "Spa music",
+                "World Music",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Unstable",
+                "Evolving",
+                "Sweeping",
+                "Morphing",
+                "Flowing",
+                "Swelling",
+                "Oscillating",
+                "Soaring",
+                "Auto pan",
+                "Steady",
+                "Crescendo",
+                "Expanding",
+                "Chorus",
+                "Reverb"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Harmonic",
+                "Complex",
+                "Additive",
+                "Slow attack",
+                "Long release",
+                "Pad-like"
+            ],
+            "inspiration": [
+                "Zen",
+                "Meditation",
+                "Movie Soundtrack",
+                "Ocean waves",
+                "Wind through trees"
+            ]
+        },
+        "sounds": [
+            "Ambience & FX",
+            "Atmosphere",
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr139",
+        "name": "Starshower Pad",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Shallow",
+                "Lush",
+                "Muted",
+                "Wide",
+                "Dark",
+                "Textured",
+                "Smooth",
+                "Grainy",
+                "Soft",
+                "Buttery",
+                "Rounded",
+                "Analog",
+                "Liquid",
+                "Mellow",
+                "Wet",
+                "Opaque",
+                "Fuzzy",
+                "Pixelated",
+                "Noisy",
+                "Organic",
+                "Warm"
+            ],
+            "mood": [
+                "Passionate",
+                "Emotional",
+                "Blissful",
+                "Melancholic",
+                "Somber",
+                "Lonely",
+                "Desperate",
+                "Calm",
+                "Serene",
+                "Composed",
+                "Ethereal",
+                "Nostalgic",
+                "Surreal",
+                "Dreamy",
+                "Haunting",
+                "Enchanting",
+                "Enigmatic",
+                "Elusive"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Drone",
+                "Downtempo",
+                "Techno",
+                "House",
+                "Trance",
+                "Drum and Bass",
+                "Synthwave",
+                "Vaporwave",
+                "Chillwave",
+                "Minimal",
+                "Electronica",
+                "Jungle",
+                "Synthpop",
+                "Shoegaze",
+                "Indie",
+                "Art Pop",
+                "Noise Pop",
+                "Post-Rock",
+                "Art Rock",
+                "Trap",
+                "Cloud Rap",
+                "Abstract Hip-hop",
+                "Lofi Hip-hop",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Stable",
+                "Fluctuating",
+                "Phase Distortion"
+            ],
+            "timbre": [
+                "Overtone-rich",
+                "Resonant",
+                "Filtered",
+                "Complex",
+                "Detuned",
+                "Long release",
+                "Pad-like",
+                "Piano-like",
+                "Low-pass",
+                "Breathy",
+                "Whispered",
+                "Atonal"
+            ],
+            "inspiration": [
+                "Retro-futurism",
+                "Vaporwave aesthetics",
+                "Space Age",
+                "Post-Internet",
+                "Sci-fi movies",
+                "Surrealist art",
+                "Utopian visions",
+                "Data center hum"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr009",
+        "name": "Basic Bells",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Glassy",
+                "Digital",
+                "Airy",
+                "Snappy",
+                "Crisp",
+                "Thin",
+                "Basic",
+                "Metallic",
+                "Bright",
+                "Organic",
+                "Crystalline",
+                "Polished",
+                "Wispy"
+            ],
+            "mood": [
+                "Lively",
+                "Somber",
+                "Calm",
+                "Serene",
+                "Relaxed",
+                "Nostalgic",
+                "Dreamy"
+            ],
+            "instrument": [
+                "Bells"
+            ],
+            "genre": [
+                "Ambient",
+                "Techno",
+                "House",
+                "Minimal",
+                "New Age",
+                "Pop",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Stable",
+                "Static",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Pure",
+                "Harmonics",
+                "Fast attack",
+                "Long release",
+                "Percussive",
+                "Low-pass",
+                "Tonal"
+            ],
+            "inspiration": [
+                "Mountain town",
+                "Nature sounds",
+                "Bird calls",
+                "Train station ambience",
+                "School playground"
+            ]
+        },
+        "sounds": [
+            "Synth Mallets",
+            "Bell Chromatic",
+            "Mallets"
+        ]
+    },
+    {
+        "id": "wt157",
+        "name": "Position Glass",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Hollow",
+                "Clean",
+                "Crisp",
+                "Thin",
+                "Small",
+                "Basic",
+                "Shimmering",
+                "Crystalline",
+                "Synthetic",
+                "Soft",
+                "Glassy",
+                "Analog",
+                "Holographic",
+                "Transparent",
+                "Cold",
+                "Clear",
+                "Brittle",
+                "Icy"
+            ],
+            "mood": [
+                "Hopeful",
+                "Melancholic",
+                "Gloomy",
+                "Lonely",
+                "Depressing",
+                "Resentful",
+                "Desperate",
+                "Helpless",
+                "Pensive",
+                "Detached",
+                "Mysterious",
+                "Haunting"
+            ],
+            "instrument": [
+                "Electric Piano"
+            ],
+            "genre": [
+                "Techno",
+                "Drum and Bass",
+                "Jungle",
+                "Art Rock",
+                "Trap",
+                "Lofi Hip-hop"
+            ],
+            "modulation": [
+                "Stable",
+                "Static",
+                "Fading",
+                "Decrescendo",
+                "Phasing"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Triangle wave",
+                "Harmonic",
+                "Resonant",
+                "FM",
+                "Fast attack",
+                "Long release",
+                "Long decay",
+                "Low-pass"
+            ],
+            "inspiration": []
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wtr075",
+        "name": "Hit Slide Pad",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Analog",
+                "Airy",
+                "Fuzzy",
+                "Resonant",
+                "Muffled",
+                "Textured",
+                "Bright",
+                "Synthetic"
+            ],
+            "mood": [
+                "Somber",
+                "Contemplative",
+                "Mysterious",
+                "Ethereal",
+                "Surreal",
+                "Dreamy",
+                "Enchanting",
+                "Elusive"
+            ],
+            "instrument": [
+                "Minimoog"
+            ],
+            "genre": [
+                "Synthwave",
+                "Synthpop",
+                "Art Pop",
+                "Dream Pop",
+                "Psychedelic Pop",
+                "Progressive Rock"
+            ],
+            "modulation": [
+                "Sweeping",
+                "Fluttering",
+                "Swelling",
+                "Gyrating",
+                "Pulsing",
+                "Throbbing",
+                "Phasing",
+                "Flanging",
+                "Chorus",
+                "Delay",
+                "Reverb",
+                "Saturation"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Sine wave",
+                "Harmonic",
+                "Formant",
+                "Resonant",
+                "Low-pass",
+                "Vowel",
+                "Sibilant",
+                "Tonal"
+            ],
+            "inspiration": [
+                "Space Age",
+                "Sci-fi movies"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wt017",
+        "name": "Venus Doppler",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Murky",
+                "Sparse",
+                "Airy",
+                "Evolving",
+                "Fuzzy",
+                "Dry",
+                "Spacey",
+                "Thin",
+                "Wide",
+                "Cold",
+                "Textured",
+                "Noisy",
+                "Brittle",
+                "Grainy"
+            ],
+            "mood": [
+                "Calm",
+                "Detached",
+                "Indifferent",
+                "Mysterious",
+                "Ethereal",
+                "Dreamy",
+                "Haunting"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Drone",
+                "Shoegaze",
+                "Post-Rock",
+                "Space Rock"
+            ],
+            "modulation": [
+                "Unstable",
+                "Evolving",
+                "Fluttering",
+                "Undulating",
+                "Fluctuating",
+                "Waveshaping"
+            ],
+            "timbre": [
+                "Resonant",
+                "Complex",
+                "Slow attack",
+                "Long release",
+                "Pad-like",
+                "Low-pass",
+                "Breathy"
+            ],
+            "inspiration": []
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wt064",
+        "name": "Alphalog Brass",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Vibrant",
+                "Soft",
+                "Analog",
+                "Fuzzy",
+                "Rich",
+                "Thick",
+                "Basic",
+                "Muddy",
+                "Smooth",
+                "Velvety",
+                "Warm"
+            ],
+            "mood": [
+                "Uplifting",
+                "Triumphant",
+                "Gloomy"
+            ],
+            "instrument": [],
+            "genre": [
+                "Synthwave",
+                "Chillwave",
+                "Pop",
+                "Indie Rock",
+                "Hip-hop",
+                "Funk",
+                "Disco",
+                "R&B"
+            ],
+            "modulation": [
+                "Static",
+                "Fluctuating",
+                "Fading"
+            ],
+            "timbre": [
+                "Filtered",
+                "Fast attack",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "80s synth pop",
+                "70s disco",
+                "Vintage analog synths",
+                "Afrofuturism",
+                "Sci-fi movies",
+                "Urban soundscapes"
+            ]
+        },
+        "sounds": [
+            "Brass",
+            "Synth Brass"
+        ]
+    },
+    {
+        "id": "wtr079",
+        "name": "Island Bells",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Vibrant",
+                "Glassy",
+                "Crisp",
+                "Tropical",
+                "Resonant",
+                "Small",
+                "Metallic",
+                "Bright",
+                "Synthetic"
+            ],
+            "mood": [
+                "Joyful",
+                "Energetic",
+                "Playful",
+                "Cheerful",
+                "Relaxed"
+            ],
+            "instrument": [
+                "Marimba",
+                "Bells"
+            ],
+            "genre": [
+                "Vaporwave",
+                "Pop",
+                "Synthpop"
+            ],
+            "modulation": [
+                "Stable",
+                "Fluctuating",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Sine wave",
+                "FM",
+                "Fast attack",
+                "Long decay",
+                "Tonal"
+            ],
+            "inspiration": [
+                "Tropical Island",
+                "Coral reef"
+            ]
+        },
+        "sounds": [
+            "Synth Mallets",
+            "Bell Chromatic",
+            "Mallets"
+        ]
+    },
+    {
+        "id": "wt071",
+        "name": "Vox Brass",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Glassy",
+                "Airy",
+                "Mellow",
+                "Thin",
+                "Resonant",
+                "Cold",
+                "Bright",
+                "Delicate",
+                "Synthetic"
+            ],
+            "mood": [
+                "Playful",
+                "Mysterious"
+            ],
+            "instrument": [],
+            "genre": [
+                "Techno",
+                "House",
+                "Synthwave",
+                "Psychedelic Pop",
+                "Funk",
+                "Disco"
+            ],
+            "modulation": [
+                "Sweeping",
+                "Morphing",
+                "Fading"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Pulse wave",
+                "Fast attack",
+                "Short release",
+                "Low-pass",
+                "Formant",
+                "Vowel",
+                "Vocal",
+                "Nasal"
+            ],
+            "inspiration": [
+                "80s synth pop",
+                "70s disco",
+                "Digital Age",
+                "Dystopian novels"
+            ]
+        },
+        "sounds": [
+            "Synth Brass",
+            "Synth Voice",
+            "Brass",
+            "Voice"
+        ]
+    },
+    {
+        "id": "wtr041",
+        "name": "Cloud Cover Arp",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Clean",
+                "Refined",
+                "Plucky",
+                "Metallic",
+                "Soft",
+                "Glassy",
+                "Wet",
+                "Airy",
+                "Fuzzy",
+                "Rich",
+                "Arpeggiated",
+                "Rhythmic",
+                "Punchy",
+                "Bright",
+                "Warm",
+                "Jagged"
+            ],
+            "mood": [
+                "Uplifting",
+                "Joyful",
+                "Euphoric",
+                "Carefree",
+                "Anxious"
+            ],
+            "instrument": [],
+            "genre": [
+                "Electro",
+                "Synthwave",
+                "Electronica",
+                "Indie",
+                "Psychedelic Pop",
+                "Indie Rock"
+            ],
+            "modulation": [
+                "Fluttering",
+                "Zigzagging",
+                "Arpeggiated",
+                "Stuttering",
+                "Groovy",
+                "Erratic",
+                "Chorus",
+                "Delay",
+                "Reverb",
+                "Filtering"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Complex",
+                "Harmonics",
+                "FM",
+                "Fast attack",
+                "High-pass"
+            ],
+            "inspiration": [
+                "80s synth pop",
+                "70s psychedelic electronica"
+            ]
+        },
+        "sounds": [
+            "Lead"
+        ]
+    },
+    {
+        "id": "wt094",
+        "name": "Arpeggiate Me",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Clean",
+                "Glassy",
+                "Mellow",
+                "Plucky",
+                "Crisp",
+                "Basic",
+                "Shimmering",
+                "Bright",
+                "Delicate",
+                "Clear",
+                "Wispy"
+            ],
+            "mood": [
+                "Blissful",
+                "Hopeful",
+                "Radiant",
+                "Lonely",
+                "Calm",
+                "Serene",
+                "Bittersweet",
+                "Wistful"
+            ],
+            "instrument": [
+                "Electric Guitar",
+                "Electric Piano"
+            ],
+            "genre": [
+                "Electronica",
+                "Pop",
+                "Synthpop",
+                "New Wave",
+                "Dream Pop"
+            ],
+            "modulation": [
+                "Static",
+                "Fading",
+                "Arpeggiated"
+            ],
+            "timbre": [
+                "Harmonic",
+                "Fast attack",
+                "Tonal"
+            ],
+            "inspiration": []
+        },
+        "sounds": [
+            "Guitar & Plucked",
+            "Synth Plucked"
+        ]
+    },
+    {
+        "id": "wt135",
+        "name": "Dulcimore Keys",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Clean",
+                "Ethereal",
+                "Resonant",
+                "Shimmering",
+                "Velvety",
+                "Delicate",
+                "Crystalline",
+                "Wispy",
+                "Soft",
+                "Liquid",
+                "Mellow",
+                "Airy",
+                "Wet",
+                "Transparent",
+                "Bright",
+                "Icy"
+            ],
+            "mood": [
+                "Joyful",
+                "Melancholic",
+                "Anxious",
+                "Lonely",
+                "Calm",
+                "Pensive",
+                "Dreamy",
+                "Enchanting",
+                "Elusive"
+            ],
+            "instrument": [
+                "Electric Piano"
+            ],
+            "genre": [
+                "Ambient",
+                "House",
+                "Trance",
+                "Synthpop",
+                "Indie",
+                "Art Pop",
+                "R&B"
+            ],
+            "modulation": [
+                "Unstable",
+                "Morphing",
+                "Swelling",
+                "Oscillating"
+            ],
+            "timbre": [
+                "Harmonic",
+                "Complex",
+                "Detuned",
+                "Fast attack",
+                "Long release",
+                "Pad-like"
+            ],
+            "inspiration": [
+                "80s synth pop",
+                "movie soundtrack",
+                "VHS",
+                "Icy Breeze"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wtr027",
+        "name": "Bell and Swell",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Digital",
+                "Clean",
+                "Glassy",
+                "Mellow",
+                "Crisp",
+                "Sleek",
+                "Thin",
+                "Lustrous",
+                "Cold",
+                "Metallic",
+                "Polished",
+                "Crystalline"
+            ],
+            "mood": [
+                "Blissful",
+                "Cheerful",
+                "Lonely",
+                "Calm",
+                "Serene"
+            ],
+            "instrument": [
+                "Marimba",
+                "Bells"
+            ],
+            "genre": [
+                "Ambient",
+                "Drum and Bass",
+                "New Age",
+                "Electronica",
+                "Indie"
+            ],
+            "modulation": [
+                "Sweeping",
+                "Morphing",
+                "Swelling",
+                "Warping",
+                "Pulse-width modulation"
+            ],
+            "timbre": [
+                "Harmonic",
+                "Resonant",
+                "Partials"
+            ],
+            "inspiration": [
+                "Wind through trees",
+                "School playground",
+                "Shopping mall ambience"
+            ]
+        },
+        "sounds": [
+            "Synth Mallets",
+            "Bell Chromatic",
+            "Mallets"
+        ]
+    },
+    {
+        "id": "wt159",
+        "name": "Sentient Shadows",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Refined",
+                "Clean",
+                "Crisp",
+                "Sleek",
+                "Thin",
+                "Ethereal",
+                "Watery",
+                "Pristine",
+                "Velvety",
+                "Smooth",
+                "Crystalline",
+                "Soft",
+                "Liquid",
+                "Analog",
+                "Mellow",
+                "Pure",
+                "Rich",
+                "Bright",
+                "Controlled",
+                "Brilliant",
+                "Warm"
+            ],
+            "mood": [
+                "Joyful",
+                "Euphoric",
+                "Playful",
+                "Blissful",
+                "Melancholic",
+                "Somber",
+                "Lonely",
+                "Depressing",
+                "Calm",
+                "Serene",
+                "Contemplative",
+                "Introspective",
+                "Balanced",
+                "Composed",
+                "Stoic",
+                "Steady",
+                "Mysterious",
+                "Ethereal",
+                "Nostalgic",
+                "Wistful",
+                "Yearning",
+                "Dreamy",
+                "Enchanting",
+                "Enigmatic",
+                "Intriguing",
+                "Elusive",
+                "Profound"
+            ],
+            "instrument": [
+                "Electric Piano"
+            ],
+            "genre": [
+                "Ambient",
+                "Techno",
+                "House",
+                "Synthwave",
+                "Electronica",
+                "Downtempo",
+                "Synthpop",
+                "Indie",
+                "Electropop",
+                "Art Pop",
+                "Art Rock",
+                "Trap",
+                "Cloud Rap",
+                "Lofi Hip-hop",
+                "Instrumental Hip-hop",
+                "Jazz",
+                "R&B",
+                "Soul",
+                "Gospel"
+            ],
+            "modulation": [
+                "Stable",
+                "Static",
+                "Cascading",
+                "Fading"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Harmonics",
+                "Long release",
+                "Long decay",
+                "Fading",
+                "Tonal"
+            ],
+            "inspiration": [
+                "Film noir"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wt242",
+        "name": "Bastille Basher",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Aggressive",
+                "Digital",
+                "Rubbery",
+                "Rough",
+                "Rich",
+                "Rhythmic",
+                "Textured",
+                "Biting",
+                "Bright",
+                "Gritty",
+                "Warm"
+            ],
+            "mood": [
+                "Energetic",
+                "Playful",
+                "Lively",
+                "Oppressive",
+                "Intriguing"
+            ],
+            "instrument": [],
+            "genre": [
+                "Techno",
+                "Drum and Bass",
+                "Dubstep",
+                "IDM",
+                "Glitch",
+                "Future Bass",
+                "Experimental"
+            ],
+            "modulation": [
+                "Unstable",
+                "Pulsating",
+                "Fluttering",
+                "Twisting",
+                "Fluctuating",
+                "Bouncing",
+                "Rhythmic",
+                "Stuttering",
+                "Jerky",
+                "Pulsing",
+                "Pumping",
+                "Throbbing",
+                "Filtering"
+            ],
+            "timbre": [
+                "Harmonic",
+                "Buzzy"
+            ],
+            "inspiration": [
+                "Modern digital synths",
+                "Outrun",
+                "Y2K",
+                "Cyberpunk",
+                "Sci-fi movies",
+                "Factory machinery"
+            ]
+        },
+        "sounds": [
+            "Bass",
+            "Synth Bass"
+        ]
+    },
+    {
+        "id": "wt066",
+        "name": "Flyte Time Brass",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Aggressive",
+                "Glassy",
+                "Analog",
+                "Crisp",
+                "Fuzzy",
+                "Lush",
+                "Punchy",
+                "Muddy",
+                "Bright",
+                "Noisy",
+                "Warm"
+            ],
+            "mood": [
+                "Joyful",
+                "Desperate",
+                "Triumphant",
+                "Powerful",
+                "Bold"
+            ],
+            "instrument": [],
+            "genre": [
+                "House",
+                "Electro",
+                "Synthwave",
+                "Pop",
+                "Synthpop",
+                "Electropop",
+                "East Coast Hip-hop"
+            ],
+            "modulation": [
+                "Fading",
+                "Gyrating",
+                "Decrescendo"
+            ],
+            "timbre": [],
+            "inspiration": []
+        },
+        "sounds": [
+            "Lead"
+        ]
+    },
+    {
+        "id": "wtr007",
+        "name": "Basic Analog Chime",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Hollow",
+                "Thin",
+                "Resonant",
+                "Basic",
+                "Pristine",
+                "Metallic",
+                "Polished",
+                "Crystalline",
+                "Wispy",
+                "Glassy",
+                "Icy",
+                "Wet",
+                "Airy",
+                "Analog",
+                "Snappy",
+                "Cold",
+                "Bright",
+                "Piercing"
+            ],
+            "mood": [
+                "Uplifting",
+                "Joyful",
+                "Radiant",
+                "Melancholic",
+                "Somber",
+                "Lonely",
+                "Serene",
+                "Contemplative",
+                "Mysterious",
+                "Dreamy"
+            ],
+            "instrument": [
+                "Chime"
+            ],
+            "genre": [
+                "Ambient",
+                "Techno",
+                "House",
+                "Trance",
+                "Synthwave",
+                "Dream Pop"
+            ],
+            "modulation": [
+                "Stable",
+                "Unstable",
+                "Fluctuating",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Triangle wave",
+                "FM",
+                "Fast attack",
+                "Low-pass",
+                "Tonal"
+            ],
+            "inspiration": []
+        },
+        "sounds": [
+            "Synth Mallets",
+            "Misc Mallets",
+            "Mallets"
+        ]
+    },
+    {
+        "id": "wtr034_mod",
+        "name": "Anthem Pad",
+        "instrument": "Wavetable",
+        "sounds": "Pad",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Smooth",
+                "Fuzzy",
+                "Dense",
+                "Viscous",
+                "Textured",
+                "Warm",
+                "Dark",
+                "Rich",
+                "Thick",
+                "Lush",
+                "Full",
+                "Saturated",
+                "Velvety",
+                "Analog",
+                "Digital",
+                "Bold",
+                "Noisy",
+                "Raw",
+                "Raspy",
+                "Huge",
+                "Massive"
+            ],
+            "mood": [
+                "Uplifting",
+                "Epic",
+                "Joyful",
+                "Euphoric",
+                "Triumphant",
+                "Confident",
+                "Empowering",
+                "Inspiring",
+                "Melancholic",
+                "Nostalgic",
+                "Enchanting",
+                "Profound"
+            ],
+            "instrument": [
+                "Supersaw"
+            ],
+            "genre": [
+                "House",
+                "Trance",
+                "Drum and Bass",
+                "Electro",
+                "Synthwave",
+                "Glitch",
+                "Future Bass",
+                "Electronica",
+                "Synthpop",
+                "Art Pop"
+            ],
+            "modulation": [
+                "Stable",
+                "Fluctuating",
+                "Steady",
+                "Reverb",
+                "Compression"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Overtone-rich",
+                "Harmonic",
+                "Simple",
+                "Detuned",
+                "Unison"
+            ],
+            "inspiration": [
+                "2010s EDM"
+            ]
+        }
+    },
+    {
+        "id": "wt227",
+        "name": "Remember November",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Crisp",
+                "Lush",
+                "Wide",
+                "Shimmering",
+                "Smooth",
+                "Delicate",
+                "Synthetic",
+                "Wispy",
+                "Soft",
+                "Liquid",
+                "Analog",
+                "Rhythmic",
+                "Transparent",
+                "Cold",
+                "Bright",
+                "Sharp"
+            ],
+            "mood": [
+                "Blissful",
+                "Hopeful",
+                "Radiant",
+                "Melancholic",
+                "Somber",
+                "Gloomy",
+                "Lonely",
+                "Serene",
+                "Contemplative",
+                "Mysterious",
+                "Ethereal",
+                "Nostalgic",
+                "Dreamy",
+                "Haunting"
+            ],
+            "instrument": [
+                "Roland Juno-106"
+            ],
+            "genre": [
+                "Ambient",
+                "Downtempo",
+                "Techno",
+                "House",
+                "Synthwave",
+                "Chillwave",
+                "Synthpop"
+            ],
+            "modulation": [
+                "Unstable",
+                "Evolving",
+                "Pulsating",
+                "Sweeping",
+                "Fluttering",
+                "Undulating",
+                "Swelling",
+                "Fluctuating",
+                "Oscillating",
+                "Bouncing",
+                "Rhythmic",
+                "Steady",
+                "Crescendo",
+                "Pumping"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Harmonic",
+                "Slow attack",
+                "Pad-like"
+            ],
+            "inspiration": [
+                "Vintage analog synths",
+                "Sci-fi movies"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr054",
+        "name": "Dark Sky Keys",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Lush",
+                "Dark",
+                "Smooth",
+                "Textured",
+                "Velvety",
+                "Polished",
+                "Warm",
+                "Soft",
+                "Rounded",
+                "Full",
+                "Analog",
+                "Buttery",
+                "Fuzzy",
+                "Rich",
+                "Saturated",
+                "Controlled",
+                "Dull"
+            ],
+            "mood": [
+                "Euphoric",
+                "Blissful",
+                "Carefree",
+                "Hopeful",
+                "Cheerful",
+                "Melancholic",
+                "Somber",
+                "Calm",
+                "Balanced",
+                "Stoic",
+                "Steady",
+                "Grounded",
+                "Nostalgic",
+                "Dreamy",
+                "Enchanting",
+                "Profound"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Techno",
+                "House",
+                "Trance",
+                "Synthwave",
+                "Chillwave",
+                "Minimal",
+                "Electronica",
+                "Jungle",
+                "Pop",
+                "Rock",
+                "Hip-hop",
+                "R&B"
+            ],
+            "modulation": [
+                "Stable",
+                "Fluctuating",
+                "Breathing",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Sine wave",
+                "Harmonic",
+                "Filtered",
+                "Simple",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "2000s video games",
+                "Vintage analog synths",
+                "Retro-futurism",
+                "Movie Soundtrack"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wt145",
+        "name": "Lush Roads",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Silky",
+                "Clean",
+                "Rounded",
+                "Mellow",
+                "Liquid",
+                "Vibrant",
+                "Analog",
+                "Crisp",
+                "Basic",
+                "Lush",
+                "Smooth",
+                "Velvety",
+                "Controlled",
+                "Warm"
+            ],
+            "mood": [
+                "Playful",
+                "Blissful",
+                "Cheerful",
+                "Lively",
+                "Melancholic",
+                "Somber",
+                "Calm",
+                "Balanced",
+                "Composed",
+                "Nostalgic"
+            ],
+            "instrument": [
+                "Electric Piano",
+                "Rhodes"
+            ],
+            "genre": [
+                "Art Pop",
+                "Hip-hop",
+                "Trap",
+                "Abstract Hip-hop",
+                "Conscious Hip-hop",
+                "Lofi Hip-hop",
+                "Instrumental Hip-hop",
+                "Jazz",
+                "Funk",
+                "Blues",
+                "R&B",
+                "Fusion",
+                "Free Jazz"
+            ],
+            "modulation": [
+                "Stable",
+                "Static"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Harmonic",
+                "Physical modeling",
+                "Piano-like",
+                "Tonal"
+            ],
+            "inspiration": [
+                "rhodes electric piano"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wt068",
+        "name": "Poly 60 Saw",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Rounded",
+                "Glassy",
+                "Analog",
+                "Opaque",
+                "Searing",
+                "Rich",
+                "Lush",
+                "Basic",
+                "Biting",
+                "Warm"
+            ],
+            "mood": [
+                "Energetic",
+                "Tense"
+            ],
+            "instrument": [],
+            "genre": [
+                "Electro",
+                "Synthwave",
+                "Electronica",
+                "Psychedelic Pop",
+                "Progressive Rock"
+            ],
+            "modulation": [
+                "Sweeping",
+                "Fluctuating",
+                "Unstable"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Harmonic",
+                "Harmonics",
+                "Fast attack",
+                "Short release",
+                "Sustained",
+                "Atonal"
+            ],
+            "inspiration": []
+        },
+        "sounds": [
+            "Lead"
+        ]
+    },
+    {
+        "id": "wt102",
+        "name": "Ambient Element",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Hollow",
+                "Airy",
+                "Plucky",
+                "Crisp",
+                "Dry",
+                "Resonant",
+                "Lush",
+                "Wide",
+                "Dark",
+                "Smooth",
+                "Textured",
+                "Noisy",
+                "Controlled",
+                "Synthetic",
+                "Brittle"
+            ],
+            "mood": [
+                "Passionate",
+                "Playful",
+                "Carefree",
+                "Melancholic",
+                "Lonely",
+                "Calm",
+                "Serene",
+                "Contemplative",
+                "Composed",
+                "Ethereal",
+                "Dreamy",
+                "Enchanting"
+            ],
+            "instrument": [
+                "Mallet"
+            ],
+            "genre": [
+                "Ambient",
+                "Downtempo",
+                "Techno",
+                "House",
+                "Trance",
+                "Vaporwave",
+                "Chillwave",
+                "Electronica",
+                "Synthpop",
+                "Art Pop",
+                "Dream Pop",
+                "Art Rock",
+                "Hip-hop",
+                "World Music"
+            ],
+            "modulation": [
+                "Stable",
+                "Fading",
+                "Fluctuating"
+            ],
+            "timbre": [
+                "Complex",
+                "Fast attack",
+                "Pluck-like",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "Retro-futurism",
+                "Vaporwave aesthetics",
+                "Digital Age"
+            ]
+        },
+        "sounds": [
+            "Synth Mallets",
+            "Mallets"
+        ]
+    },
+    {
+        "id": "wtr066",
+        "name": "FM Cassini Pad",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Clean",
+                "Full",
+                "Analog",
+                "Glassy",
+                "Crisp",
+                "Slick",
+                "Thin",
+                "Rich",
+                "Cold",
+                "Smooth",
+                "Polished",
+                "Controlled",
+                "Synthetic",
+                "Gentle"
+            ],
+            "mood": [
+                "Melancholic",
+                "Somber",
+                "Gloomy",
+                "Mournful",
+                "Serene",
+                "Relaxed",
+                "Mysterious",
+                "Wistful",
+                "Dreamy",
+                "Haunting"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Drum and Bass",
+                "Synthwave",
+                "New Age",
+                "Electronica",
+                "Jungle",
+                "World Music"
+            ],
+            "modulation": [
+                "Stable",
+                "Pulsating",
+                "Breathing",
+                "Delay",
+                "Reverb",
+                "Compression"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Filtered",
+                "Pure",
+                "Harmonics",
+                "FM",
+                "Detuned",
+                "Slow attack",
+                "Pad-like",
+                "Low-pass"
+            ],
+            "inspiration": []
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr118",
+        "name": "Perception Pad",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Vibrant",
+                "Clean",
+                "Crisp",
+                "Wide",
+                "Lush",
+                "Shimmering",
+                "Smooth",
+                "Synthetic",
+                "Soft",
+                "Glassy",
+                "Liquid",
+                "Mellow",
+                "Wet",
+                "Cold",
+                "Bright",
+                "Clear",
+                "Icy"
+            ],
+            "mood": [
+                "Blissful",
+                "Radiant",
+                "Melancholic",
+                "Calm",
+                "Serene",
+                "Relaxed",
+                "Contemplative",
+                "Introspective",
+                "Ethereal",
+                "Dreamy"
+            ],
+            "instrument": [
+                "Roland Juno-106"
+            ],
+            "genre": [
+                "Ambient",
+                "Techno",
+                "Drum and Bass",
+                "New Age",
+                "Jungle",
+                "Art Pop",
+                "Instrumental Hip-hop",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Stable",
+                "Fluctuating",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Sine wave",
+                "Pure",
+                "Harmonics",
+                "FM",
+                "Slow attack",
+                "Long release",
+                "Pad-like",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "2000s video games",
+                "Vintage analog synths",
+                "Space Age",
+                "Information Era",
+                "Sci-fi movies",
+                "Movie Soundtrack",
+                "Utopian visions",
+                "Airport announcements"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr105",
+        "name": "Moving Pictures Pad",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Full",
+                "Analog",
+                "Wet",
+                "Evolving",
+                "Fuzzy",
+                "Huge",
+                "Lush",
+                "Dark",
+                "Textured",
+                "Noisy",
+                "Warm",
+                "Deep"
+            ],
+            "mood": [
+                "Epic",
+                "Hopeful",
+                "Inspiring",
+                "Melancholic",
+                "Somber",
+                "Gloomy",
+                "Depressing",
+                "Calm",
+                "Mysterious",
+                "Nostalgic",
+                "Bittersweet"
+            ],
+            "instrument": [],
+            "genre": [
+                "Synthwave",
+                "Vaporwave",
+                "Chillwave",
+                "Space Rock",
+                "World Music",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Stable",
+                "Sweeping",
+                "Fluctuating",
+                "Crescendo",
+                "Chorus",
+                "Delay",
+                "Reverb",
+                "Filtering",
+                "Compression"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Harmonic",
+                "Filtered",
+                "FM",
+                "Slow attack",
+                "Long release",
+                "Pad-like"
+            ],
+            "inspiration": [
+                "Vintage analog synths",
+                "Vintage pad",
+                "Movie Soundtrack"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr157",
+        "name": "Voicelike Pad",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Hollow",
+                "Clean",
+                "Mellow",
+                "Airy",
+                "Wet",
+                "Huge",
+                "Lush",
+                "Wide",
+                "Smooth",
+                "Delicate",
+                "Synthetic",
+                "Gentle"
+            ],
+            "mood": [
+                "Joyful",
+                "Melancholic",
+                "Mournful",
+                "Contemplative",
+                "Mysterious",
+                "Paradoxical"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Vaporwave",
+                "Electronica",
+                "Jungle",
+                "Indie"
+            ],
+            "modulation": [
+                "Stable",
+                "Static",
+                "Swelling",
+                "Crescendo",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Harmonic",
+                "Formant",
+                "Resonant",
+                "Pure",
+                "Slow attack",
+                "Long release",
+                "Pad-like",
+                "Low-pass",
+                "Vowel",
+                "Vocal"
+            ],
+            "inspiration": [
+                "2000s video games",
+                "Vaporwave aesthetics",
+                "VHS"
+            ]
+        },
+        "sounds": [
+            "Synth Voice",
+            "Pad",
+            "Voice"
+        ]
+    },
+    {
+        "id": "wt123",
+        "name": "Organ Retro Harmonic",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Dark",
+                "Bright",
+                "Wet",
+                "Woolly",
+                "Rich",
+                "Warm"
+            ],
+            "mood": [
+                "Hopeful",
+                "Inspiring",
+                "Cheerful",
+                "Melancholic",
+                "Somber",
+                "Gloomy",
+                "Mournful",
+                "Mysterious",
+                "Nostalgic",
+                "Haunting"
+            ],
+            "instrument": [
+                "Organ"
+            ],
+            "genre": [
+                "Post-punk",
+                "Art Pop",
+                "Classical",
+                "World Music",
+                "Gospel",
+                "Avant-garde"
+            ],
+            "modulation": [
+                "Unstable",
+                "Pulsating",
+                "Oscillating"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Harmonic",
+                "Resonant",
+                "Partials",
+                "Harmonics",
+                "Fast attack",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "Horror films"
+            ]
+        },
+        "sounds": [
+            "Organ",
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wt126",
+        "name": "A Soft Chord",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Chord",
+                "Rounded",
+                "Glassy",
+                "Mellow",
+                "Analog",
+                "Dark",
+                "Velvety",
+                "Polished",
+                "Warm"
+            ],
+            "mood": [
+                "Playful",
+                "Carefree",
+                "Somber",
+                "Relaxed",
+                "Mellow",
+                "Elusive"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Chillwave",
+                "Pop",
+                "Dream Pop",
+                "Hip-hop",
+                "Abstract Hip-hop",
+                "Lofi Hip-hop",
+                "Jazz",
+                "R&B"
+            ],
+            "modulation": [
+                "Static",
+                "Fluttering"
+            ],
+            "timbre": [
+                "Fundamental",
+                "Pure",
+                "Simple",
+                "Fast attack",
+                "Fading",
+                "Transient",
+                "Low-pass",
+                "Tonal"
+            ],
+            "inspiration": []
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wt009",
+        "name": "Prehistoric VHS",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Evolving",
+                "Fuzzy",
+                "Rough",
+                "Rich",
+                "Wide",
+                "Muffled",
+                "Dark",
+                "Textured",
+                "Bright",
+                "Abrasive",
+                "Gritty",
+                "Harsh"
+            ],
+            "mood": [
+                "Epic",
+                "Passionate",
+                "Dark",
+                "Anxious",
+                "Tense",
+                "Lonely",
+                "Depressing",
+                "Bitter",
+                "Desperate",
+                "Detached",
+                "Indifferent",
+                "Mysterious",
+                "Ethereal",
+                "Surreal",
+                "Haunting"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Drone",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Unstable",
+                "Evolving",
+                "Fluttering",
+                "Undulating",
+                "Swelling",
+                "Fluctuating",
+                "Writhing",
+                "Jerky",
+                "Erratic",
+                "Expanding"
+            ],
+            "timbre": [
+                "Complex",
+                "Detuned",
+                "Chaotic",
+                "Pad-like",
+                "Atonal"
+            ],
+            "inspiration": [
+                "VHS",
+                "Avant-garde films"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wt149",
+        "name": "Oklahoma Corral",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Murky",
+                "Analog",
+                "Fuzzy",
+                "Rich",
+                "Wide",
+                "Lush",
+                "Muddy",
+                "Textured",
+                "Smooth",
+                "Noisy",
+                "Bright",
+                "Warm"
+            ],
+            "mood": [
+                "Energetic",
+                "Triumphant",
+                "Confident",
+                "Resentful",
+                "Balanced",
+                "Stoic",
+                "Steady",
+                "Grounded",
+                "Nostalgic"
+            ],
+            "instrument": [],
+            "genre": [
+                "Electro",
+                "Synthwave",
+                "Synthpop",
+                "Indie",
+                "Electropop",
+                "Trip Hop",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Stable",
+                "Fluctuating",
+                "Phase distortion"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Pulse wave",
+                "Fast attack",
+                "Long release"
+            ],
+            "inspiration": [
+                "Vintage analog synths"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wtr158",
+        "name": "Water Pluck",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Clean",
+                "Plucky",
+                "Crisp",
+                "Resonant",
+                "Watery",
+                "Shimmering",
+                "Pristine",
+                "Crystalline",
+                "Glassy",
+                "Liquid",
+                "Wet",
+                "Icy",
+                "Bright",
+                "Organic",
+                "Sharp",
+                "Piercing"
+            ],
+            "mood": [
+                "Playful",
+                "Lonely",
+                "Calm",
+                "Serene",
+                "Pensive",
+                "Mysterious",
+                "Ethereal",
+                "Enchanting",
+                "Intriguing",
+                "Elusive"
+            ],
+            "instrument": [
+                "Pluck"
+            ],
+            "genre": [
+                "Downtempo",
+                "Techno",
+                "House",
+                "Trance",
+                "New Age",
+                "Synthpop",
+                "New Wave",
+                "World Music"
+            ],
+            "modulation": [
+                "Stable",
+                "Fading",
+                "Decrescendo",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Square wave",
+                "Harmonic",
+                "Complex",
+                "FM"
+            ],
+            "inspiration": [
+                "water temple",
+                "video game water level"
+            ]
+        },
+        "sounds": [
+            "Guitar & Plucked",
+            "Synth Plucked"
+        ]
+    },
+    {
+        "id": "wtr067",
+        "name": "FM Piano Classic",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Clean",
+                "Crisp",
+                "Sleek",
+                "Basic",
+                "Smooth",
+                "Velvety",
+                "Polished",
+                "Delicate",
+                "Synthetic",
+                "Soft",
+                "Digital",
+                "Mellow",
+                "Rich",
+                "Gentle",
+                "Warm"
+            ],
+            "mood": [
+                "Playful",
+                "Cheerful",
+                "Melancholic",
+                "Calm",
+                "Composed"
+            ],
+            "instrument": [
+                "Electric Piano"
+            ],
+            "genre": [
+                "Pop",
+                "Rock",
+                "Instrumental Hip-hop",
+                "Jazz",
+                "R&B",
+                "Soul"
+            ],
+            "modulation": [
+                "Stable",
+                "Static",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Pure",
+                "Harmonics",
+                "FM",
+                "Physical modeling",
+                "Piano-like",
+                "Fast attack",
+                "Low-pass",
+                "Tonal"
+            ],
+            "inspiration": [
+                "Real electric keyboard"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys",
+            "Electric Piano"
+        ]
+    },
+    {
+        "id": "wt138",
+        "name": "Glowing Filaments",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Vibrant",
+                "Chord",
+                "Crisp",
+                "Resonant",
+                "Shimmering",
+                "Saturated",
+                "Metallic",
+                "Bright",
+                "Crystalline",
+                "Synthetic",
+                "Sharp",
+                "Wispy",
+                "Brittle",
+                "Icy"
+            ],
+            "mood": [
+                "Euphoric",
+                "Playful",
+                "Radiant",
+                "Melancholic",
+                "Desperate",
+                "Surreal"
+            ],
+            "instrument": [],
+            "genre": [
+                "House",
+                "Synthwave",
+                "Vaporwave",
+                "Electronica",
+                "Synthpop",
+                "Electropop",
+                "Psychedelic Pop"
+            ],
+            "modulation": [
+                "Unstable",
+                "Pulsating",
+                "Oscillating",
+                "Throbbing"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Square wave",
+                "Harmonic",
+                "Resonant",
+                "Simple",
+                "FM",
+                "Fast attack",
+                "Long release",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "80s synth pop",
+                "Retro arcade",
+                "Vintage analog synths",
+                "Modern digital synths",
+                "Retro-futurism"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wtr052",
+        "name": "Cruiser Strings",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Clean",
+                "Crisp",
+                "Resonant",
+                "Basic",
+                "Wide",
+                "Shimmering",
+                "Delicate",
+                "Crystalline",
+                "Synthetic",
+                "Wispy",
+                "Soft",
+                "Glassy",
+                "Liquid",
+                "Analog",
+                "Wet",
+                "Cold",
+                "Bright",
+                "Sharp",
+                "Brilliant",
+                "Icy"
+            ],
+            "mood": [
+                "Inspiring",
+                "Emotional",
+                "Melancholic",
+                "Somber",
+                "Mournful",
+                "Depressing",
+                "Composed",
+                "Stoic",
+                "Mysterious",
+                "Ethereal",
+                "Bittersweet",
+                "Yearning",
+                "Dreamy",
+                "Haunting"
+            ],
+            "instrument": [
+                "Synth Strings"
+            ],
+            "genre": [
+                "Ambient",
+                "Pop",
+                "Art Pop",
+                "Abstract Hip-hop",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Swelling",
+                "Crescendo",
+                "Expanding",
+                "Rising",
+                "Delay",
+                "Reverb"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Pulse wave",
+                "Physical modeling",
+                "Slow attack",
+                "Long release"
+            ],
+            "inspiration": [
+                "Vintage analog synths",
+                "Movie Soundtrack"
+            ]
+        },
+        "sounds": [
+            "Strings",
+            "Synth Strings"
+        ]
+    },
+    {
+        "id": "wt067",
+        "name": "Matrix Horns",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Full",
+                "Analog",
+                "Solid",
+                "Fuzzy",
+                "Rich",
+                "Lush",
+                "Saturated",
+                "Punchy",
+                "Hefty",
+                "Textured",
+                "Warm",
+                "Gritty"
+            ],
+            "mood": [
+                "Euphoric",
+                "Triumphant",
+                "Confident",
+                "Dark"
+            ],
+            "instrument": [
+                "Horns"
+            ],
+            "genre": [
+                "House",
+                "Synthwave",
+                "Electronica",
+                "Synthpop",
+                "Art Pop",
+                "Psychedelic Pop",
+                "Progressive Rock",
+                "Instrumental Hip-hop",
+                "R&B"
+            ],
+            "modulation": [
+                "Static"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Triangle wave",
+                "Complex",
+                "Harmonics",
+                "Fast attack",
+                "Short release",
+                "Long decay",
+                "Fading",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "60s psychedelia",
+                "Vintage analog synths"
+            ]
+        },
+        "sounds": [
+            "Brass",
+            "Synth Brass"
+        ]
+    },
+    {
+        "id": "wt212",
+        "name": "Analog Soft Pad",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Clean",
+                "Crisp",
+                "Basic",
+                "Wide",
+                "Dark",
+                "Smooth",
+                "Delicate",
+                "Synthetic",
+                "Soft",
+                "Liquid",
+                "Mellow",
+                "Full",
+                "Analog",
+                "Cold",
+                "Clear",
+                "Gentle",
+                "Icy"
+            ],
+            "mood": [
+                "Emotional",
+                "Triumphant",
+                "Melancholic",
+                "Somber",
+                "Mournful",
+                "Depressing",
+                "Helpless",
+                "Calm",
+                "Serene",
+                "Relaxed",
+                "Balanced",
+                "Composed",
+                "Reserved",
+                "Steady",
+                "Mysterious",
+                "Ethereal",
+                "Nostalgic",
+                "Wistful",
+                "Yearning",
+                "Dreamy"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Downtempo",
+                "Synthwave",
+                "Chillwave",
+                "New Age",
+                "Electronica",
+                "Jungle",
+                "Pop",
+                "Synthpop",
+                "Indie",
+                "Art Pop",
+                "Dream Pop",
+                "Indie Rock",
+                "Progressive Rock",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Stable",
+                "Static",
+                "Flowing",
+                "Crescendo"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Square wave",
+                "Filtered",
+                "Pure",
+                "Detuned",
+                "Slow attack",
+                "Long release",
+                "Pad-like",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "Movie Soundtrack"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr001",
+        "name": "ASMR Cave Texture",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Digital",
+                "Mellow",
+                "Wet",
+                "Evolving",
+                "Opaque",
+                "Inharmonic",
+                "Lush",
+                "Dark",
+                "Cold",
+                "Textured",
+                "Muddy",
+                "Organic",
+                "Crystalline",
+                "Grainy",
+                "Icy"
+            ],
+            "mood": [
+                "Radiant",
+                "Melancholic",
+                "Dark",
+                "Somber",
+                "Anxious",
+                "Lonely",
+                "Introspective",
+                "Mysterious",
+                "Ethereal",
+                "Surreal",
+                "Dreamy",
+                "Haunting"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "New Age",
+                "Experimental Electronic"
+            ],
+            "modulation": [
+                "Evolving",
+                "Undulating",
+                "Swelling",
+                "Rising",
+                "Reverb",
+                "Saturation",
+                "Granular"
+            ],
+            "timbre": [
+                "Complex",
+                "Pad-like"
+            ],
+            "inspiration": [
+                "Cave",
+                "Atmospheric",
+                "Noise",
+                "Nature sounds"
+            ]
+        },
+        "sounds": [
+            "Ambience & FX",
+            "Atmosphere"
+        ]
+    },
+    {
+        "id": "wt016",
+        "name": "Van Der Graaf",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Murky",
+                "Raw",
+                "Evolving",
+                "Opaque",
+                "Fuzzy",
+                "Resonant",
+                "Wide",
+                "Dense",
+                "Dark",
+                "Cold",
+                "Textured",
+                "Organic",
+                "Noisy",
+                "Synthetic"
+            ],
+            "mood": [
+                "Anxious",
+                "Tense",
+                "Angry",
+                "Depressing",
+                "Bitter",
+                "Resentful",
+                "Aloof",
+                "Mysterious",
+                "Conflicted",
+                "Perplexing"
+            ],
+            "instrument": [],
+            "genre": [
+                "Drone",
+                "Synthwave",
+                "Avant-garde"
+            ],
+            "modulation": [
+                "Unstable",
+                "Evolving",
+                "Fluttering",
+                "Swelling",
+                "Fluctuating",
+                "Pulsing",
+                "Crescendo"
+            ],
+            "timbre": [
+                "Resonant",
+                "Filtered",
+                "Complex",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "Space Age",
+                "suspensful moments"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr149",
+        "name": "Synthetic Strings",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Vibrant",
+                "Clean",
+                "Crisp",
+                "Holographic",
+                "Huge",
+                "Lush",
+                "Wide",
+                "Smooth",
+                "Bright",
+                "Crystalline",
+                "Synthetic",
+                "Warm"
+            ],
+            "mood": [
+                "Uplifting",
+                "Passionate",
+                "Emotional",
+                "Euphoric",
+                "Mournful",
+                "Depressing",
+                "Serene",
+                "Contemplative",
+                "Composed",
+                "Stoic",
+                "Ethereal",
+                "Nostalgic",
+                "Wistful",
+                "Paradoxical"
+            ],
+            "instrument": [
+                "Strings"
+            ],
+            "genre": [
+                "Techno",
+                "Trance",
+                "Synthwave",
+                "New Age",
+                "Pop",
+                "Synthpop",
+                "Electropop",
+                "Art Pop",
+                "Psychedelic Pop",
+                "Art Rock",
+                "Progressive Rock",
+                "Hip-hop",
+                "East Coast Hip-hop",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Stable",
+                "Swelling",
+                "Crescendo",
+                "Chorus",
+                "Delay"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Harmonic",
+                "Pure",
+                "Simple",
+                "Physical modeling",
+                "Detuned",
+                "Slow attack",
+                "Long release",
+                "Pad-like",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "80s synth pop",
+                "Vintage analog synths",
+                "Digital Age",
+                "Movie Soundtrack",
+                "VHS"
+            ]
+        },
+        "sounds": [
+            "Strings",
+            "Synth Strings"
+        ]
+    },
+    {
+        "id": "wt216",
+        "name": "Atmos Pad",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Soft",
+                "Silky",
+                "Clean",
+                "Rounded",
+                "Mellow",
+                "Liquid",
+                "Analog",
+                "Rich",
+                "Lush",
+                "Ethereal",
+                "Dark",
+                "Cold",
+                "Smooth",
+                "Clear"
+            ],
+            "mood": [
+                "Blissful",
+                "Melancholic",
+                "Somber",
+                "Calm",
+                "Serene",
+                "Relaxed",
+                "Mellow",
+                "Contemplative",
+                "Introspective",
+                "Meditative",
+                "Grounded",
+                "Centered",
+                "Mysterious",
+                "Ethereal",
+                "Wistful",
+                "Dreamy",
+                "Enchanting"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "New Wave",
+                "Dream Pop",
+                "Cinematic"
+            ],
+            "modulation": [
+                "Flowing",
+                "Fluctuating",
+                "Steady",
+                "Crescendo"
+            ],
+            "timbre": [
+                "Simple",
+                "Slow attack",
+                "Long release",
+                "Pad-like"
+            ],
+            "inspiration": [
+                "Wind through trees"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wt148",
+        "name": "Noize of Art Flute",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Hollow",
+                "Mellow",
+                "Airy",
+                "Dry",
+                "Thin",
+                "Small",
+                "Textured",
+                "Delicate",
+                "Organic",
+                "Noisy",
+                "Feathery",
+                "Bright",
+                "Wispy",
+                "Brittle"
+            ],
+            "mood": [
+                "Joyful",
+                "Playful",
+                "Carefree",
+                "Cheerful",
+                "Helpless",
+                "Calm",
+                "Serene",
+                "Mellow",
+                "Mysterious",
+                "Nostalgic",
+                "Yearning",
+                "Dreamy",
+                "Enchanting"
+            ],
+            "instrument": [
+                "Flute",
+                "Woodwinds"
+            ],
+            "genre": [
+                "Ambient",
+                "Minimal",
+                "New Age",
+                "Shoegaze",
+                "Indie",
+                "Electropop",
+                "Art Pop",
+                "Abstract Hip-hop",
+                "World Music"
+            ],
+            "modulation": [
+                "Stable",
+                "Morphing"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Formant",
+                "Harmonics",
+                "FM",
+                "Physical modeling",
+                "Vocal",
+                "Breathy"
+            ],
+            "inspiration": [
+                "Ancient",
+                "Zelda Ocarina of Time",
+                "Nature sounds",
+                "Forest ambience",
+                "Wind through trees"
+            ]
+        },
+        "sounds": [
+            "Synth Woodwind",
+            "Woodwind"
+        ]
+    },
+    {
+        "id": "wt007",
+        "name": "Kitchen Sync",
+        "instrument": "",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Silky",
+                "Thin",
+                "Smooth",
+                "Crystalline",
+                "Soft",
+                "Glassy",
+                "Liquid",
+                "Wet",
+                "Digital",
+                "Evolving",
+                "Rhythmic",
+                "Bright",
+                "Organic",
+                "Sharp",
+                "Brilliant",
+                "Gentle"
+            ],
+            "mood": [
+                "Joyful",
+                "Euphoric",
+                "Energetic",
+                "Playful",
+                "Carefree",
+                "Lively",
+                "Peaceful",
+                "Lonely",
+                "Calm",
+                "Serene",
+                "Meditative",
+                "Enigmatic",
+                "Intriguing",
+                "Elusive"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Downtempo",
+                "New Age",
+                "Electronica",
+                "Art Pop",
+                "Art Rock",
+                "World Music"
+            ],
+            "modulation": [
+                "Unstable",
+                "Evolving",
+                "Sweeping",
+                "Morphing",
+                "Flowing",
+                "Bouncing",
+                "Rhythmic",
+                "Swelling"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Triangle wave",
+                "Resonant",
+                "Harmonics",
+                "Low-pass"
+            ],
+            "inspiration": [
+                "Rei Harakami",
+                "Ear candy"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wt070",
+        "name": "Poly Saw",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Vibrant",
+                "Aggressive",
+                "Clean",
+                "Raw",
+                "Crisp",
+                "Basic",
+                "Lush",
+                "Wide",
+                "Synthetic",
+                "Digital",
+                "Liquid",
+                "Analog",
+                "Fuzzy",
+                "Rich",
+                "Saturated",
+                "Lustrous",
+                "Bright",
+                "Big",
+                "Sharp",
+                "Warm"
+            ],
+            "mood": [
+                "Joyful",
+                "Energetic",
+                "Playful",
+                "Optimistic",
+                "Confident",
+                "Empowering",
+                "Anxious",
+                "Angry",
+                "Resentful"
+            ],
+            "instrument": [],
+            "genre": [
+                "Electro",
+                "Synthwave",
+                "Electronica",
+                "Rock",
+                "Synthpop",
+                "Indie",
+                "Electropop"
+            ],
+            "modulation": [
+                "Plummeting",
+                "Falling",
+                "Pulse-width modulation"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Harmonic",
+                "Buzzy",
+                "Simple",
+                "Fast attack",
+                "Fading"
+            ],
+            "inspiration": [
+                "Retro arcade",
+                "Vintage analog synths",
+                "VHS"
+            ]
+        },
+        "sounds": [
+            "Lead"
+        ]
+    },
+    {
+        "id": "wt211",
+        "name": "Airlite",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Hollow",
+                "Clean",
+                "Ethereal",
+                "Lush",
+                "Wide",
+                "Dark",
+                "Textured",
+                "Smooth",
+                "Synthetic",
+                "Wispy",
+                "Soft",
+                "Digital",
+                "Analog",
+                "Mellow",
+                "Airy",
+                "Holographic",
+                "Fuzzy",
+                "Rich",
+                "Wooden",
+                "Bright",
+                "Noisy",
+                "Organic",
+                "Big"
+            ],
+            "mood": [
+                "Uplifting",
+                "Joyful",
+                "Energetic",
+                "Playful",
+                "Optimistic",
+                "Blissful",
+                "Carefree",
+                "Radiant",
+                "Melancholic",
+                "Somber",
+                "Lonely",
+                "Calm",
+                "Relaxed",
+                "Mysterious",
+                "Nostalgic",
+                "Wistful",
+                "Surreal",
+                "Dreamy",
+                "Enchanting"
+            ],
+            "instrument": [],
+            "genre": [
+                "Ambient",
+                "Downtempo",
+                "Techno",
+                "House",
+                "Trance",
+                "Drum and Bass",
+                "Electro",
+                "Vaporwave",
+                "Chillwave",
+                "Future Bass",
+                "Electronica",
+                "Jungle",
+                "Synthpop",
+                "Shoegaze",
+                "Electropop",
+                "Art Pop",
+                "Dream Pop",
+                "Psychedelic Pop",
+                "Indie Rock",
+                "Post-Rock",
+                "Art Rock",
+                "Progressive Rock",
+                "Trap",
+                "Cloud Rap",
+                "Abstract Hip-hop",
+                "World Music",
+                "Fusion"
+            ],
+            "modulation": [
+                "Stable",
+                "Sweeping"
+            ],
+            "timbre": [
+                "Sine wave",
+                "Spectral",
+                "Harmonics",
+                "Detuned",
+                "Pad-like",
+                "Breathy"
+            ],
+            "inspiration": [
+                "2000s video games",
+                "Retro-futurism",
+                "Vaporwave aesthetics"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wt065",
+        "name": "Brutal Quad Saw",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Vibrant",
+                "Raspy",
+                "Full",
+                "Analog",
+                "Raw",
+                "Fuzzy",
+                "Rich",
+                "Grungy",
+                "Thick",
+                "Dense",
+                "Textured",
+                "Bright",
+                "Abrasive",
+                "Gritty",
+                "Harsh"
+            ],
+            "mood": [
+                "Energetic",
+                "Empowering",
+                "Angry"
+            ],
+            "instrument": [],
+            "genre": [
+                "House",
+                "Electro",
+                "Synthwave",
+                "Electronica",
+                "Electropop",
+                "Power Pop",
+                "Indie Rock"
+            ],
+            "modulation": [
+                "Static",
+                "Fluctuating",
+                "Steady"
+            ],
+            "timbre": [
+                "Harmonic",
+                "Fast attack"
+            ],
+            "inspiration": [
+                "80s synth pop"
+            ]
+        },
+        "sounds": [
+            "Lead"
+        ]
+    },
+    {
+        "id": "wtr031",
+        "name": "Cathedral Keys",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Lush",
+                "Dark",
+                "Velvety",
+                "Textured",
+                "Biting",
+                "Rounded",
+                "Full",
+                "Analog",
+                "Wet",
+                "Huge",
+                "Fuzzy",
+                "Rich",
+                "Thick",
+                "Dense",
+                "Hefty",
+                "Noisy",
+                "Sharp",
+                "Warm",
+                "Deep"
+            ],
+            "mood": [
+                "Epic",
+                "Uplifting",
+                "Energetic",
+                "Confident",
+                "Empowering",
+                "Anxious",
+                "Tense",
+                "Oppressive",
+                "Mournful",
+                "Mysterious",
+                "Nostalgic",
+                "Bittersweet",
+                "Enchanting"
+            ],
+            "instrument": [
+                "Roland JX-10",
+                "Moog Model D"
+            ],
+            "genre": [
+                "Trance",
+                "Synthwave",
+                "Glitch",
+                "Pop",
+                "Synthpop",
+                "Electropop",
+                "Psychedelic Pop",
+                "Progressive Rock"
+            ],
+            "modulation": [
+                "Unstable",
+                "Morphing",
+                "Fluctuating",
+                "Auto filter",
+                "Swelling",
+                "Chorus",
+                "Delay",
+                "Reverb",
+                "Compression"
+            ],
+            "timbre": [
+                "Buzzy",
+                "Complex",
+                "Harmonics",
+                "FM",
+                "Detuned",
+                "Fast attack",
+                "Long decay"
+            ],
+            "inspiration": [
+                "Vintage analog synths",
+                "Movie Soundtrack",
+                "VHS"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    },
+    {
+        "id": "wt218",
+        "name": "Evolution",
+        "instrument": "Wavetable",
+        "isRack": false,
+        "keywords": {
+            "character": [
+                "Vibrant",
+                "Rounded",
+                "Analog",
+                "Mellow",
+                "Airy",
+                "Crisp",
+                "Fuzzy",
+                "Saturated",
+                "Lustrous",
+                "Cold",
+                "Bright",
+                "Controlled"
+            ],
+            "mood": [
+                "Uplifting",
+                "Playful",
+                "Inspiring",
+                "Lively",
+                "Melancholic",
+                "Composed",
+                "Nostalgic"
+            ],
+            "instrument": [],
+            "genre": [
+                "Drum and Bass",
+                "Synthwave",
+                "Vaporwave",
+                "Chillwave",
+                "Electronica",
+                "Jungle",
+                "Pop",
+                "Indie",
+                "R&B"
+            ],
+            "modulation": [
+                "Stable",
+                "Pulsating",
+                "Morphing"
+            ],
+            "timbre": [
+                "Saw wave",
+                "Triangle wave",
+                "Harmonics",
+                "Detuned",
+                "Fast attack",
+                "Long release",
+                "Low-pass",
+                "Breathy"
+            ],
+            "inspiration": [
+                "2000s video games",
+                "Vaporwave aesthetics",
+                "Digital Age",
+                "Movie Soundtrack",
+                "VHS"
+            ]
+        },
+        "sounds": [
+            "Pad"
+        ]
+    },
+    {
+        "id": "wtr045",
+        "name": "Complex Morphed Keys",
+        "instrument": "Wavetable",
+        "isRack": true,
+        "keywords": {
+            "character": [
+                "Hollow",
+                "Rounded",
+                "Glassy",
+                "Airy",
+                "Mellow",
+                "Analog",
+                "Raspy",
+                "Holographic",
+                "Fuzzy",
+                "Opaque",
+                "Rich",
+                "Ethereal",
+                "Muffled",
+                "Saturated",
+                "Wispy"
+            ],
+            "mood": [
+                "Playful",
+                "Blissful",
+                "Melancholic",
+                "Contemplative",
+                "Introspective",
+                "Detached",
+                "Mysterious",
+                "Ethereal",
+                "Dreamy",
+                "Enchanting",
+                "Enigmatic",
+                "Perplexing",
+                "Intriguing",
+                "Elusive"
+            ],
+            "instrument": [
+                "Roland System-8"
+            ],
+            "genre": [
+                "Ambient",
+                "Drone",
+                "IDM",
+                "Vaporwave",
+                "Glitch",
+                "Minimal",
+                "Shoegaze"
+            ],
+            "modulation": [
+                "Unstable",
+                "Pulsating",
+                "Wobbling",
+                "Fluttering",
+                "Morphing",
+                "Undulating",
+                "Flowing",
+                "Soaring",
+                "Gyrating",
+                "Swelling",
+                "Delay",
+                "Reverb",
+                "Distortion",
+                "Compression",
+                "Saturation"
+            ],
+            "timbre": [
+                "Square wave",
+                "Filtered",
+                "Low-pass",
+                "Band-pass"
+            ],
+            "inspiration": [
+                "Vintage analog synths",
+                "Vaporwave aesthetics",
+                "Synthwave",
+                "Digital Age",
+                "VHS",
+                "Pop art",
+                "Dolphin clicks",
+                "Coral reef"
+            ]
+        },
+        "sounds": [
+            "Piano & Keys",
+            "Synth Keys"
+        ]
+    }
+]

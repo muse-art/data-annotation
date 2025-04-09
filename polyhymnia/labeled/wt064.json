@@ -1,0 +1,45 @@
+{
+  "id": "wt064",
+  "name": "Alphalog Brass",
+  "instrument": "Wavetable",
+  "isRack": false,
+  "keywords": {
+    "character": [
+      "Soft",
+      "Smooth",
+      "Rounded",
+      "Warm",
+      "Rich",
+      "Lush",
+      "Vibrant",
+      "Muddy",
+      "Analog",
+      "Leathery"
+    ],
+    "genre": [
+      "Synthwave",
+      "Chillwave",
+      "Pop",
+      "Funk"
+    ],
+    "mood": [
+      "Confident",
+      "Lively"
+    ],
+    "modulation": [
+      "Fading",
+      "Smooth"
+    ],
+    "inspiration": [
+      "70s disco",
+      "Vintage analog synths"
+    ],
+    "timbre": [
+      "Low-pass"
+    ],
+    "aesthetics": [
+      "Dirty",
+      "Warm"
+    ]
+  }
+}
