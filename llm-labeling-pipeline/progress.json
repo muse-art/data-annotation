@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-07-18T23:55:07.172329",
+  "current_index": 200,
+  "total_songs": 179,
+  "total_processed": 179,
+  "batch_size": 25,
+  "model": "perplexity/sonar",
+  "last_batch_size": 4,
+  "success_rate": 100.0,
+  "total_cost": 0.9844999999999958,
+  "estimated_remaining_cost": -0.1154999999999995,
+  "batch_completed": true,
+  "last_batch_start_idx": 175,
+  "last_batch_end_idx": 199
+}
