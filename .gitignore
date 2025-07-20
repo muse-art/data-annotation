@@ -1,3 +1,9 @@
 /Live 12 Instruments/
 /hooktheory_data/
 XMIDI Dataset.zip
+__pycache__/
+.DS_Store
+llm-labeling-pipeline/logs/
+llm-labeling-pipeline/results/*
+!llm-labeling-pipeline/results/consolidated_labels.json
+llm-labeling-pipeline/data/
